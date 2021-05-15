@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import {Navigationbar} from "../partials/Navbar.component";
+// import Card from "react-bootstrap/Card";
 
 
-export class Home extends React.Component {
+export class About extends React.Component {
   render(){
     return(
       <Container>
         <Navigationbar />
-      <center><h3 className="mt-5">Welcome to Journals hub Home page</h3></center>
+      <center><h3 className="mt-5">Welcome to Journals hub AboutUs page</h3></center>
       </Container>
     )
   }
