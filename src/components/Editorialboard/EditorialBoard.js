@@ -4,14 +4,14 @@ import {Navigationbar} from "../partials/Navbar.component";
 import Footers from "../partials/Footer";
 
 
-export class Home extends React.Component {
+export class editorialboard extends React.Component {
   render(){
     return(
       <div>
       <Navigationbar />
       <Container>
         
-      <center><h3 className="mt-5">Welcome to JournalsHub</h3></center>
+      <center><h3 className="mt-5">Editorial Board Page</h3></center>
       
       </Container>
       <Footers />

@@ -1,0 +1,39 @@
+
+.footer-body{
+    background-color: dimgray;
+    margin-top: 28%;
+   padding:50px;
+    height: 100%;
+    width:100%
+    
+
+}
+.col-title{
+    font-size: xx-large;
+    font-display:inherit;
+    color: rgb(238, 199, 213);
+    margin-right: 3px;
+    margin-top: 35px;
+}
+.col-About-title{
+    font-size: xx-large;
+    font-display:inherit;
+    color: rgb(238, 199, 213);
+}
+.footer-para{
+    margin-right: 65%;
+    font-size: large;
+    color:whitesmoke
+}
+.footer-single-row{
+    margin:0px;
+    }
+
+.footer-img{
+    margin-left: 65%;
+    position: relative;
+    bottom: 45%;
+    height: 255px;
+    
+    
+}

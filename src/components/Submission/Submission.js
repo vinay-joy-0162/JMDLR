@@ -4,15 +4,14 @@ import {Navigationbar} from "../partials/Navbar.component";
 import Footers from "../partials/Footer";
 
 
-export class Home extends React.Component {
+export class submission extends React.Component {
   render(){
     return(
       <div>
-      <Navigationbar />
+         <Navigationbar />
       <Container>
-        
-      <center><h3 className="mt-5">Welcome to JournalsHub</h3></center>
-      
+       
+      <center><h3 className="mt-5">Latest Submissions</h3></center>
       </Container>
       <Footers />
       </div>
