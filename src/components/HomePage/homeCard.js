@@ -11,7 +11,7 @@ export class Home extends React.Component {
       <Navigationbar />
       <Container>
         
-      <center><h3 className="mt-5">Welcome to JournalsHub</h3></center>
+      <center><h3 className="mt-5">Welcome to Journify</h3></center>
       
       </Container>
       <Footers />

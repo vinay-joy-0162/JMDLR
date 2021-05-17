@@ -4,7 +4,7 @@ import { About } from "../components/AboutUs/Aboutjournal";
 import { journal } from "../components/Journals/journalpaper";
 import { editorialboard } from "../components/Editorialboard/EditorialBoard";
 import { submission } from "../components/Submission/Submission";
-import { Register } from  "../components/SignUp/Registration";
+import { Authorization } from  "../components/SignUp/Accountauthorization";
 import { BrowserRouter, Route, Switch }  from "react-router-dom";
 
 const AppRouter = () => (
@@ -17,7 +17,7 @@ const AppRouter = () => (
           <Route path='/journal' component = {journal} />
           <Route path='/editorialboard' component = {editorialboard} />
           <Route path='/submission' component = {submission} />
-          <Route path='/Register' component = {Register} />
+          <Route path='/Authorization' component = {Authorization} />
         </Switch>
       
       </BrowserRouter>

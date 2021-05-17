@@ -1,10 +1,14 @@
 .Nav-text{
    
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .nav-body{
     font-size: large;
 }
 .nav-lastitem{
     margin-right: 30px ;
+}
+.navbarpic{
+    height:50px;
+    margin-left: 40px;
 }

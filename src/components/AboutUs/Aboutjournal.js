@@ -11,7 +11,7 @@ export class About extends React.Component {
          <Navigationbar />
       <Container>
        
-      <center><h3 className="mt-5">Welcome to Journals hub AboutUs page</h3></center>
+      <center><h3 className="mt-5">Know About Journify</h3></center>
       </Container>
       <Footers />
       </div>
