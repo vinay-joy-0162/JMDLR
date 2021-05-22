@@ -1,0 +1,41 @@
+.about-title{
+    text-align: center;
+    margin-top: 10%;
+    font-family: Verdana;
+    
+    
+}
+.about-title2{
+    margin-top: 10%;
+    font-family: Verdana;
+}
+.about-para{
+    justify-content: center;
+    margin-top: 4%;
+    font-style:inherit;
+    font-size:large;
+    font-family:-apple-system;
+}
+.list{
+    justify-content: center;
+    margin-top: 6%;
+    
+}
+.card{
+    margin-top: 15%;
+}
+.card-header{
+    background-color: dimgray;
+    color: floralwhite;
+    text-align: center;
+    font-size:x-large;
+}
+
+@media all and (max-width:470px){
+.about-para{
+    margin-top: 9%;
+}
+.card{
+    margin-bottom: 18%;
+}
+}

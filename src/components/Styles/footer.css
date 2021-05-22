@@ -38,7 +38,8 @@
     margin-left: 65%;
     height: 200%;
     width: auto;
-    margin-bottom: auto;
+    
+    margin-bottom: 22px;
   
 }
 
@@ -57,7 +58,7 @@
      .footer-img{
          width: auto;
          height: auto;
-         margin-top: 21%;
+         margin-top: 2%;
          margin-left: 10px;
          
      }

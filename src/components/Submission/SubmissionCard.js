@@ -8,8 +8,8 @@ export class Submissionpage extends React.Component {
         return (
             <div>
                 <Container>
-                    <h2 className="mt-5" style={{fontFamily: 'serif'}}>Eligibility</h2>
-                    <p className="mt-3" style={{fontFamily:'verdana'},{fontSize:'large'},{fontStyle:'inherit'}}>Law students pursuing the three year LL.B, as well as the five year integrated LL.B.
+                    <h2 className="sub-heading2" ><u>Eligibility</u></h2>
+                    <p className="sub-para1"> Law students pursuing the three year LL.B, as well as the five year integrated LL.B.
                     program, students pursuing LL.M. or Ph.D.,
                     Research Associates, Academicians, Educators, and professionals and practitioners
                       in any field of Law are eligible to submit</p>
@@ -17,7 +17,7 @@ export class Submissionpage extends React.Component {
                 <div className="card1">
 
                     <Card  >
-                        <Card.Header className="card-header1" >Theme</Card.Header>
+                        <Card.Header className="card-header1" ><b>Theme</b></Card.Header>
                         <Card.Body>
                             
                             <Card.Text>
@@ -27,8 +27,11 @@ export class Submissionpage extends React.Component {
                          <br></br>
 
                          <Card.Text>
-                              <h4><b>No publication Fees</b></h4>
-                         </Card.Text>
+                        <b>Note: </b>Abstract should be upto 300 words only </Card.Text>
+                         <Card.Text>No Publication Fees</Card.Text>
+                       
+                       
+
                            
                         </Card.Body>
                     </Card>

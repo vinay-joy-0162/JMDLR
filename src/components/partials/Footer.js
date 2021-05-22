@@ -13,7 +13,7 @@ const Footers = () => (
             <div className="row footer-single-row"></div>
 
 
-            <Container>
+           
                 <h1 style={{
                     color: "white",
                     textAlign: "center",
@@ -74,12 +74,12 @@ const Footers = () => (
                     </div> */}
                 </Row>
                
-            </Container>
+         
 
-            <img className ="footer-img" src={ paper }  alt="paper_img" />
+            
         </div>
 
-
+        <img className ="footer-img" src={ paper }  alt="paper_img" />
 
 
 

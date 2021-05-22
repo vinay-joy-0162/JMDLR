@@ -1,5 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import {Aboutpage} from "../AboutUs/Aboutpage";
+import {Aboutlistcontents} from "./Aboutlistings";
+import Aboutlistingspage from "../AboutUs/listingpage";
 import {Navigationbar} from "../partials/Navbar.component";
 import Footers from "../partials/Footer";
 
@@ -10,8 +13,10 @@ export class About extends React.Component {
       <div>
          <Navigationbar />
       <Container>
-       
-      <center><h3 className="mt-5">Know About Journify</h3></center>
+       <Aboutpage />
+       <Aboutlistcontents />
+       <Aboutlistingspage />
+     
       </Container>
       <Footers />
       </div>

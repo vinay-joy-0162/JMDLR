@@ -10,8 +10,9 @@ const Wordname = () => (
         
             <Container className="word-list">
             <div className="word-limit">
-                <h3 className="mt-5"  style={{fontFamily: 'serif'}}>Word Limit</h3>
-                <h5 className="mt-4">Following word limit should strictly be adhered to:</h5>
+                <h3 className="sub-word-limit"><u>Word Limit</u></h3>
+                <h5 className="sub-word-limit1">Following word limit should strictly be adhered to:</h5>
+                <br></br>
                 <br></br>
                 
                 <Row xs={1} md={2} lg={2}>
@@ -38,10 +39,10 @@ const Wordname = () => (
                     <Col><BsDiamondFill />Research Papers: (2000-8000 words, including footnotes)</Col>
                 </Row>
          </div>
-            <h5 className="mt-5"><b>Note:- Abstract should be upto 300 words only</b></h5>
-            <div className="sub-para">
-                <h3  style={{fontFamily: 'serif'}}>Exclusivity and Copyright</h3>
-                <p className="mt-3">Submitted manuscripts should not be simultaneously considered by any other publication at
+            
+            <div >
+                <h3 className="sub-heading3"><u>Exclusivity and Copyright</u></h3>
+                <p className="sub-para">Submitted manuscripts should not be simultaneously considered by any other publication at
                 the time of submission.
                 The author/s undertake to inform Journal on Multi-Disciplinary Legal Research  (JMDLR) immediately in case the manuscript
                 under consideration OR published manuscript is under consideration for publication elsewhere.
@@ -52,7 +53,7 @@ const Wordname = () => (
             <div className="card2">
 
                 <Card >
-                    <Card.Header className="card-header2">Submissions</Card.Header>
+                    <Card.Header className="card-header2"><b>Submission</b>s</Card.Header>
                     <Card.Body>
 
                         <Card.Text>
