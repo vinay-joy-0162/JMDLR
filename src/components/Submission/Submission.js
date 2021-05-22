@@ -2,7 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import {Navigationbar} from "../partials/Navbar.component";
 import Footers from "../partials/Footer";
-
+import {Submissionpage} from "../Submission/SubmissionCard";
+import Wordname from "./Wordlist";
 
 export class submission extends React.Component {
   render(){
@@ -10,8 +11,9 @@ export class submission extends React.Component {
       <div>
          <Navigationbar />
       <Container>
-       
-      <center><h3 className="mt-5">Latest Submissions</h3></center>
+       <Submissionpage />
+       <Wordname />
+     
       </Container>
       <Footers />
       </div>

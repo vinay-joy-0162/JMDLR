@@ -1,0 +1,43 @@
+.card1{
+  
+     margin-top: 7%;
+     font-family: Verdana;
+     font-size: large;
+}
+.card2{
+    margin-top: 10%;
+    
+}
+.sub-para{
+    margin-top: 10%;
+    font-family:Verdana;
+    font-style:inherit;
+    font-size:large
+
+}
+.word-limit{
+    margin-top: 10%;
+    font-family:Verdana;
+    font-style:inherit;
+    font-size:large
+}
+.card-header1{
+    background-color: silver;
+    font-size: x-large;
+    font-family: serif;
+    
+
+}
+.card-header2{
+    background-color: silver;
+    font-size: x-large;
+    font-family: serif;
+}
+@media all and (max-width: 470px) {
+.card1{
+    margin: auto;
+    margin-top: 6%;
+    
+}
+
+}

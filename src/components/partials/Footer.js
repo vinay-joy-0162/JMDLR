@@ -25,7 +25,7 @@ const Footers = () => (
 
                 <Row>
                     <Col className="col-About-title">About Us</Col>
-                    <div className="footer-para">
+                    <div className="footer-para1">
                         Lorem Ipsum is
                         simply dummy text of the printing and typesetting
                         industry.
@@ -39,12 +39,15 @@ const Footers = () => (
                         <div className="row footer-single-row">
 
                             <Col className="col-title">Contact Us</Col>
-                            <div className ="footer-para">
-                                <h6>
-                                    Phone number : 9292929292
+                            <div className ="footer-para2">
+                            <h6>
+                                    Editor in chief
                                 </h6>
                                 <h6>
-                                    Home address:Moraj Manor
+                                Email-id: editor@gmail.com
+                                </h6>
+                                <h6>
+                                    
                                 </h6>
 
                             </div>
@@ -70,11 +73,10 @@ const Footers = () => (
                     </div>
                     </div> */}
                 </Row>
-                <img className ="footer-img" src={ paper }  alt="paper_img" />
-
-
-
+               
             </Container>
+
+            <img className ="footer-img" src={ paper }  alt="paper_img" />
         </div>
 
 

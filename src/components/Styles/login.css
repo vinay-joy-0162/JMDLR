@@ -9,3 +9,31 @@
 .login-form{
     color: rgb(241, 227, 227);
 }
+@media all and (max-width: 700px) {
+    .login-card-body{
+
+        padding-left: 6px;
+        justify-content: center;
+        
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15%;
+      
+   
+
+    }
+}
+@media all and (max-width: 470px) {
+    .login-card-body{
+
+        padding-left: 6px;
+        justify-content: center;
+        
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15%;
+      
+   
+
+    }
+}
