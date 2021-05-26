@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import court1 from "./court1.jpg";
 import court2 from "./court2.jpg";
-import court3 from "./court3.jpg";
+import carousel4 from "./carousel4.jpg";
 import '../Styles/carosule.css';
 
 
@@ -29,7 +29,7 @@ export class Homecarousel extends React.Component{
   <Carousel.Item>
     <img
       className="home-img2"
-      src={court3}
+      src={carousel4}
       alt="Second slide"
     />
 

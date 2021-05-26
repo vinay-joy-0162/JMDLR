@@ -1,0 +1,44 @@
+.home-contents1{
+    justify-content: center;
+    margin-top: 4%;
+    font-style:inherit;
+    font-size:large;
+    font-family:-apple-system;
+}
+.home-heading{
+    margin-top: 13%;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.card-header{
+    background-color: dimgray;
+    color: floralwhite;
+    text-align: center;
+    font-size:x-large;
+    font-Family: Verdana;
+    
+}
+.card-text{
+    text-align: center;
+    font-Family: Verdana;
+    font-size: large;
+    margin-top: 2rem;
+}
+@media all and (max-width: 600px){
+    .card-body{
+        margin-bottom: 15%;
+    }
+    .card-text{
+        margin-top: 2rem;
+    }
+
+}
+@media all and (max-width : 470px){
+    .home-contents1{
+        margin-top:50px;
+    }
+    .home-heading{
+        margin-top: 25%;
+    }
+}
