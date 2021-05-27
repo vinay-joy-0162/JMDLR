@@ -10,7 +10,7 @@ const Homecc = () => (
             <Card.Body>
 
                 <Card.Text className="card-text">
-                The journal publishes one issue per month.
+                The journal publishes one issue every two months.
                          </Card.Text>
                
 

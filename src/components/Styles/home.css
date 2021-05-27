@@ -10,7 +10,11 @@
     font-family: Verdana;
     text-align: center;
 }
+.home-issn{
+    margin-top: 5rem;
+    margin-left: 78%;
 
+}
 .card-header{
     background-color: dimgray;
     color: floralwhite;
@@ -40,5 +44,8 @@
     }
     .home-heading{
         margin-top: 25%;
+    }
+    .home-issn{
+        margin-left: 8px;
     }
 }
