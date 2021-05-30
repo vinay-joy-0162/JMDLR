@@ -29,6 +29,8 @@
     font-size: large;
     margin-top: 2rem;
 }
+
+
 @media all and (max-width: 600px){
     .card-body{
         margin-bottom: 15%;

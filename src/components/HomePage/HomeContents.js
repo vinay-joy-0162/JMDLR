@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import '../Styles/home.css';
+import cl from "./cl.png";
 
 export class Homecontents extends React.Component{
     render(){
@@ -15,11 +16,13 @@ export class Homecontents extends React.Component{
 
                     <p>The aim of JMDLR is to spread legal awareness and to bring out and propagate the opinion of the legal fraternity and provide forum for interaction between academia, practitioners and students. Each issue of JMDLR is devoted to the vast areas of legal studies. 
                     </p>
-
+                    
+                     
+                    
                     <h3 className="home-heading"><u>Open Access Policy</u></h3>
                     <p className="home-contents1">
                     JMDLR provides immediate open access to its content on the principle that making research freely available to the public supports a greater exchange of knowledge. JMDLR encourages authors to make their research data openly available.</p>
-                    <p>Authors of articles published in Journal of Multi-Disciplinary Legal Research remain the copyright holders and grant third parties the right to use, reproduce, and share the article according to the Creative Commons license agreement.
+                    <p>The content published in Journal of Multi-Disciplinary Legal Research  is released under open licenses from Creative Commons. We believe that only CC BY meets the requirements for true open access for books and journals, and strongly prefer CC0 for open research data.
                     </p>
 
                 </Container>
