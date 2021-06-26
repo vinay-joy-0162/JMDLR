@@ -26,9 +26,8 @@ export class Submissionpage extends React.Component {
                          <br></br>
                          <br></br>
 
-                         <Card.Text>
-                        <b>Note: </b>Abstract should be upto 300 words only </Card.Text>
-                         <Card.Text>No Publication Fees</Card.Text>
+                        
+                         <Card.Text><b>No Publication Fees</b></Card.Text>
                        
                        
 

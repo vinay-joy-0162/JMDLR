@@ -14,12 +14,7 @@ const Footers = () => (
 
 
 
-            <h1 style={{
-                color: "white",
-                textAlign: "center",
-                marginTop: "-50px"
-                
-            }}>
+            <h1 className="h-footer">
                 Journaling on Laws
       </h1>
 
@@ -28,11 +23,10 @@ const Footers = () => (
                 <div className="footer-1">
                 <Col className="col-About-title">About Us</Col>
                 <div className="footer-para1">
-                    Lorem Ipsum is
-                    simply dummy text of the printing and typesetting
-                    industry.
-                    Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer
+                Journal on Multi-Disciplinary Legal Research is an Online Journal which is published monthly, 
+                is student-run, open access and peer reviewed and seeks to provide a forum for free exchange of ideas
+                 on legal issues pertaining to various emerging areas of law. 
+                 JMDLR does not restrict itself to any particular area of law and welcomes contributions from all legal branches, as long as the work is original, unpublished and up to date.
                     </div>
 
                         </div>
@@ -72,23 +66,7 @@ const Footers = () => (
 
     
 
-        <div className="footer-licence">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                <img  className="licence-img" alt="Creative Commons License"
-                    src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-            <br />This work is licensed under a <a rel="license"
-                href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-
-
-
-
-
-
-
-
-         </div>
-
+      
 
     </div>
 

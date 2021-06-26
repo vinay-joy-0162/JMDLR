@@ -9,7 +9,7 @@ export class Aboutpage extends React.Component{
                 <Container>
                     <h2 className="about-title"><u>Focus & Scope</u></h2>
                     <p className="about-para">Journal on Multi-Disciplinary Legal Research is an Online Journal which is published bi-monthly <b>(one issue every two months)</b>,
-                         is student-run, open access and peer reviewed and seeks to provide a forum for 
+                         is open access and peer reviewed and seeks to provide a forum for 
                          free exchange of ideas on legal issues pertaining to various emerging areas of law. 
                          JMDLR does not restrict itself to any particular area of law and welcomes contributions from all legal branches, as long as the work is original, unpublished and up to date.</p>
 

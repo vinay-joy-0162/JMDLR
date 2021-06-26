@@ -43,19 +43,14 @@
     margin-top: 3rem;
   
 }
-.footer-licence{
+/* .footer-licence{
     margin-left: 30%;
     color: whitesmoke;
-}
-.licence-img{
-    width: 16%;
-    margin-left: 15%;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-}
+} */
+
 .footer-col-2{
     margin-left: 60%;
-    margin-top: -14%;
+    margin-top: -24%;
     
 }
 .footer-col-1{
@@ -65,14 +60,46 @@
 .footer-1{
     margin-left: 10%;
 }
-@media all and (max-width :768px){
+/* .heaading-footer{
+    color: whitesmoke;
+    margin-top: 3rem;
+    text-align: center;
+} */
+.h-footer{
+    color: white;
+    text-align:whitesmoke;
+    margin-top: 2rem;
+
+}
+
+
+/* @media all and (max-width :768px){
     .footer-body{
         width: 100%;
         margin: auto;
       
     }
+    
     .footer-img{
     margin-right: 7px;
+}
+
+
+} */
+@media all and (max-width: 370px){
+.h-footer{
+    margin-top: -50px;
+    font-size: x-large;
+    margin-left: 10%;
+}
+.col-About-title{
+    font-size: x-large;
+}
+.col-title{
+    font-size: x-large;
+}
+.footer-para1{
+    font-size: x-large;
 }
 }
 
@@ -90,25 +117,23 @@
      }
      .footer-para1{
          font-size: medium;
+         text-align:center;
          justify-content: center;
-         text-align: center;
          margin: auto;
+        
      }
      .footer-para2{
          margin-left: 15px;
      }
      .footer-col-2{
-         margin-left: 10%;
+         margin-left: 5%;
          margin-top: 2rem;
      }
      .footer-1{
          margin-top: 4rem;
-     }
+     } 
    
-     .licence-img{
-         width: 55%;
-     }
-     
+    
 }
 
 @media all and (max-width: 400px){
@@ -117,7 +142,8 @@
     .footer-img{
         width: auto;
         height: auto;
-        margin-top: 22px;
+        margin-top: 50px;
+        margin-top: 23px;
         margin-left: 10px;
     }
     .footer-body{
@@ -130,7 +156,17 @@
         font-size: medium;
         justify-content: center;
         text-align: center;
-        margin: auto;
+        margin-left: 10px;
+        
+    }
+    .col-About-title{
+        margin-right: 0px;
+    }
+    .footer-col-2{
+        margin-top: 13px;
+    }
+    .footer-para2{
+        margin-bottom: 50px;
     }
 }
 

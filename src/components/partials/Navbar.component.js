@@ -14,7 +14,7 @@ export class Navigationbar extends React.Component {
       <Navbar  bg="dark" expand="lg nav-body">
         <img className="navbarpic" src={Navpic} alt="NavBar_image" />
          <NavLink className="d-inline p-2 bg-dark text-white Nav-text " 
-              to="/">Rohan's Journal</NavLink>
+              to="/">JMDLR</NavLink>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

@@ -20,25 +20,30 @@ const Wordname = () => (
                     <br></br>
                     <br></br>
                     
-                    <Col> <BsDiamondFill />Long Articles: (2500-4000 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Long Articles: (2500-4000 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col><BsDiamondFill />Book Reviews: (1000-3500 words, including footnotes)</Col>
+                    <Col><BsDiamondFill /> Book Reviews: (1000-3500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col> <BsDiamondFill />Case Comments: (1000-2500 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Case Comments: (1000-2500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col> <BsDiamondFill />Legislative Comments: (1000-2500 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Legislative Comments: (1000-2500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col><BsDiamondFill />Research Papers: (2000-8000 words, including footnotes)</Col>
+                    <Col><BsDiamondFill /> Research Papers: (2000-8000 words, including footnotes)</Col>
                 </Row>
          </div>
+         <br></br>
+         <br></br>
+         <br></br>
+         <br></br>
+         <h6><center><b>Note:</b> Abstract should be upto 300 words only</center></h6>
             
             <div >
                 <h3 className="sub-heading3"><u>Exclusivity and Copyright</u></h3>

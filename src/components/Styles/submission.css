@@ -67,6 +67,23 @@
 
 
 }
+@media all and (max-width: 370px) {
+    .sub-heading3{
+        margin-top: 5rem;
+        font-size: x-large;
+    }
+    .sub-word-limit{
+        font-size: x-large;
+        margin-bottom: 10%;
+    }
+    .sub-word-limit1{
+        margin-top:3rem;
+        font-size: medium;
+    }
+    .sub-heading2{
+        font-size: x-large;
+    }
+}
 @media all and (max-width: 470px) {
 .card1{
     margin: auto;
