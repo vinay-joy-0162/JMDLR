@@ -1,23 +1,30 @@
 .home-img1{
-width: 33%;
+width: 100%;
+height : 120%
 
-margin-left: 15% ;
-position: relative;
-margin-top: 5rem;
+/* margin-left: 2% ; */
+/* margin-right: auto;
+margin-left: auto; */
+/* margin : 0 10% 0 10% !important;  */
+
+/* margin-bottom: auto; */
+
+/* position: relative; */
+
 }
 .home-img2{
-    width: 30%;
+    width: 97%;
     
-    margin-left: 15% ;
+    margin-left: 5% ;
     
     position: relative;
-    margin-top:5%;
+
     }
 
     .home-img3{
-        width: 30%;
+        width: 50%;
         
-        margin-left: 15% ;
+        margin-left: 25% ;
         
         position: relative;
         margin-top:3rem;
@@ -28,10 +35,10 @@ margin-top: 5rem;
 
              
                 background-color:grey;
-                margin-left: -11.4%;
+                /* margin-left: -11.4%; */
                 /* margin-right: 10px; */
-                width:122.3%;
-                height: 400px;
+                /* width:122.3%; */
+                /* height: 400px; */
     }
 
 .caption-img1{
@@ -84,13 +91,19 @@ margin-top: 5rem;
         margin-right: 10px;
         margin-bottom: 65px;
     }
-    .carousel-img{
+    /* .carousel-img{
         width: 119.5%;
+    } */
+    .carousel-img{
+        /* width: 119.5%; */
+        margin-left: 10%;
+        margin-right: 10%;
+
     }
     .home-img1{
-        width: 45%;
-        margin-left: 10%;
-        margin-bottom: 69px;
+        /* width: 45%; */
+        /* margin-left: 10%; */
+        /* margin-bottom: 69px; */
     }
 
     .home-img2{

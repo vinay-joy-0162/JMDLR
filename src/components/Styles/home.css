@@ -3,7 +3,7 @@
     margin-top: 4%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
+    font-family:'Times New Roman';
 }
 .home-heading{
     margin-top: 13%;
@@ -20,12 +20,11 @@
     color: floralwhite;
     text-align: center;
     font-size:x-large;
-    font-Family: Verdana;
-    
+    font-family:'Times New Roman';
 }
 .card-text{
     text-align: center;
-    font-Family: Verdana;
+    font-family:'Times New Roman';
     font-size: large;
     margin-top: 2rem;
 }

@@ -68,7 +68,7 @@ export  class Guidelineformats extends React.Component{
                  
                     
                     
-                    <Card.Text> <Col> <FaArrowRight/>  The body of the first page must mention.</Col> </Card.Text>
+                    <Card.Text> <Col>  The body of the first page must mention the following :</Col> </Card.Text>
                     <br></br>
                     <br></br>
                    

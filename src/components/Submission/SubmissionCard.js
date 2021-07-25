@@ -21,7 +21,7 @@ export class Submissionpage extends React.Component {
                         <Card.Body>
                             
                             <Card.Text>
-                               Any topic realted to LAW!!
+                               Any topic realted to Law.
                          </Card.Text>
                          <br></br>
                          <br></br>

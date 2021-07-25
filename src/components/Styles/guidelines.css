@@ -1,22 +1,21 @@
 .guide-prp{
     margin-top: 15%;
     text-align: center;
-    font-family: Verdana;
+    font-family:'Times New Roman';
 }
 .guide-prp-para1{
     justify-content: center;
     margin-top: 6%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
-
+    font-family:'Times New Roman';
 }
 .guide-prp-para2{
     justify-content: center;
     margin-top: 3%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
+    font-family:'Times New Roman';
 
 }
 .guide-prp-para3{
@@ -24,40 +23,39 @@
     margin-top: 10%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
-
+    font-family:'Times New Roman';
 }
 
 .guide-prp-list{
     margin-top: 2%;
     font-size: large;
-    font-family: Verdana;
+    font-family:'Times New Roman';
 }
 
 .guide-formats{
     margin-top: 15%;
     text-align: center;
-    font-family: Verdana;
+    font-family:'Times New Roman';
 }
 
 .guide-format-list{
     margin-top: 6%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
+    font-family:'Times New Roman';
 }
 
 .guideline-h1{
     margin-top: 15%;
     text-align: center;
-    font-family: Verdana;
+    font-family:'Times New Roman';
 }
 
 .guideline-list{
     margin-top: 6%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system
+    font-family:'Times New Roman';
 }
 
 @media all and (max-width:470px){

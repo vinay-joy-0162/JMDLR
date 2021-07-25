@@ -1,20 +1,20 @@
 .about-title{
     text-align: center;
     margin-top: 10%;
-    font-family: Verdana;
+    font-family:'Times New Roman';
     
     
 }
 .about-title2{
     margin-top: 10%;
-    font-family: Verdana;
+    font-family:'Times New Roman';
 }
 .about-para{
     justify-content: center;
     margin-top: 4%;
     font-style:inherit;
     font-size:large;
-    font-family:-apple-system;
+    font-family:'Times New Roman';
 }
 .list{
     justify-content: center;

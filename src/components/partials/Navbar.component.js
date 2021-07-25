@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import '../Styles/navbar.css';
-import  Navpic  from "./jor.jpeg";
+import  Navpic  from "./logo.jpeg";
 
 
 
@@ -14,7 +14,7 @@ export class Navigationbar extends React.Component {
       <Navbar  bg="dark" expand="lg nav-body">
         <img className="navbarpic" src={Navpic} alt="NavBar_image" />
          <NavLink className="d-inline p-2 bg-dark text-white Nav-text " 
-              to="/">JMDLR</NavLink>
+              to="/">Journal of Multi-Disciplinary Legal Research</NavLink>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
@@ -32,7 +32,7 @@ export class Navigationbar extends React.Component {
               <NavLink className="d-inline p-2 bg-dark text-white " 
               to="Guideline">Guidelines</NavLink>  
                <NavLink className="d-inline p-2 bg-dark text-white " 
-              to="submission">Submission</NavLink>  
+              to="submission">Submissions</NavLink>  
               <NavLink className="d-inline p-2 bg-dark text-white nav-lastitem " 
               to="Authorization">SignIn</NavLink>
             </Nav>

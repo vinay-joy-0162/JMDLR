@@ -3,7 +3,7 @@ import React from "react";
 import '../Styles/footer.css';
 import Container from "react-bootstrap/Container";
 import { Row, Col } from 'react-bootstrap';
-import paper from "./papers.png";
+// import paper from "./papers.png";
 // import { Link } from "react-router-dom";
 const Footers = () => (
 
@@ -14,10 +14,7 @@ const Footers = () => (
 
 
 
-            <h1 className="h-footer">
-                Journaling on Laws
-      </h1>
-
+           
 
             <Row>
                 <div className="footer-1">
@@ -41,7 +38,7 @@ const Footers = () => (
                                 Editor in chief
                                 </h6>
                             <h6>
-                                Email-id: editor@gmail.com
+                                Email-id: editorinchief.jmdlr@gmail.com
                                 </h6>
                             <h6>
 
@@ -58,9 +55,7 @@ const Footers = () => (
 
 
             </Row>
-            <img className="footer-img" src={paper} alt="paper_img" />
-
-
+           
 
         </div>
 
