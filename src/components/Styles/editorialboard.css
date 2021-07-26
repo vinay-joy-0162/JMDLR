@@ -7,3 +7,23 @@
 .text-field-design{
     color: whitesmoke;
 }
+.ebpic{
+    height: 170px;
+    width : 180px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.card_descp{
+    font-size: small;
+    font-family: 'Times New Roman';
+    font-style: inherit;
+}
+
+.card_titles{
+    font-size: small;
+    font-family: 'Times New Roman';
+    font-style: inherit;
+
+}
