@@ -7,23 +7,48 @@
 .text-field-design{
     color: whitesmoke;
 }
+.Ebcard{
+    width: 40rem;
+    margin-left: 25%;
+    border-radius: 45px;
+    background-color:lightgrey;
+}
 .ebpic{
-    height: 170px;
-    width : 180px;
+    height: 200px;
+    width : 200px;
     text-align: center;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 50%;
 }
 
 .card_descp{
-    font-size: small;
+    font-size: medium;
     font-family: 'Times New Roman';
     font-style: inherit;
 }
 
-.card_titles{
-    font-size: small;
+.cardtitles{
+    font-size: x-large;
     font-family: 'Times New Roman';
     font-style: inherit;
+    text-align: center;
 
+
+}
+
+.Abouthim{
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    font-style: inherit;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.card_info{
+    font-size: medium;
+    font-family: 'Times New Roman';
+    font-style: inherit;
+    text-align: left;
 }
