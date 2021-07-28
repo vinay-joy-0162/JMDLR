@@ -25,18 +25,18 @@ const Editorialcarddetails = ()  =>(
 
   <Container>
     <div> 
-    <Card style={{ width: '35rem' }}>
+    <Card className="Ebcard">
       
  
   <Card.Body>
-    <Card.Title className = "card_titles">DR. SAURABH CHATURVEDI (B.B.A., LL. B (Hons.), Diploma in Corporate Law) 
+    <Card.Title className = "cardtitles">DR. SAURABH CHATURVEDI (B.B.A., LL. B (Hons.), Diploma in Corporate Law) 
     FOUNDER – EDITOR IN CHIEF 
     PUBLISHER
       </Card.Title>
   
     <Card.Img className="ebpic" src = {Rohan} roundedCirle />
 
-    <Card.Title> About him </Card.Title>
+    <Card.Title className = "Abouthim"><u> About him </u></Card.Title>
     <Card.Text className="card_descp">
     Mr. Rohan Garje is a law aficionado. He did his schooling at Fr. Agnel Polytechnic University, Navi Mumbai.
      He is very fascinated by the concept of legal research work and he has secured a number of publications on various platforms including law journals, blogs and newsletters.
@@ -45,11 +45,16 @@ const Editorialcarddetails = ()  =>(
        His legal article on “Arbitral Awards under Section 34: A Brief Overview” was published in NMIMS School of Law Newsletter. 
        He is a well-rounded individual who lives with passion, commitment and grace. 
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    Contact No. +91 9372988202
-    Email ID: rohan.garje77@gmail.com 
-    Address – C-602, Bhumiraj Manor, Sector – 14, Sanpada, Navi Mumbai, 400 705, Maharashtra
+    
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact</u>  </Card.Title>
+    <Card.Text className = "card_info">
+   <b>Contact No.</b>  +91 9372988202
+    <br></br>
+    
+    <b>Email ID:</b> rohan.garje77@gmail.com 
+    <br></br>
+    <b>Address</b> – C-602, Bhumiraj Manor, Sector – 14, Sanpada, Navi Mumbai, 400 705, Maharashtra
     </Card.Text>
   
   </Card.Body>
@@ -58,15 +63,15 @@ const Editorialcarddetails = ()  =>(
 
 
     <div> 
-    <Card style={{ width: '20rem' }}>
+    <Card className="Ebcard">
  
   <Card.Body>
-    <Card.Title className = "card_titles">DR. SAURABH CHATURVEDI (PH.D. (LAW) LL.M, LL. B)
+    <Card.Title className = "cardtitles">DR. SAURABH CHATURVEDI (PH.D. (LAW) LL.M, LL. B)
 EDITORIAL BOARD MEMBER 
 PROFESSOR & ASSOCIATE DEAN 
       </Card.Title>
-    <Card.Img className="ebpic1" src = {Sc} />
-    <Card.Title> About him </Card.Title>
+    <Card.Img className="ebpic" src = {Sc} />
+    <Card.Title className="Abouthim"> <u>About him</u> </Card.Title>
     <Card.Text className="card_descp">
     Dr. Saurabh Chaturvedi holds a LL. B, LL. M and Doctorate in Law from CCS University, Meerut, India, and also PGDHRM from Indira Gandhi National Open University, India.
 Before joining academia Dr. Saurabh served Corporate Companies including Reliance Industries, KJMC Merchant Bankers and Electra (India) Ltd. etc. for more than 9 years at various levels and deputed in various countries in South East Asia and Europe.
@@ -75,11 +80,14 @@ Dr. Saurabh took many academic sessions with Southampton and Aberdeen Universiti
 Dr. Saurabh has authored two books (Child Jurisprudence and International Trade law) and published in international ISI /Scopus and ERA Indexed Journals and attended various conferences/seminars organized by International Bodies in France, Sweden and India.
 Dr. Saurabh supervises Ph. D scholars and guide LL.M/M. Phil students opting for Cyber Law, Human Rights and Jurisprudence. Presently he is supervising one PhD scholar at Punjabi University, Patiala.
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    Faculty Profile - https://www.nmimsnavimumbai.org/faculty/saurabh-chaturvedi 
-Institutional Email ID: saurabh.chaturvedi@nmims.edu (Professional)
-Address – Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact</u> </Card.Title>
+    <Card.Text className="card_info">
+    <b>Faculty Profile</b> - https://www.nmimsnavimumbai.org/faculty/saurabh-chaturvedi
+    <br></br> 
+<b>Institutional Email ID:</b> saurabh.chaturvedi@nmims.edu (Professional)
+<br></br>
+<b>Address</b> – Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
     </Card.Text>
   
   </Card.Body>
@@ -93,15 +101,15 @@ Address – Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, K
 
 
     <div> 
-    <Card style={{ width: '20rem' }}>
+    <Card className="Ebcard">
  
   <Card.Body>
-    <Card.Title className = "card_titles">DR. KESHAB NANDY (PH.D. (MANAGEMENT), LL. B)
+    <Card.Title className = "cardtitles">DR. KESHAB NANDY (PH.D. (MANAGEMENT), LL. B)
 EDITORIAL BOARD MEMBER 
 PROFESSOR  
       </Card.Title>
-    <Card.Img className="ebpic1" src = {Kn} />
-    <Card.Title> About him </Card.Title>
+    <Card.Img className="ebpic" src = {Kn} />
+    <Card.Title className="Abouthim"><u> About him </u></Card.Title>
     <Card.Text className="card_descp">
     Prof. (Dr) Keshab Nandy is Professor of Law and Management at Kirit P. Mehta School of Law,
      NMIMS Navi Mumbai and comes with rich 39 years of experience spread across Teaching, Civil Service, Magistrate, 
@@ -109,11 +117,14 @@ PROFESSOR
      CVO and Director in Boards of 5 well known Manufacturing Companies. He is member of 
      various Corporate Committees and Industry bodies like Bombay Chamber of Commerce & Industry etc and recipient of several prestigious awards by different Govt and Industry bodies. He is a reputed motivational speaker in India and abroad and is an acclaimed NLP trainer. His book "Be a Habitual Winner" is a best-seller
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    Faculty Profile - https://www.nmimsnavimumbai.org/faculty/keshab-nandy/ 
-Institutional Email ID: keshab.nandy@nmims.edu.in (Professional)
-Address - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact </u></Card.Title>
+    <Card.Text className="card_info">
+   <b>Faculty Profile</b>  - https://www.nmimsnavimumbai.org/faculty/keshab-nandy/ 
+   <br></br>
+<b>Institutional Email ID:</b> keshab.nandy@nmims.edu.in (Professional)
+<br></br>
+<b>Address</b> - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
     </Card.Text>
   
   </Card.Body>
@@ -124,15 +135,15 @@ Address - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kha
 
 
     <div> 
-    <Card style={{ width: '20rem' }}>
+    <Card className="Ebcard">
  
   <Card.Body>
-    <Card.Title className = "card_titles">DR. MEGHA OJHA (PH.D. (LAW) LL.M, LL. B)
+    <Card.Title className = "cardtitles">DR. MEGHA OJHA (PH.D. (LAW) LL.M, LL. B)
 EDITORIAL BOARD MEMBER 
 ASSISTANT PROFESSOR   
       </Card.Title>
-    <Card.Img className="ebpic1" src = {Mo} />
-    <Card.Title> About him </Card.Title>
+    <Card.Img className="ebpic" src = {Mo} />
+    <Card.Title className="Abouthim"><u>About him </u> </Card.Title>
     <Card.Text className="card_descp">
     Megha Ojha is an Assistant Professor of Law at Kirit P. Mehta School of Law, NMIMS University, Navi Mumbai Campus.
      She is having teaching experience and litigation experience of more than 9 years. 
@@ -144,11 +155,14 @@ ASSISTANT PROFESSOR
       She has qualified UGC NET exam in year 2013 and awarded the University Grant Commission Junior Research fellowship in year 2015.
        She has a keen interest in legal research and has published 10 research papers in reputed and referred journals in various areas of law and published 2 book chapters. She has presented research papers in 12 national seminars and in 3 international conferences. She authored two books. Her area of interest includes Intellectual Property Rights, Constitutional Law, Indian Legal History and Business Law. 
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    Faculty Profile - https://www.nmimsnavimumbai.org/faculty/megha-ojha/ 
-Institutional Email ID: megha.ojha@nmims.edu (Professional)
-Address - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact</u> </Card.Title>
+    <Card.Text className="card_info">
+    <b>Faculty Profile </b>- https://www.nmimsnavimumbai.org/faculty/megha-ojha/ 
+    <br></br>
+<b>Institutional Email ID:</b> megha.ojha@nmims.edu (Professional)
+<br></br>
+<b>Address</b>- Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
 
     </Card.Text>
   
@@ -159,15 +173,15 @@ Address - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kha
 
 
     <div> 
-    <Card style={{ width: '20rem' }}>
+    <Card className="Ebcard">
  
   <Card.Body>
-    <Card.Title className = "card_titles">ADVOCATE ANIRUDHA JOSHI (LL.M, LL. B, B.B.A)
+    <Card.Title className = "cardtitles">ADVOCATE ANIRUDHA JOSHI (LL.M, LL. B, B.B.A)
 EDITORIAL BOARD MEMBER    
       </Card.Title>
       <Card.Text>FOUNDER AND MANAGING PARTNER OF JURIS ARMOR ADVOCATES & LEGAL ADVISORS, ADVOCATE, BOMBAY HIGH COURT</Card.Text>
-    <Card.Img className="ebpic1" src = {Aj} />
-    <Card.Title> About him </Card.Title>
+    <Card.Img className="ebpic" src = {Aj} />
+    <Card.Title className="Abouthim"> <u>About him</u> </Card.Title>
     <Card.Text className="card_descp">
     Advocate Anirudha Joshi is the Founder and Managing Partner of Juris Armor, Advocates and Legal Advisors established 2016, 
     JURIS ARMOR is a full-service, multi-disciplinary, litigation centric law firm with a focus on civil and corporate 
@@ -177,12 +191,16 @@ EDITORIAL BOARD MEMBER
       7 years. He possesses excellent written and verbal communication skills. He is able to present complex material in a clear, 
       concise, and persuasive manner, for a range of audiences. He is also a visiting faculty at Kirit P. Mehta School of Law, NMIMS Navi Mumbai. There he is teaching Law to 5-year B.B.A. LL. B and B.A. LL. B Course. He holds a Masters of Law (LL.M), Bachelor of Law (LL. B) and Bachelors in Business Administration (B.B.A).
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    Firm Profile (Hyperlink) - https://jurisarmor.in/our-team/  
-Visiting Faculty Profile (Hyperlink) - https://www.nmimsnavimumbai.org/visiting-faculties/ 
-Institutional Email ID: jurisarmor@gmail.com (Professional)
-Address - JURIS ARMOR, Advocates & Legal Advisors, Office No 4, Business Guild, Law College Road, Opp. Wadeshwar Restaurant, Erandwane, Pune – 411004
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact</u> </Card.Title>
+    <Card.Text className="card_info">
+   <b>Firm Profile (Hyperlink)</b>  - https://jurisarmor.in/our-team/  
+   <br></br>
+<b>Visiting Faculty Profile (Hyperlink)</b> - https://www.nmimsnavimumbai.org/visiting-faculties/ 
+<br></br>
+<b>Institutional Email ID:</b> jurisarmor@gmail.com (Professional)
+<br></br>
+<b>Address</b> - JURIS ARMOR, Advocates & Legal Advisors, Office No 4, Business Guild, Law College Road, Opp. Wadeshwar Restaurant, Erandwane, Pune – 411004
 
     </Card.Text>
   
@@ -195,15 +213,15 @@ Address - JURIS ARMOR, Advocates & Legal Advisors, Office No 4, Business Guild, 
 
 
     <div> 
-    <Card style={{ width: '20rem' }}>
+    <Card className="Ebcard">
  
   <Card.Body>
-    <Card.Title className = "card_titles">ADVOCATE DWEEP SHAH (LL. B, B.B.A)
+    <Card.Title className = "cardtitles">ADVOCATE DWEEP SHAH (LL. B, B.B.A)
 EDITORIAL BOARD MEMBER     
       </Card.Title>
       <Card.Text>ADVOCATE, BOMBAY HIGH COURT AND LEGAL ASSOCIATE AT JAYAKAR & PARTNERS</Card.Text>
-    <Card.Img className="ebpic1" src = {Ds} />
-    <Card.Title> About him </Card.Title>
+    <Card.Img className="ebpic" src = {Ds} />
+    <Card.Title className="Abouthim"> <u>About him</u> </Card.Title>
     <Card.Text className="card_descp">
     Mr. Dweep Shah is an Advocate in Bombay High Court. 
     He is also serving as a Legal Associate at a law firm called Jayakar & Partners, Bombay.
@@ -214,13 +232,17 @@ EDITORIAL BOARD MEMBER
        and publishing research papers on Constitutional Law. He has interned with various reputed Law Firms. 
        He was also awarded a “Certificate of Merit” from Pravin Gandhi School of Law for his academic performance and research work.
     </Card.Text>
-    <Card.Title className="card_contacts"> Contact </Card.Title>
-    <Card.Text>
-    LinkedIn Profile (Hyperlink) - https://in.linkedin.com/in/dweep-shah-24608a119 
-Institutional Email ID: dshah@jayakarpartners.com (Professional)
+    <br></br>
+    <Card.Title className="cardtitles"> <u>Contact</u> </Card.Title>
+    <Card.Text className="card_info">
+   <b>LinkedIn Profile (Hyperlink)</b>  - https://in.linkedin.com/in/dweep-shah-24608a119
+   <br></br> 
+<b>Institutional Email ID</b>: dshah@jayakarpartners.com (Professional)
 shahdweep6@gmail.com (Personal)
-Address - 1301, Raheja Centre, Free Press Journal Marg, Nariman Point, Mumbai, Maharashtra – 400021
-Address 2 - High Court, Fort, Mumbai, Maharashtra 400001
+<br></br>
+<b>Address</b> - 1301, Raheja Centre, Free Press Journal Marg, Nariman Point, Mumbai, Maharashtra – 400021
+<br></br>
+<b>Address 2</b> - High Court, Fort, Mumbai, Maharashtra 400001
     </Card.Text>
   
   </Card.Body>
