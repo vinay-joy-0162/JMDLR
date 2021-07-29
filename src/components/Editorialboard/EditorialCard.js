@@ -29,7 +29,7 @@ const Editorialcarddetails = ()  =>(
       
  
   <Card.Body>
-    <Card.Title className = "cardtitles">DR. SAURABH CHATURVEDI (B.B.A., LL. B (Hons.), Diploma in Corporate Law) 
+    <Card.Title className = "cardtitles">MR. ROHAN GARJE (B.B.A., LL. B (Hons.), Diploma in Corporate Law) 
     FOUNDER – EDITOR IN CHIEF 
     PUBLISHER
       </Card.Title>

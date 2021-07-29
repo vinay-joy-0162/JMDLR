@@ -17,7 +17,7 @@ const AppRouter = () => (
           <Route  path='/' component = { Home } exact   />
           <Route path='/About' component = {About} />
           <Route path='/journal' component = {journal} exact={true} />
-          <Route path='/journal/:file' component = {PDFViewer} />
+          <Route path='/journal/:file' component = {PDFViewer} exact={true} />
           <Route path='/editorialboard' component = {editorialboard} exact={true} />
           <Route path='/Guideline' component = {Guideline} />
           <Route path='/submission' component = {submission} />

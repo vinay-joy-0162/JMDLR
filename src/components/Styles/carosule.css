@@ -36,7 +36,7 @@ margin-left: auto; */
                 /* height: 400px; */
     }
 
-.caption-img1{
+/* .caption-img1{
     margin-bottom: 60px;
     margin-left: 50% ;
     font-size:x-large;
@@ -44,7 +44,7 @@ margin-left: auto; */
     font-style: italic;
     color: black;
     
-        /* margin-left: 30px; */
+      
     }
 .caption-img2{
     margin-bottom: 60px;
@@ -63,9 +63,9 @@ margin-left: auto; */
     color: black;
     
 
-}
+} */
 
-@media all and (max-width: 600px){
+@media all and (max-width: 400px){
 
     .caption-img1{
 

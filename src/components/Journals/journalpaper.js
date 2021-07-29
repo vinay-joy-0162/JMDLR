@@ -68,14 +68,16 @@ export class journal extends React.Component {
               <br />
 
               <center><h3 className="mt-5">Volume 1 - Issue 1</h3></center>
+              <br></br>
+              <br></br>
                     <div className = "forms-options">
                         <Row>
                             <Col>
                                 <Link to='/journal/constitutional' >
-                                    <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title>Constitutional</Card.Title>
+                                            <Card.Title className="journytitles">Constitutional Right to Life And Personal Liberty - Navtej Singh Johar vs Union of India - Anurag Gupta</Card.Title>
                                             <Card.Text>
 
                                             </Card.Text>
@@ -85,12 +87,13 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/forms/HolidayHomes' >
-                                    <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                                <Link to='/journal/covid-impact' >
+                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title>HolidayHomes</Card.Title>
-                                            <Card.Text>
+                                            <Card.Title className="journytitles">   Impact of COVID-19 & Lockdown on Mental Health of Adolescent and Adults - Karan Rathod
+</Card.Title>
+                                            <Card.Text>                        
 
                                             </Card.Text>
 
@@ -99,11 +102,12 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                            <Link to='/forms/Banking' >
-                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                            <Link to='/journal/law-of-tort' >
+                                <Card className="C_D card card-1" style={{ width: '19rem' }}>
 
                                     <Card.Body>
-                                        <Card.Title>BANKING</Card.Title>
+                                        <Card.Title className="journytitles">Law of Tort on Negligence – An Indian Legal Perspective - Neelargo Ray
+</Card.Title>
                                         <Card.Text>
 
                                         </Card.Text>
@@ -116,10 +120,11 @@ export class journal extends React.Component {
 
                         <Row>
                             <Col>
-                                <Link to='/forms/vrs' >
-                                    <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                                <Link to='/journal/legality-and-legal-right' >
+                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
                                             <Card.Body>
-                                                <Card.Title>VRS</Card.Title>
+                                                <Card.Title className="journytitles"> Legality and Legal Rights of Manual Sewage Workers - Anurag Gupta
+</Card.Title>
                                                 <Card.Text>
 
                                                 </Card.Text>
@@ -129,11 +134,11 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/forms/Bajaj'>
-                                    <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                                <Link to='/journal/legal-maxim'>
+                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title>Bajaj Allianz</Card.Title>
+                                            <Card.Title className="journytitles">Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS -Shivraj Singh</Card.Title>
                                             <Card.Text>
 
                                             </Card.Text>
@@ -143,10 +148,10 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                            <Link to='/forms/Passport' >
-                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+                            <Link to='/journal/legal-policy-gap' >
+                                <Card className="C_D card card-1" style={{ width: '19rem' }}>
                                     <Card.Body>
-                                        <Card.Title>PASSPORT</Card.Title>
+                                        <Card.Title className="journytitles"> Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC) - Vinayak Garje</Card.Title>
                                         <Card.Text>
 
                                         </Card.Text>
@@ -159,6 +164,21 @@ export class journal extends React.Component {
                             </Col>
                             
                         </Row>
+                        <Row>
+                            <Col>
+                                <Link to='/journal/social-exclusion' >
+                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
+                                            <Card.Body>
+                                                <Card.Title className="journytitles">Social Exclusion - Societal Attitudes Towards Differently Abled People - Arafat Khan</Card.Title>
+                                                <Card.Text>
+
+                                                </Card.Text>
+
+                                            </Card.Body>
+                                        </Card>
+                                </Link>
+                            </Col>
+                          </Row>
 
                       </div>
 
@@ -168,11 +188,11 @@ export class journal extends React.Component {
 
                       <br />
 
-                      <center><h3 className="mt-5">Volume 1 - Issue 2</h3></center>
+                      {/* <center><h3 className="mt-5">Volume 1 - Issue 2</h3></center> */}
 
                       <div className = "forms-options">
 
-                        <Row>
+                        {/* <Row>
                             <Col>
                             <Link to='/forms/Noc' >
                                 <Card className="C_D card card-1" style={{ width: '18rem' }}>
@@ -255,7 +275,7 @@ export class journal extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </div>
                 </Container>
                 <Footers />

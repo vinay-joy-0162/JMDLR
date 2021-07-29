@@ -12,7 +12,7 @@ export class editorialboard extends React.Component {
       <Navigationbar />
       <Container>
         
-      <center><h3 className="heading"><u>Editorial Board Members</u></h3></center>
+      <center><h3 className="heading"><u>Editorial Board</u></h3></center>
       <br></br>
       <br></br>
       <Editorialcarddetails />
