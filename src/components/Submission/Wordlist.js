@@ -16,34 +16,36 @@ const Wordname = () => (
                 <br></br>
                 
                 <Row xs={1} md={2} lg={2}>
-                    <Col><BsDiamondFill  /> Short Articles: (1000-2500 words, including footnotes)</Col>
+                    <Col><BsDiamondFill  /> Short Articles: (1500 - 2500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
                     
-                    <Col> <BsDiamondFill /> Long Articles: (2500-4000 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Long Articles: (2500+  words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col><BsDiamondFill /> Book Reviews: (1000-3500 words, including footnotes)</Col>
+                    <Col><BsDiamondFill /> Research Papers: (2000+  words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col> <BsDiamondFill /> Case Comments: (1000-2500 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Case Comments: (1000 - 2500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col> <BsDiamondFill /> Legislative Comments: (1000-2500 words, including footnotes)</Col>
+                    <Col> <BsDiamondFill /> Legislative Comments: (1000 - 2500 words, including footnotes)</Col>
                     <br></br>
                     <br></br>
 
-                    <Col><BsDiamondFill /> Research Papers: (2000-8000 words, including footnotes)</Col>
+                    <Col><BsDiamondFill /> Book Reviews: (1000 - 3500 words, including footnotes)</Col>
+
+                    
                 </Row>
          </div>
          <br></br>
          <br></br>
          <br></br>
          <br></br>
-         <h6><center><b>Note:</b> Abstract should be upto 300 words only</center></h6>
+         {/* <h6><center><b>Note:</b> Abstract should be upto 300 words only</center></h6> */}
             
             <div >
                 <h3 className="sub-heading3"><u>Exclusivity and Copyright</u></h3>
@@ -55,20 +57,7 @@ const Wordname = () => (
 
             </div>
 
-            <div className="card2">
-
-                <Card >
-                    <Card.Header className="card-header2"><b>Submission</b>s</Card.Header>
-                    <Card.Body>
-
-                        <Card.Text>
-                            All submissions must be emailed to <b>submissions.jmdlr@gmail.com</b>, with the subject as ‘Manuscript Submission’ and a declaration to the effect that the manuscript is an original and previously unpublished work of the author/s.
-
-     </Card.Text>
-
-                    </Card.Body>
-                </Card>
-            </div>
+          
 
         </Container>
 

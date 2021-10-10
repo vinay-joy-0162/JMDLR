@@ -14,7 +14,7 @@ export  class Guidelineformats extends React.Component{
 
              
             <Row xs={1} md={2} lg={2}>
-                    <Col>< AiOutlineCheck />  The first page of the manuscript should contain the name of the paper, the name of the authors, and their institutional affiliation followed by a 300-word abstract.</Col>
+                    <Col>< AiOutlineCheck />  The first page of the manuscript should contain the name of the paper, the name of the authors, and their institutional affiliation followed by an abstract.</Col>
                     <br></br>
                     <br></br>
 
@@ -85,15 +85,15 @@ export  class Guidelineformats extends React.Component{
                     <br></br>
                  
 
-                    <Card.Text><Col> <FaArrowRight />  The academic year of the course pursued (if applicable).</Col></Card.Text>
+                    <Card.Text><Col> <FaArrowRight />  The academic year of the course pursuing (if applicable).</Col></Card.Text>
                     <br></br>
                     <br></br>
                  
                     <Card.Text><Col> <FaArrowRight />  Qualifications (if applicable)</Col></Card.Text>
                     <br></br>
-                    <br></br>
+                    
                   
-                    <Card.Text><Col> <FaArrowRight/>  Institutional affiliation</Col></Card.Text>
+                    {/* <Card.Text><Col> <FaArrowRight/>  Institutional affiliation</Col></Card.Text> */}
                     <br></br>
                     <br></br>
                     

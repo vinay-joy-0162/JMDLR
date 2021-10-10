@@ -9,7 +9,9 @@
 }
 .Ebcard{
     width: 40rem;
-    margin-left: 25%;
+    margin-left: 22%;
+    margin-top: 3%;
+    /* margin-right: 5%; */
     border-radius: 45px;
     background-color:lightgrey;
 }
@@ -36,6 +38,13 @@
     text-align: center;
 
 
+    
+}
+.cardtitless{
+    font-size: large;
+    font-family: 'Times New Roman';
+    font-style: inherit;
+    text-align: center;
 }
 
 .Abouthim{
@@ -73,7 +82,7 @@
     .Ebcard {
         /* margin-right: 350%; */
         width: 20rem;
-        margin-left: 0.5%;
+        margin-left: -9%;
         /* margin-right: 5%; */
         justify-content: center;
     }
@@ -85,6 +94,35 @@
     }
     .cardtitles{
         font-size: small;
+    }
+    .card_descp{
+        font-size: small;
+    }
+    .card_info{
+        font-size: small;
+    }
+    .heading{
+        font-size: x-large;
+    }
+
+}
+
+@media all and (max-width: 500px){
+    .Ebcard {
+        /* margin-right: 350%; */
+        width: 23rem;
+        margin-left: 0.5%;
+        /* margin-right: 5%; */
+        justify-content: center;
+    }
+    .ebpic{
+        margin-right: 70px;
+        height: 155px;
+        width: 160px;
+        margin-left: 25%;
+    }
+    .cardtitles{
+        font-size: large;
     }
     .card_descp{
         font-size: small;

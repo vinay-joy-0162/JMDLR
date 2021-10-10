@@ -43,13 +43,14 @@ const Aboutlistingspage = () => (
           
 
                 <Card  className="card" >
-                    <Card.Header className="card-header"><b>Query Details</b></Card.Header>
+                    <Card.Header className="card-header"><b>Contact us</b></Card.Header>
                     <Card.Body>
 
-                        <Card.Text>
-                        <b>Office Address: </b>C-602, Bhumiraj Manor, Sector 14, Sanpada, Navi Mumbai, 400705, Maharashtra </Card.Text>
+                        {/* <Card.Text> */}
+                        {/* <Card.Text> <b> Rohan Garje </b> </Card.Text>
+                        <b>Office Address: </b>C-602, Bhumiraj Manor, Sector 14, Sanpada, Navi Mumbai, 400705, Maharashtra </Card.Text> */}
                          <Card.Text><b>Email</b>: editorinchief.jmdlr@gmail.com</Card.Text>
-                         <Card.Text> <b>Contact No:</b> 9372988202</Card.Text>
+                         {/* <Card.Text> <b>Contact No:</b> 9372988202</Card.Text> */}
                        
 
                

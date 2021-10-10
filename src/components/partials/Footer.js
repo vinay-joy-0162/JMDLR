@@ -18,12 +18,9 @@ const Footers = () => (
 
             <Row>
                 <div className="footer-1">
-                <Col className="col-About-title">About Us</Col>
+                <Col className="col-About-title"> ISSN:2582-9947</Col>
                 <div className="footer-para1">
-                Journal on Multi-Disciplinary Legal Research is an Online Journal which is published monthly, 
-                is student-run, open access and peer reviewed and seeks to provide a forum for free exchange of ideas
-                 on legal issues pertaining to various emerging areas of law. 
-                 JMDLR does not restrict itself to any particular area of law and welcomes contributions from all legal branches, as long as the work is original, unpublished and up to date.
+              
                     </div>
 
                         </div>
@@ -32,19 +29,29 @@ const Footers = () => (
                 <div className="col-12 col-md-4 col-xl-4  col-sm-12  col-lg-4 footer-col-2">
                     <div className="row footer-single-row">
 
-                        <Col className="col-title">Contact Us</Col>
+                        {/* <Col className="col-title">Contact Us</Col>
                         <div className="footer-para2">
                             <h6>
-                                Editor in chief
+                                <b>Rohan Garje</b>
                                 </h6>
-                            <h6>
-                                Email-id: editorinchief.jmdlr@gmail.com
-                                </h6>
-                            <h6>
+                                <br></br>
 
+                            <h6>
+                            <b>Office Address: </b>C-602, Bhumiraj Manor, Sector 14, Sanpada, Navi Mumbai, 400705, Maharashtra 
+                                </h6>
+                                <br></br>
+
+                            <h6>
+                            <b>Email</b>: editorinchief.jmdlr@gmail.com
                             </h6>
+                            <br></br>
 
-                        </div>
+                             <h6>
+                             <b>Contact No:</b> 9372988202
+                             </h6>
+                             
+
+                        </div> */}
 
 
 

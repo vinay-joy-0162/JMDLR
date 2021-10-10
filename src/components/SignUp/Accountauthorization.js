@@ -11,7 +11,7 @@ export class Authorization extends React.Component {
       <div>
       <Navigationbar />
       <Container>
-      <center><h3 className="mt-5">Login to Journify</h3></center>
+      <center><h3 className="mt-5">Login</h3></center>
       <Loginpage />
       </Container>
       <Footers />

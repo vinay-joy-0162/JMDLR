@@ -4,7 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import '../Styles/journalPage.css';
-import {Navigationbar} from "../partials/Navbar.component";
+import { Navigationbar } from "../partials/Navbar.component";
 import Footers from "../partials/Footer";
 
 export class journal extends React.Component {
@@ -56,28 +56,31 @@ export class journal extends React.Component {
         return (
             <div>
 
-              <Navigationbar />
-              <Container>
+                <Navigationbar />
+                <Container>
 
-              <center><h3 className="mt-5">Journal papers on the Laws</h3></center>
+                    {/* <center><h3 className="mt-5">Journal papers on the Laws</h3></center> */}
 
-              <br />
-              
-              <hr />
+                    <br />
 
-              <br />
+                    <hr />
 
-              <center><h3 className="mt-5">Volume 1 - Issue 1</h3></center>
-              <br></br>
-              <br></br>
-                    <div className = "forms-options">
+                    <br />
+
+                    <center><h3 className="mt-5">Volume 1 - Issue 1 (July 2021 to Aug 2021)</h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
                         <Row>
                             <Col>
                                 <Link to='/journal/constitutional' >
-                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">Constitutional Right to Life And Personal Liberty - Navtej Singh Johar vs Union of India - Anurag Gupta</Card.Title>
+                                            <Card.Title className="journytitles">1. Constitutional Right to Life And Personal Liberty - Navtej Singh Johar vs Union of India </Card.Title>
+                                            <Card.Title>
+                                                Author - Anurag Gupta
+                                            </Card.Title>
                                             <Card.Text>
 
                                             </Card.Text>
@@ -88,57 +91,15 @@ export class journal extends React.Component {
                             </Col>
                             <Col>
                                 <Link to='/journal/covid-impact' >
-                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">   Impact of COVID-19 & Lockdown on Mental Health of Adolescent and Adults - Karan Rathod
-</Card.Title>
-                                            <Card.Text>                        
+                                            <Card.Title className="journytitles">2.   Impact of COVID-19 & Lockdown on Mental Health of Adolescent and Adults
+                                            </Card.Title>
 
-                                            </Card.Text>
-
-                                        </Card.Body>
-                                    </Card>
-                                </Link>
-                            </Col>
-                            <Col>
-                            <Link to='/journal/law-of-tort' >
-                                <Card className="C_D card card-1" style={{ width: '19rem' }}>
-
-                                    <Card.Body>
-                                        <Card.Title className="journytitles">Law of Tort on Negligence – An Indian Legal Perspective - Neelargo Ray
-</Card.Title>
-                                        <Card.Text>
-
-                                        </Card.Text>
-
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col>
-                                <Link to='/journal/legality-and-legal-right' >
-                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
-                                            <Card.Body>
-                                                <Card.Title className="journytitles"> Legality and Legal Rights of Manual Sewage Workers - Anurag Gupta
-</Card.Title>
-                                                <Card.Text>
-
-                                                </Card.Text>
-
-                                            </Card.Body>
-                                        </Card>
-                                </Link>
-                            </Col>
-                            <Col>
-                                <Link to='/journal/legal-maxim'>
-                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
-
-                                        <Card.Body>
-                                            <Card.Title className="journytitles">Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS -Shivraj Singh</Card.Title>
+                                            <Card.Title>
+                                                Author - Karan Rathod
+                                            </Card.Title>
                                             <Card.Text>
 
                                             </Card.Text>
@@ -148,49 +109,114 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                            <Link to='/journal/legal-policy-gap' >
-                                <Card className="C_D card card-1" style={{ width: '19rem' }}>
-                                    <Card.Body>
-                                        <Card.Title className="journytitles"> Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC) - Vinayak Garje</Card.Title>
-                                        <Card.Text>
+                                <Link to='/journal/law-of-tort' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
-                                        </Card.Text>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">3. Law of Tort on Negligence – An Indian Legal Perspective
+                                            </Card.Title>
 
-                                    </Card.Body>
-                        
-                                </Card>
-                            </Link>
+                                            <Card.Title>
+                                                Author - Neelargo Ray
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/legality-and-legal-right' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">4. Legality and Legal Rights of Manual Sewage Workers 
+                                            </Card.Title>
+                                            
+                                            <Card.Title>
+                                                Author - Anurag Gupta
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/legal-maxim'>
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5. Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS </Card.Title>
+
+                                            <Card.Title>
+                                                Author - Shivraj Singh
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/legal-policy-gap' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6. Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC)  </Card.Title>
+
+                                            <Card.Title>
+                                                Author - Vinayak Garje
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
 
                             </Col>
-                            
+
                         </Row>
                         <Row>
                             <Col>
                                 <Link to='/journal/social-exclusion' >
-                                    <Card className="C_D card card-1" style={{ width: '19rem' }}>
-                                            <Card.Body>
-                                                <Card.Title className="journytitles">Social Exclusion - Societal Attitudes Towards Differently Abled People - Arafat Khan</Card.Title>
-                                                <Card.Text>
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">7. Social Exclusion - Societal Attitudes Towards Differently Abled People  </Card.Title>
+                                            <Card.Title>
+                                                Author -  Arafat Khan
+                                            </Card.Title>
+                                            <Card.Text>
 
-                                                </Card.Text>
+                                            </Card.Text>
 
-                                            </Card.Body>
-                                        </Card>
+                                        </Card.Body>
+                                    </Card>
                                 </Link>
                             </Col>
-                          </Row>
+                        </Row>
 
-                      </div>
+                    </div>
 
-                      <br />
-              
-                      <hr />
+                    <br />
 
-                      <br />
+                    <hr />
 
-                      {/* <center><h3 className="mt-5">Volume 1 - Issue 2</h3></center> */}
+                    <br />
 
-                      <div className = "forms-options">
+                    {/* <center><h3 className="mt-5">Volume 1 - Issue 2</h3></center> */}
+
+                    <div className="forms-options">
 
                         {/* <Row>
                             <Col>
@@ -298,7 +324,7 @@ export class journal extends React.Component {
 //       <div>
 //       <Navigationbar />
 //       <Container>
-        
+
 //       <center><h3 className="mt-5">Journal papers on the Laws</h3></center>
 //       <iframe 
 //                 src={constitutional}
