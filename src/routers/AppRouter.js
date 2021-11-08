@@ -5,6 +5,7 @@ import { journal } from "../components/Journals/journalpaper";
 import PDFViewer from "../components/Journals/PDFViewer.js";
 import { editorialboard } from "../components/Editorialboard/EditorialBoard";
 import { Guideline } from "../components/Guidelines/GuideLines";
+import { Index } from "../components/Indexing/index";
 import { submission } from "../components/Submission/Submission";
 import { Authorization } from  "../components/SignUp/Accountauthorization";
 import { BrowserRouter, Route, Switch }  from "react-router-dom";
@@ -20,6 +21,7 @@ const AppRouter = () => (
           <Route path='/journal/:file' component = {PDFViewer} exact={true} />
           <Route path='/editorialboard' component = {editorialboard} exact={true} />
           <Route path='/Guideline' component = {Guideline} />
+          <Route path='/Index' component = { Index }  exact={true} />
           <Route path='/submission' component = {submission} />
           <Route path='/Authorization' component = {Authorization} />
         </Switch>

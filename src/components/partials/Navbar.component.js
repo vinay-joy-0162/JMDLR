@@ -27,6 +27,8 @@ export class Navigationbar extends React.Component {
               to="About">About Us</NavLink>
               <NavLink className="d-inline p-2 bg-dark text-white " 
               to="journal">Publications</NavLink>
+               <NavLink className="d-inline p-2 bg-dark text-white " 
+              to="Index">Indexing</NavLink>
               <NavLink className="d-inline p-2 bg-dark text-white" 
               to="editorialboard">Editiorial Board</NavLink>
               <NavLink className="d-inline p-2 bg-dark text-white " 

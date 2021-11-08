@@ -60,6 +60,375 @@ export class journal extends React.Component {
                 <Container>
 
                     {/* <center><h3 className="mt-5">Journal papers on the Laws</h3></center> */}
+ <br />
+
+                    <hr />
+
+                    <br />
+
+                    <center><h3 className="mt-5">Volume 1 - Issue 2 (Sept 2021 to Oct 2021)</h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
+                        <Row>
+                            <Col>
+                                <Link to='/journal/Appointment' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">1. Appointment of Receiver </Card.Title>
+                                            <Card.Title>
+                                                Author - Nidhi Badal
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Comparative' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">2.  Comparative Analysis of Hindu and Muslim Law of Inheritance
+                                            </Card.Title>
+
+                                            <Card.Title>
+                                                Author -  Hardik Daga
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/constitutionalRight' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">3. Constitutional Validity of Disturbed Areas Act
+                                            </Card.Title>
+
+                                            <Card.Title>
+                                                Author -  Abhishek Bhatia
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/critical' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">4. Critical Analysis of Scope of Article 226 and Article 227 of the Indian Constitution 
+                                            </Card.Title>
+                                            
+                                            <Card.Title>
+                                                Author - Ankita Ghosh 
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/cannabis'>
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5. Decriminalization of Cannabis in India  </Card.Title>
+
+                                            <Card.Title>
+                                                Author - Sushant Bava
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                            <Col>
+                                <Link to='/journal/firm' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6. Dissolution of Firm under Companies Act, 2013 </Card.Title>
+
+                                            <Card.Title>
+                                                Author  - Tulsi Nath
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+
+                            </Col>
+
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Link to='/journal/domestic' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">7. Domestic Violence and Misuse of Law in India Issues and Challenges  </Card.Title>
+                                            <Card.Title>
+                                                Author - Veena Goyal
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/Extortion' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">8. Extortion by Politicians, Police and Thugs, Clearly Visible and Visibly Ignored   </Card.Title>
+                                            <Card.Title>
+                                                Author - Himani Dhar
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/food' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">9.Food Security by Vertical Farming </Card.Title>
+                                            <Card.Title>
+                                                Author - Anusha naik  
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/Functions' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">10.Functionality of Grievance Handeling Procedures  </Card.Title>
+                                            <Card.Title>
+                                                Author - Ananya Kashyap 
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/international' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">11. International Commercial Arbitration – A Brief Overview  </Card.Title>
+                                            <Card.Title>
+                                                Author - Rishi Vaid 
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/indians' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">12.Privatization of Agriculture in India   </Card.Title>
+                                            <Card.Title>
+                                                Author - Sahil Bajaj
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+
+
+                        <Row>
+                            <Col>
+                                <Link to='/journal/trial' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">13.Trial Before Court of Sessions under CrPc A Critical Evaluation  </Card.Title>
+                                            <Card.Title>
+                                                Author - Gunjan Girwal 
+                                            </Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+                    </div>
+
+                    <br />
+
+                    <hr />
+
+                    <br />
+
+                    {/* <center><h3 className="mt-5">Volume 1 - Issue 2</h3></center> */}
+
+                    <div className="forms-options">
+
+                        {/* <Row>
+                            <Col>
+                            <Link to='/forms/Noc' >
+                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+
+                                    <Card.Body>
+                                        <Card.Title>NOC</Card.Title>
+                                        <Card.Text>
+
+                                        </Card.Text>
+
+                                    </Card.Body>
+                                </Card>
+                            </Link>
+
+                            </Col>
+                            <Col>
+                                <Link to='/forms/BankOfBaroda' >
+                                    <Card className="C_D card card-1" style={{ width: '18rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title>Bank of Baroda</Card.Title>
+                                            <Card.Text>
+
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+
+                            </Col>
+                            <Col>
+                                <Card className="C_D card card-1" style = {{ width: '18rem' }}>
+
+                                    <Card.Body>
+                                        <Card.Title>MS Chola</Card.Title>
+                                        <Card.Text>
+
+                                        </Card.Text>
+
+                                    </Card.Body>
+                                </Card>
+
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+
+                                    <Card.Body>
+                                        <Card.Title>GOVT.FORMS</Card.Title>
+                                        <Card.Text>
+
+                                        </Card.Text>
+
+                                    </Card.Body>
+                                </Card>
+
+                            </Col>
+                            <Col>
+                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+
+                                    <Card.Body>
+                                        <Card.Title>ELECTION</Card.Title>
+                                        <Card.Text>
+
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+
+                            </Col>
+                            <Col>
+                                <Card className="C_D card card-1" style={{ width: '18rem' }}>
+
+                                    <Card.Body>
+                                        <Card.Title>INSURANCE</Card.Title>
+                                        <Card.Text>
+
+                                        </Card.Text>
+
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row> */}
+                    </div>
+
+
 
                     <br />
 
@@ -90,7 +459,7 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/journal/covid-impact' >
+                                <Link to='/journal/covid_impact' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
@@ -109,7 +478,7 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/journal/law-of-tort' >
+                                <Link to='/journal/law_of_tort' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
@@ -131,7 +500,7 @@ export class journal extends React.Component {
 
                         <Row>
                             <Col>
-                                <Link to='/journal/legality-and-legal-right' >
+                                <Link to='/journal/legal' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
                                             <Card.Title className="journytitles">4. Legality and Legal Rights of Manual Sewage Workers 
@@ -149,7 +518,7 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/journal/legal-maxim'>
+                                <Link to='/journal/legal_maxim'>
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
@@ -167,7 +536,7 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             <Col>
-                                <Link to='/journal/legal-policy-gap' >
+                                <Link to='/journal/legal_policy_gap' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
                                             <Card.Title className="journytitles">6. Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC)  </Card.Title>
@@ -189,7 +558,7 @@ export class journal extends React.Component {
                         </Row>
                         <Row>
                             <Col>
-                                <Link to='/journal/social-exclusion' >
+                                <Link to='/journal/social_exclusion' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
                                             <Card.Title className="journytitles">7. Social Exclusion - Societal Attitudes Towards Differently Abled People  </Card.Title>
@@ -312,33 +681,4 @@ export class journal extends React.Component {
 
 
 
-// import React from "react";
-// import Container from "react-bootstrap/Container";
-// import {Navigationbar} from "../partials/Navbar.component";
-// import Footers from "../partials/Footer";
-// import constitutional from "../../pdfs/constitutional.pdf";
 
-// export class journal extends React.Component {
-//   render(){
-//     return(
-//       <div>
-//       <Navigationbar />
-//       <Container>
-
-//       <center><h3 className="mt-5">Journal papers on the Laws</h3></center>
-//       <iframe 
-//                 src={constitutional}
-//                 style={{height:'100vh'}} 
-//                 height="100%" 
-//                 width="100%" 
-//                 title = 'x1' 
-//                 frameBorder="0"
-//                 marginHeight="0"
-//                 marginWidth="0"
-//                 />
-//       </Container>
-//       <Footers />
-//       </div>
-//     )
-//   }
-// };

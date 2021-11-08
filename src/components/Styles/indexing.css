@@ -1,0 +1,25 @@
+
+.index-lines{
+    font-size:large;
+    text-align: center;
+    margin-left: 39%;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+}
+
+.index-line1{
+    
+        font-size:large;
+        text-align: center;
+        margin-left: 45%;
+        font-family: 'Times New Roman';
+        margin-bottom: 10px;
+
+}
+
+.index-img{
+    width: 30%;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 15%;
+}
