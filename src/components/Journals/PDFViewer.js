@@ -25,6 +25,13 @@ import international from '../../pdfs/International Commercial Arbitration – A
 import indians from '../../pdfs/Privatization of Agriculture in India - Sahil Bajaj-converted.pdf';
 import trial from '../../pdfs/Trial Before Court of Sessions under CrPc A Critical Evaluation - Gunjan Girwal-converted.pdf';
 
+
+import Indian from '../../pdfs/The Indian Tribunal Complication Eterne - Esha Ghosh and Ambika Kashyap.pdf';
+import Safeguard from '../../pdfs/Constitutional Safeguards to the Right to Life - Mihir Asolekar.pdf';
+import Study from '../../pdfs/A Comparative Study on Reliability Of Eye-Witness Testimony - Parisa Praneetha.pdf';
+import Material from '../../pdfs/Criminalizing Marital Rape in India - Yoshita Phaphat.pdf';
+
+
 // template
 // import pdfname from 'path';
 
@@ -346,9 +353,69 @@ class PDFViewer extends React.Component {
                                                                                                         marginHeight="0"
                                                                                                         marginWidth="0"
                                                                                                     />
+
+
+
+
+
                                                                                                     :
+                                                                                                    this.state.file === 'Indian'
+                                                                                                        ?
+                                                                                                        <iframe
+                                                                                                            src={Indian}
+                                                                                                            style={{ height: '100vh' }}
+                                                                                                            height="100%"
+                                                                                                            width="100%"
+                                                                                                            title='x1'
+                                                                                                            frameBorder="0"
+                                                                                                            marginHeight="0"
+                                                                                                            marginWidth="0"
+                                                                                                        />
+
+                                                                                                        :
+                                                                                                        this.state.file === 'Safeguard'
+                                                                                                            ?
+                                                                                                            <iframe
+                                                                                                                src={Safeguard}
+                                                                                                                style={{ height: '100vh' }}
+                                                                                                                height="100%"
+                                                                                                                width="100%"
+                                                                                                                title='x1'
+                                                                                                                frameBorder="0"
+                                                                                                                marginHeight="0"
+                                                                                                                marginWidth="0"
+                                                                                                            />
+                                                                                                            :
 
 
+                                                                                                            
+                                                                                                            this.state.file === 'Study'
+                                                                                                                ?
+                                                                                                                <iframe
+                                                                                                                    src={Study}
+                                                                                                                    style={{ height: '100vh' }}
+                                                                                                                    height="100%"
+                                                                                                                    width="100%"
+                                                                                                                    title='x1'
+                                                                                                                    frameBorder="0"
+                                                                                                                    marginHeight="0"
+                                                                                                                    marginWidth="0"
+                                                                                                                />
+        
+                                                                                                                :
+                                                                                                                this.state.file === 'Material'
+                                                                                                                    ?
+                                                                                                                    <iframe
+                                                                                                                        src={Material}
+                                                                                                                        style={{ height: '100vh' }}
+                                                                                                                        height="100%"
+                                                                                                                        width="100%"
+                                                                                                                        title='x1'
+                                                                                                                        frameBorder="0"
+                                                                                                                        marginHeight="0"
+                                                                                                                        marginWidth="0"
+                                                                                                                    />
+                                                                                                                    :
 
 
                                                                                                     <div>tyest</div>

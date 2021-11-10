@@ -66,6 +66,144 @@ export class journal extends React.Component {
 
                     <br />
 
+
+                    <center><h3 className="mt-5">Volume 1 - Issue 3 (Nov 2021 to Dec 2021)</h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
+                        <Row>
+                            <Col>
+                                <Link to='/journal/Indian' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">1.The Indian Tribunal Complication Eterne  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author -  Esha Ghosh and Ambika Kashyap</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -  https://www.doi.org/10.5281/zenodo.5652766
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Safeguard' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">2. Constitutional Safeguards to the Right to Life 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Mihir Asolekar
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  https://www.doi.org/10.5281/zenodo.5652718 
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Study' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">3. A Comparative Study on Reliability Of Eye-Witness Testimony 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Parisa Praneetha
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5669264
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Material' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">4. Criminalizing Marital Rape in India 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Yoshita Phaphat
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5669321
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                        </Row>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <center><h3 className="mt-5">Volume 1 - Issue 2 (Sept 2021 to Oct 2021)</h3></center>
                     <br></br>
                     <br></br>
