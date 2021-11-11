@@ -388,7 +388,7 @@ class PDFViewer extends React.Component {
                                                                                                             :
 
 
-                                                                                                            
+
                                                                                                             this.state.file === 'Study'
                                                                                                                 ?
                                                                                                                 <iframe
@@ -401,7 +401,7 @@ class PDFViewer extends React.Component {
                                                                                                                     marginHeight="0"
                                                                                                                     marginWidth="0"
                                                                                                                 />
-        
+
                                                                                                                 :
                                                                                                                 this.state.file === 'Material'
                                                                                                                     ?
@@ -418,7 +418,7 @@ class PDFViewer extends React.Component {
                                                                                                                     :
 
 
-                                                                                                    <div>tyest</div>
+                                                                                                                    <div>tyest</div>
 
                 }
 
