@@ -171,6 +171,51 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/Comment' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5. Case Comment on - S.R. Bommai v. Union of India, (1994) 3 SCC 1 – An Odyssey of Power & Justice
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Prathik Choudhary
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5675837
+                                                </Card.Text>   
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Speedy' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6. Speedy Disposal of Matrimonial Disputes in India- A Race Against Time 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Vrinda Chaturvedi
+                                            </Card.Title>
+
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5675999
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
 
                         </div>

@@ -31,6 +31,10 @@ import Safeguard from '../../pdfs/Constitutional Safeguards to the Right to Life
 import Study from '../../pdfs/A Comparative Study on Reliability Of Eye-Witness Testimony - Parisa Praneetha.pdf';
 import Material from '../../pdfs/Criminalizing Marital Rape in India - Yoshita Phaphat.pdf';
 
+import Comment from '../../pdfs/Case Comment on - S.R. Bommai v. Union of India, (1994) 3 SCC 1 – An Odyssey of Power & Justice - Prathik Choudhary.pdf';
+import Speedy from '../../pdfs/Speedy Disposal of Matrimonial Disputes in India- A Race Against Time - Vrinda Chaturvedi.pdf';
+
+
 
 // template
 // import pdfname from 'path';
@@ -416,6 +420,36 @@ class PDFViewer extends React.Component {
                                                                                                                         marginWidth="0"
                                                                                                                     />
                                                                                                                     :
+
+                                                                                                                    this.state.file === 'Comment'
+                                                                                                                    ?
+                                                                                                                        <iframe
+                                                                                                                            src={Comment}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        : 
+                                                                                                                        
+                                                                                                                        this.state.file === 'Speedy'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Speedy}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
 
 
                                                                                                                     <div>tyest</div>
