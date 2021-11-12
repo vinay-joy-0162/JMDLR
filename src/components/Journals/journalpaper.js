@@ -216,6 +216,31 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Article' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">7. An Analysis of Article 370 and Article 35A of the Constitution of India and the Implications of its Revocation
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - John Kevin Kennedy
+                                            </Card.Title>
+
+                                             <Card.Text  className="doi">
+                                                DOI -   www.doi.org/10.5281/zenodo.5683075
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
 
                         </div>
