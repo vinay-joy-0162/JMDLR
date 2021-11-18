@@ -241,6 +241,67 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+
+
+                                  
+                            <Col>
+                                <Link to='/journal/Data' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">8. DATA PROTECTION LAWS IN PORTUGAL
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Krish Bhatia
+                                            </Card.Title>
+
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5702456
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+
+
+                            
+
+
+                                  
+                            <Col>
+                                <Link to='/journal/Source' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">9. Precedents as a Source of Law 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Vedant Bhardwaj Singh
+                                            </Card.Title>
+
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5705921
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
 
                         </div>

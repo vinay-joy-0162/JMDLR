@@ -34,7 +34,8 @@ import Material from '../../pdfs/Criminalizing Marital Rape in India - Yoshita P
 import Comment from '../../pdfs/Case Comment on - S.R. Bommai v. Union of India, (1994) 3 SCC 1 – An Odyssey of Power & Justice - Prathik Choudhary.pdf';
 import Speedy from '../../pdfs/Speedy Disposal of Matrimonial Disputes in India- A Race Against Time - Vrinda Chaturvedi.pdf';
 import Article from '../../pdfs/An Analysis of Article 370 and Article 35A of the Constitution of India and the Implications of its Revocation.pdf';
-
+import Data from '../../pdfs/DATA PROTECTION LAWS IN PORTUGAL.pdf';
+import  Source from  '../../pdfs/Precedents as a Source of Law - Vedant Bhardwaj Singh.pdf'
 
 
 // template
@@ -463,6 +464,35 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+                                                                                                                        this.state.file === 'Data'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Data}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Source'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Source}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
 
 
 
