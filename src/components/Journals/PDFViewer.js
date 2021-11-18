@@ -37,6 +37,10 @@ import Article from '../../pdfs/An Analysis of Article 370 and Article 35A of th
 import Data from '../../pdfs/DATA PROTECTION LAWS IN PORTUGAL.pdf';
 import  Source from  '../../pdfs/Precedents as a Source of Law - Vedant Bhardwaj Singh.pdf'
 
+import ENVIRONMENTAL from '../../pdfs/ENVIRONMENTAL JUSTICE STORIES & STRUGGLES THE LEGAL AFTERMATH OF MUMBAI OIL SPILL CASES 2010-11 - Divyanshu Saxena.pdf';
+import RIGHTS from '../../pdfs/RIGHTS OF UNBORN CHILD - KRATIKA JAIN.pdf';
+import Tenebrosity from '../../pdfs/Tenebrosity of the Divide – Assessing the impacts of Digital Divide with respect to the COVID-19 pandemic - Vani Dhaka.pdf';
+
 
 // template
 // import pdfname from 'path';
@@ -483,6 +487,51 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Source}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'ENVIRONMENTAL'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={ENVIRONMENTAL}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'RIGHTS'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={RIGHTS}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Tenebrosity'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Tenebrosity}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

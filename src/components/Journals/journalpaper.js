@@ -270,16 +270,6 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
 
-
-
-
-
-
-
-                            
-
-
-                                  
                             <Col>
                                 <Link to='/journal/Source' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
@@ -294,6 +284,79 @@ export class journal extends React.Component {
 
                                              <Card.Text  className="doi">
                                                 DOI -  www.doi.org/10.5281/zenodo.5705921
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/ENVIRONMENTAL' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">10. ENVIRONMENTAL JUSTICE STORIES & STRUGGLES THE LEGAL AFTERMATH OF MUMBAI OIL SPILL CASES 2010-11 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Divyanshu Saxena
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5711023
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/RIGHTS' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">11. RIGHTS OF UNBORN CHILD  
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  KRATIKA JAIN
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5711082
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Tenebrosity' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">12. Tenebrosity of the Divide – Assessing the impacts of Digital Divide with respect to the COVID-19 pandemic
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -  Vani Dhaka
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5711113
                                                 </Card.Text>   
                                             
     
