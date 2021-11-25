@@ -365,6 +365,190 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Cyber' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">13.Level Of Cyber Crimes During Covid-19 Pandemic 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Lavanya Pandiyan
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -   www.doi.org/10.5281/zenodo.5717291
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Human' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">14. Human Rights Violations In China 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Yashasvi Bhede
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5717287
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+
+                            <Col>
+                                <Link to='/journal/Analysis' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">15. Analysis of Doctrine of Benefit of Doubt Apropos to Criminal Philosophy
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author -Soumya Sakshi Mishra
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5719059
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+                            
+
+                            <Col>
+                                <Link to='/journal/Imprison' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">16. Imprisonment and Recidivism
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author Neelargho Ray
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5719062
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+                            
+
+                            <Col>
+                                <Link to='/journal/Women' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">17. Global Crisis [COVID-19] and its Impact 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Kavyasri. S.J
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5728030
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+                            
+
+                            <Col>
+                                <Link to='/journal/Crime' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">18. The Horrendous Crime of Acid Violence With Special Reference To Laxmi V. UOI
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Anubhuti Sharma & Arsheya Chaudhry
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5719050
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
 
                         </div>
