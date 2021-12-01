@@ -67,6 +67,63 @@ export class journal extends React.Component {
                     <br />
 
 
+
+                    <center><h3 className="mt-5">Volume 2 - Issue 1 </h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
+                        <Row>
+                        <Col>
+                                <Link to='/journal/Ruling' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">1.Concept of Advance ruling under Goods and Services Tax Act  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Sonali Awasthi</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5745380
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Right' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">2.Right to Vote - Participation in Democracy  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Mehendi Mazumdar</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -www.doi.org/10.5281/zenodo.5748075
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            </Row>
+                        </div>
+
+
                     <center><h3 className="mt-5">Volume 1 - Issue 3 (Nov 2021 to Dec 2021)</h3></center>
                     <br></br>
                     <br></br>

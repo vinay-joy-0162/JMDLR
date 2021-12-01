@@ -46,6 +46,10 @@ import Analysis from '../../pdfs/Analysis of Doctrine of Benefit of Doubt Apropo
 import Imprison from '../../pdfs/Imprisonment and Recidivism-converted.pdf';
 import Women from '../../pdfs/Global Crisis [COVID-19] and its Impact - Kavyasri. S.J.pdf';
 import Crime from '../../pdfs/The Horrendous Crime of Acid Violence With Special Reference To Laxmi V. UOI - Anubhuti Sharma & Arsheya Chaudhry.pdf';
+
+import Ruling from '../../pdfs/Concept_of_Advance_ruling_under_Goods_and_Services_Tax_Act.pdf';
+import Right from '../../pdfs/Right to Vote - Participation in Democracy - Mehendi Mazumdar.pdf';
+
 // template
 // import pdfname from 'path';
 
@@ -643,6 +647,38 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+                                                                                                                        
+                                                                                                                        this.state.file === 'Ruling'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Ruling}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                          
+                                                                                                                        this.state.file === 'Right'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Right}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
 
 
 
