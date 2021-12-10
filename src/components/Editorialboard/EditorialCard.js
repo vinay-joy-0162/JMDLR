@@ -29,7 +29,7 @@ const Editorialcarddetails = () => (
 
 
         <Card.Body>
-          <Card.Title className="cardtitles">MR. ROHAN GARJE  </Card.Title>
+          <Card.Title className="cardtitles">MR. KARAN RATHOD </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITOR IN CHIEF
@@ -75,7 +75,7 @@ const Editorialcarddetails = () => (
       <Card className="Ebcard">
 
         <Card.Body>
-        <Card.Title className="cardtitles">DR. SAURABH CHATURVEDI  </Card.Title>
+        <Card.Title className="cardtitles">MR. NEELARGHO RAY  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
@@ -126,7 +126,7 @@ const Editorialcarddetails = () => (
       <Card className="Ebcard">
 
         <Card.Body>
-        <Card.Title className="cardtitles">DR. KESHAB NANDY  </Card.Title>
+        <Card.Title className="cardtitles">MS. ANKITA GHOSH  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
@@ -176,7 +176,7 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-        <Card.Title className="cardtitles">DR. MEGHA OJHA  </Card.Title>
+        <Card.Title className="cardtitles">MS. VEENA GOYAL  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
@@ -283,7 +283,7 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-        <Card.Title className="cardtitles">MR. DWEEP SHAH   </Card.Title>
+        <Card.Title className="cardtitles">MR. SUSHANT BAVA  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
