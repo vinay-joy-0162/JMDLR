@@ -312,7 +312,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">10Unsoundness Of Mind in Legal Parlance   </Card.Title>
+                                            <Card.Title className="journytitles">10.Unsoundness Of Mind in Legal Parlance   </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author   - Sarthak Bhatia</Card.Title>
@@ -320,6 +320,34 @@ export class journal extends React.Component {
 
                                             <Card.Text  className="doi">
                                                 DOI - www.doi.org/10.5281/zenodo.5773012
+                                                
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Internet' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">11.Case Comment on Internet and Mobile Association of India v. Reserve Bank of India (AIR 2021 SC 2720)   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Tejasswini L</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5774134
                                                 
                                                 </Card.Text>                                            
                                            

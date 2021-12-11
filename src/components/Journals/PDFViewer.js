@@ -59,6 +59,7 @@ import Men from '../../pdfs/Domestic Violence Against Men in India - A Serious I
 import How from '../../pdfs/How Do Lawmakers Decide Punishments for Different Crimes - Smith John Colaco.pdf';
 
 import Mind from '../../pdfs/Unsoundness Of Mind in Legal Parlance - Sarthak Bhatia.pdf';
+import Internet from '../../pdfs/Internet and Mobile Association of India vs Reserve Bank of India (AIR 2012 SC 2720) - Tejasswini L.pdf';
 
 
 
@@ -805,6 +806,20 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Mind}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Internet'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Internet}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
