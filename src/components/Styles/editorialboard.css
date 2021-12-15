@@ -36,6 +36,7 @@
     font-family: 'Times New Roman';
     font-style: inherit;
     text-align: center;
+    margin-top: 3%;
 
 
     
@@ -60,6 +61,8 @@
     font-family: 'Times New Roman';
     font-style: inherit;
     text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
 }
 .heading{
     margin-top: 10%;
