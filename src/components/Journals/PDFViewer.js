@@ -68,6 +68,11 @@ import Reservation from '../../pdfs/Reservation in India An impeding need for re
 import Digital from '../../pdfs/DIGITAL INK- EMERGING TREND OF CONTRACTS Enforceability and Validity of Online Contracts and Electronic Signatures - Yashas Malik.pdf';
 
 
+import Concept from '../../pdfs/Concept of Martial Rape and the Need for Change - Ms. Radha Sharan & Adv. Pragya Singh.pdf';
+import Prisoner from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha & Ajay Singh Berwal.pdf';
+
+
+
 
 
 
@@ -936,6 +941,45 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+
+
+
+                                                                                                                        
+
+
+                                                                                                                        this.state.file === 'Concept'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Concept}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                        
+
+
+                                                                                                                        this.state.file === 'Prisoner'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Prisoner}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
