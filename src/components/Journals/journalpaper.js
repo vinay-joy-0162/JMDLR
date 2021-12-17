@@ -595,6 +595,115 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Kunj' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">20.Case Analysis of Kunj Behari Lal Butail and Ors. V. State of Himachal Pradesh and Ors. [(2000) 3 Scc 40]  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author- Meher Mansi </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5789530
+                                                
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Trafficking' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">21.Human Trafficking in India Before and After the Criminal Amendment Act, 2013 </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Anusree J & Malu A M Nair  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5789534
+                                                
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Indecent' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">22.Obscenity and Indecent Representation of Women In India  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Arya Rajan J R  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5789540
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                         </div>
 

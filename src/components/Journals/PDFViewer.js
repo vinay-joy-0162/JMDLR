@@ -70,6 +70,10 @@ import Digital from '../../pdfs/DIGITAL INK- EMERGING TREND OF CONTRACTS Enforce
 
 import Concept from '../../pdfs/Concept of Martial Rape and the Need for Change - Ms. Radha Sharan & Adv. Pragya Singh.pdf';
 import Prisoner from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha & Ajay Singh Berwal.pdf';
+import Kunj from '../../pdfs/Case Analysis of Kunj Behari Lal Butail and Ors. V. State of Himachal Pradesh and Ors. [(2000) 3 Scc 40] - Meher Mansi.pdf';
+import Trafficking from '../../pdfs/Human Trafficking in India Before and After the Criminal Amendment Act, 2013 - Anusree J & Malu A M Nair.pdf';
+import Indecent from '../../pdfs/Obscenity and Indecent Representation of Women In India - Arya Rajan J R.pdf';
+
 
 
 
@@ -982,6 +986,52 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
+
+
+                                                                                                                        this.state.file === 'Kunj'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Kunj}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'Trafficking'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Trafficking}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                        this.state.file === 'Indecent'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Indecent}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
