@@ -704,6 +704,96 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Rape' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">23.An Analysis on the Criminality of Marital Rape in India  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Neha Susan Thomas </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5791203
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Coal' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">24.Legal and Economic Consequences of the Coal Scam Case, 2014 </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Nayana J M   </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5792123
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Genital' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">25.Genital Mutilation in Females Is It Legal </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Mohd Aqib Aslam  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5792121
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                         </div>
 
