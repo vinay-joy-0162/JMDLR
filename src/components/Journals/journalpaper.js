@@ -550,7 +550,7 @@ export class journal extends React.Component {
 
                                   
                                         <Card.Body>
-                                            <Card.Title className="journytitles">18.Concept of Martial Rape and the Need for Change</Card.Title>
+                                            <Card.Title className="journytitles">18.Concept of Marital Rape and the Need for Change</Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author   - Ms. Radha Sharan & Adv. Pragya Singh </Card.Title>

@@ -68,7 +68,7 @@ import Reservation from '../../pdfs/Reservation in India An impeding need for re
 import Digital from '../../pdfs/DIGITAL INK- EMERGING TREND OF CONTRACTS Enforceability and Validity of Online Contracts and Electronic Signatures - Yashas Malik.pdf';
 
 
-import Concept from '../../pdfs/Concept of Martial Rape and the Need for Change - Ms. Radha Sharan & Adv. Pragya Singh.pdf';
+import Concept from '../../pdfs/Concept of Marital Rape and the Need for Change - Radha Sharan & Pragya Singh.pdf';
 import Prisoner from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha & Ajay Singh Berwal.pdf';
 import Kunj from '../../pdfs/Case Analysis of Kunj Behari Lal Butail and Ors. V. State of Himachal Pradesh and Ors. [(2000) 3 Scc 40] - Meher Mansi.pdf';
 import Trafficking from '../../pdfs/Human Trafficking in India Before and After the Criminal Amendment Act, 2013 - Anusree J & Malu A M Nair.pdf';
