@@ -578,10 +578,10 @@ export class journal extends React.Component {
 
                                   
                                         <Card.Body>
-                                            <Card.Title className="journytitles">19.Prisoner’s Amelioration Under the Anatomy of Constitution of India  </Card.Title>
+                                            <Card.Title className="journytitles">19.Prisoner’s Amelioration Under the Anatomy of Constitution of India </Card.Title>
                                             <Card.Title>
                                                 
-                                               <Card.Title className = "journytitles"> Author - Mehak Chadha & Ajay Singh Berwal </Card.Title>
+                                               <Card.Title className = "journytitles"> Author - Mehak Chadha </Card.Title>
                                             </Card.Title>
 
                                             <Card.Text  className="doi">
@@ -794,6 +794,84 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+
+
+                            <Col>
+                                <Link to='/journal/Trip' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">26.An Analysis of The Trips Agreement and The Trips-Compliant Indian Patent Regime  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Soumyadip Panda & Anshu Singh  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -   www.doi.org/10.5281/zenodo.5799388
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            
+
+
+                            {/* <Col>
+                                <Link to='/journal/under' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">27.Prisoner’s Amelioration Under the Anatomy of Constitution of India </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Mehak Chadha  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5799388
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col> */}
                             </Row>
                         </div>
 
