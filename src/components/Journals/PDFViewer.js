@@ -80,6 +80,8 @@ import Trip from '../../pdfs/An Analysis of The Trips Agreement and The Trips-Co
 // import under from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha.pdf';
 
 
+import Sexual from '../../pdfs/Sexual Harassment at Workplace - Sheikh Aman Rana.pdf';
+
 
 
 
@@ -1113,6 +1115,26 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+
+
+
+
+
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        this.state.file === 'Sexual'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Sexual}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

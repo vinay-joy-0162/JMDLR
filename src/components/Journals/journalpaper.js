@@ -847,6 +847,38 @@ export class journal extends React.Component {
 
 
 
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Sexual' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">27.Sexual Harassment at Workplace  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Sheikh Aman Rana  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5802202
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
                             
 
 
