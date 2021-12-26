@@ -81,6 +81,9 @@ import Trip from '../../pdfs/An Analysis of The Trips Agreement and The Trips-Co
 
 
 import Sexual from '../../pdfs/Sexual Harassment at Workplace - Sheikh Aman Rana.pdf';
+import Downfall from '../../pdfs/Downfall Of Investigative Journalism Need for Implementation Of New Protective Legislation or Neutralising The Misuse Of The Present Ones - Ayushi Vyas & Divya Saxena.pdf';
+import take from '../../pdfs/Right To Take Cognizance by Institutions Legal Discourse - Vaibhav Kartikeya Agrawal.pdf';
+
 
 
 
@@ -1126,6 +1129,43 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Sexual}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                                         
+                                                                                                                        this.state.file === 'Downfall'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Downfall}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+                                                                                                                        this.state.file === 'take'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={take}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

@@ -879,23 +879,27 @@ export class journal extends React.Component {
 
 
 
-                            
 
 
-                            {/* <Col>
-                                <Link to='/journal/under' >
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Downfall' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                   
                                         <Card.Body>
-                                            <Card.Title className="journytitles">27.Prisoner’s Amelioration Under the Anatomy of Constitution of India </Card.Title>
+                                            <Card.Title className="journytitles">28.Downfall Of Investigative Journalism Need for Implementation Of New Protective Legislation or Neutralising The Misuse Of The Present Ones  </Card.Title>
                                             <Card.Title>
                                                 
-                                               <Card.Title className = "journytitles"> Author  - Mehak Chadha  </Card.Title>
+                                               <Card.Title className = "journytitles"> Author  - Ayushi Vyas & Divya Saxena </Card.Title>
                                             </Card.Title>
 
                                             <Card.Text  className="doi">
-                                                DOI -  www.doi.org/10.5281/zenodo.5799388
+                                                DOI -  www.doi.org/10.5281/zenodo.5803648
                                                 </Card.Text>                                            
                                            
                                         </Card.Body>
@@ -903,7 +907,42 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                               
-                            </Col> */}
+                            </Col>
+
+
+
+
+
+
+                            
+
+
+                            <Col>
+                                <Link to='/journal/take' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                  
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">29.Right To Take Cognizance by Institutions Legal Discourse </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Vaibhav Kartikeya Agrawal  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI - www.doi.org/10.5281/zenodo.5805304
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            
+
                             </Row>
                         </div>
 

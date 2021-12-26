@@ -30,15 +30,15 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-          {/* <Card.Title className="cardtitles">MR. KARAN RATHOD </Card.Title>
+          <Card.Title className="cardtitles">MR. VINAY JOY </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITOR IN CHIEF
 
-          </Card.Title> */}
+          </Card.Title>
 
 
-          <Card.Title className="cardtitles">  MR. ROHAN GARJE (B.B.A., LL. B (Hons.), Diploma in Corporate Law)
+          {/* <Card.Title className="cardtitles">  MR. ROHAN GARJE (B.B.A., LL. B (Hons.), Diploma in Corporate Law)
 
           </Card.Title>
           <Card.Title className="cardtitles">  FOUNDER – EDITOR IN CHIEF 
@@ -69,7 +69,7 @@ const Editorialcarddetails = () => (
             <b>Email ID:</b> rohan.garje77@gmail.com
             <br></br>
             <b>Address</b> – C-602, Bhumiraj Manor, Sector – 14, Sanpada, Navi Mumbai, 400 705, Maharashtra
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
@@ -80,14 +80,14 @@ const Editorialcarddetails = () => (
       <Card className="Ebcard">
 
         <Card.Body>
-          {/* <Card.Title className="cardtitles">MR. NEELARGHO RAY  </Card.Title>
+          <Card.Title className="cardtitles">MR. NEELARGHO RAY  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
 
-          </Card.Title> */}
+          </Card.Title>
 
-          <Card.Title className="cardtitles">DR. SAURABH CHATURVEDI (PH.D. (LAW) LL.M, LL. B)
+          {/* <Card.Title className="cardtitles">DR. SAURABH CHATURVEDI (PH.D. (LAW) LL.M, LL. B)
 
           </Card.Title>
           <Card.Title className="cardtitles">EDITORIAL BOARD MEMBER
@@ -116,7 +116,7 @@ const Editorialcarddetails = () => (
             <b>Institutional Email ID:</b> saurabh.chaturvedi@nmims.edu (Professional)
             <br></br>
             <b>Address</b> – Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
@@ -132,14 +132,14 @@ const Editorialcarddetails = () => (
       <Card className="Ebcard">
 
         <Card.Body>
-          {/* <Card.Title className="cardtitles">MS. ANKITA GHOSH  </Card.Title>
+          <Card.Title className="cardtitles">MS. ANKITA GHOSH  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
 
-          </Card.Title> */}
+          </Card.Title>
 
-          <Card.Title className="cardtitles">DR. KESHAB NANDY (PH.D. (MANAGEMENT), LL. B)
+          {/* <Card.Title className="cardtitles">DR. KESHAB NANDY (PH.D. (MANAGEMENT), LL. B)
 
           </Card.Title>
 
@@ -169,7 +169,7 @@ const Editorialcarddetails = () => (
             <b>Institutional Email ID:</b> keshab.nandy@nmims.edu.in (Professional)
             <br></br>
             <b>Address</b> - Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
@@ -183,13 +183,13 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-          {/* <Card.Title className="cardtitles">MS. VEENA GOYAL  </Card.Title>
+          <Card.Title className="cardtitles">MS. VEENA GOYAL  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
 
-          </Card.Title> */}
-
+          </Card.Title>
+{/* 
           <Card.Title className="cardtitles">DR. MEGHA OJHA (PH.D. (LAW) LL.M, LL. B)
 
           </Card.Title>
@@ -225,7 +225,7 @@ const Editorialcarddetails = () => (
             <br></br>
             <b>Address</b>- Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
 
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
@@ -238,14 +238,14 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-        {/* <Card.Title className="cardtitles">MR. ROHAN GARJE  </Card.Title>
+        <Card.Title className="cardtitles">MR. KARAN RATHOD  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITOR IN CHIEF
 
-          </Card.Title> */}
+          </Card.Title>
 
-          <Card.Title className="cardtitles">ADVOCATE ANIRUDHA JOSHI (LL.M, LL. B, B.B.A)
+          {/* <Card.Title className="cardtitles">ADVOCATE ANIRUDHA JOSHI (LL.M, LL. B, B.B.A)
             EDITORIAL BOARD MEMBER
           </Card.Title>
           <Card.Text>FOUNDER AND MANAGING PARTNER OF JURIS ARMOR ADVOCATES & LEGAL ADVISORS, ADVOCATE, BOMBAY HIGH COURT</Card.Text>
@@ -275,7 +275,7 @@ const Editorialcarddetails = () => (
             <br></br>
             <b>Address</b> - JURIS ARMOR, Advocates & Legal Advisors, Office No 4, Business Guild, Law College Road, Opp. Wadeshwar Restaurant, Erandwane, Pune – 411004
 
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
@@ -290,14 +290,14 @@ const Editorialcarddetails = () => (
 
         <Card.Body>
 
-          {/* <Card.Title className="cardtitles">MR. SUSHANT BAVA  </Card.Title>
+          <Card.Title className="cardtitles">MR. SUSHANT BAVA  </Card.Title>
           <br></br>
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
 
-          </Card.Title>  */}
+          </Card.Title> 
 
-          <Card.Title className="cardtitles">ADVOCATE DWEEP SHAH (LL. B, B.B.A)
+          {/* <Card.Title className="cardtitles">ADVOCATE DWEEP SHAH (LL. B, B.B.A)
 
           </Card.Title>
 
@@ -332,7 +332,7 @@ const Editorialcarddetails = () => (
             <b>Address</b> - 1301, Raheja Centre, Free Press Journal Marg, Nariman Point, Mumbai, Maharashtra – 400021
             <br></br>
             <b>Address 2</b> - Bombay High Court, Fort, Mumbai, Maharashtra 400001
-          </Card.Text>
+          </Card.Text> */}
 
         </Card.Body>
       </Card>
