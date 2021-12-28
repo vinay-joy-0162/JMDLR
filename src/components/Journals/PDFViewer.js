@@ -78,7 +78,7 @@ import Coal from '../../pdfs/Legal and Economic Consequences of the Coal Scam Ca
 import Genital from '../../pdfs/Genital Mutilation in Females Is It Legal - Mohd Aqib Aslam.pdf';
 import Trip from '../../pdfs/An Analysis of The Trips Agreement and The Trips-Compliant Indian Patent Regime - Soumyadip Panda & Anshu Singh.pdf';
 // import under from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha.pdf';
-
+import PrisonerReforms from '../../pdfs/Prisons Reforms in India A Critical Study on The Inhumane Conditions Prevailing in Indian Prisons - Sangeetha Lakshmi V.pdf';
 
 import Sexual from '../../pdfs/Sexual Harassment at Workplace - Sheikh Aman Rana.pdf';
 import Downfall from '../../pdfs/Downfall Of Investigative Journalism Need for Implementation Of New Protective Legislation or Neutralising The Misuse Of The Present Ones - Ayushi Vyas & Divya Saxena.pdf';
@@ -1177,7 +1177,19 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
-
+                                                                                                                        this.state.file === 'PrisonerReforms'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={PrisonerReforms}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

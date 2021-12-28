@@ -940,7 +940,29 @@ export class journal extends React.Component {
                               
                             </Col>
 
+                            <Col>
+                                <Link to='/journal/PrisonerReforms' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">30. Prisons Reforms in India: A Critical Study on The Inhumane Conditions Prevailing in Indian Prisons 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Sangeetha Lakshmi V
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5807640
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                             
 
                             </Row>
@@ -1429,6 +1451,8 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+                            
                         </Row>
 
                         </div>
