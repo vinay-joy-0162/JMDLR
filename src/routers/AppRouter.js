@@ -9,24 +9,30 @@ import { Index } from "../components/Indexing/index";
 import { submission } from "../components/Submission/Submission";
 import { Authorization } from  "../components/SignUp/Accountauthorization";
 import { BrowserRouter, Route, Switch }  from "react-router-dom";
+import PublicRoute from '../components/Admin/routes/PublicRoute';
+import PrivateRoute from '../components/Admin/routes/PrivateRoute';
+
+// admin
+import Login from '../components/Admin/auth/Login';
+import Archives from '../components/Admin/Archives';
 
 const AppRouter = () => (
-    <BrowserRouter>
-      
-      
+      <BrowserRouter>
         <Switch>
-          <Route  path='/' component = { Home } exact   />
-          <Route path='/About' component = {About} />
-          <Route path='/journal' component = {journal} exact={true} />
-          <Route path='/journal/:file' component = {PDFViewer} exact={true} />
-          <Route path='/editorialboard' component = {editorialboard} exact={true} />
-          <Route path='/Guideline' component = {Guideline} />
-          <Route path='/Index' component = { Index }  exact={true} />
-          <Route path='/submission' component = {submission} />
-          <Route path='/Authorization' component = {Authorization} />
-        </Switch>
-      
-      </BrowserRouter>
+          <PublicRoute  path='/' component = { Home } exact   />
+          <PublicRoute path='/About' component = {About} />
+          <PublicRoute path='/journal' component = {journal} exact={true} />
+          <PublicRoute path='/journal/:file' component = {PDFViewer} exact={true} />
+          <PublicRoute path='/editorialboard' component = {editorialboard} exact={true} />
+          <PublicRoute path='/Guideline' component = {Guideline} />
+          <PublicRoute path='/Index' component = { Index }  exact={true} />
+          <PublicRoute path='/submission' component = {submission} exact={true} />
+          <PublicRoute path='/Authorization' component = {Authorization} exact={true} />
+          <PublicRoute path="/admin-login" component={Login} exact={true} />
 
+          <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
+          
+        </Switch> 
+      </BrowserRouter>
 );
 export default AppRouter
