@@ -964,7 +964,78 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
                             
+                            <Col>
+                                <Link to='/journal/AmbitOfRight' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">31. Ambit Of Right of Private Defence Under Indian Penal Code
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Sandhya Prabhakaran
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5810466
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/AnalysisOfConsumerProtection' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">32. Analysis of Consumer Protection Act 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Harshika Kapoor
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5810464
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/PreventingDefection' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">33. Preventing Defection in India
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Kushagra Singh Kourav
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  http://www.doi.org/10.5281/zenodo.5810470
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+                             
                             </Row>
                         </div>
 

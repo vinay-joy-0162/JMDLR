@@ -79,6 +79,10 @@ import Genital from '../../pdfs/Genital Mutilation in Females Is It Legal - Mohd
 import Trip from '../../pdfs/An Analysis of The Trips Agreement and The Trips-Compliant Indian Patent Regime - Soumyadip Panda & Anshu Singh.pdf';
 // import under from '../../pdfs/Prisoner’s Amelioration Under the Anatomy of Constitution of India - Mehak Chadha.pdf';
 import PrisonerReforms from '../../pdfs/Prisons Reforms in India A Critical Study on The Inhumane Conditions Prevailing in Indian Prisons - Sangeetha Lakshmi V.pdf';
+import AmbitOfRight from '../../pdfs/Ambit Of Right of Private Defence Under Indian Penal Code- Sandhya Prabhakaran.pdf';
+import AnalysisOfConsumerProtection from '../../pdfs/Analysis of Consumer Protection Act - Harshika Kapoor.pdf';
+import PreventingDefection from '../../pdfs/Preventing Defection in India - Kushagra Singh Kourav.pdf';
+
 
 import Sexual from '../../pdfs/Sexual Harassment at Workplace - Sheikh Aman Rana.pdf';
 import Downfall from '../../pdfs/Downfall Of Investigative Journalism Need for Implementation Of New Protective Legislation or Neutralising The Misuse Of The Present Ones - Ayushi Vyas & Divya Saxena.pdf';
@@ -1191,6 +1195,48 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+                                                                                                                        
+                                                                                                                        this.state.file === 'AmbitOfRight'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={AmbitOfRight}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'AnalysisOfConsumerProtection'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={AnalysisOfConsumerProtection}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'PreventingDefection'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={PreventingDefection}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
