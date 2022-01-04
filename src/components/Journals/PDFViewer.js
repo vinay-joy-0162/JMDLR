@@ -87,6 +87,8 @@ import PreventingDefection from '../../pdfs/Preventing Defection in India - Kush
 import Sexual from '../../pdfs/Sexual Harassment at Workplace - Sheikh Aman Rana.pdf';
 import Downfall from '../../pdfs/Downfall Of Investigative Journalism Need for Implementation Of New Protective Legislation or Neutralising The Misuse Of The Present Ones - Ayushi Vyas & Divya Saxena.pdf';
 import take from '../../pdfs/Right To Take Cognizance by Institutions Legal Discourse - Vaibhav Kartikeya Agrawal.pdf';
+import An from '../../pdfs/An Analysis of The Constitutionality of Law of Sedition - A. Siva Sangari & R. Jeeva Dharshini.pdf';
+import Exclusive from '../../pdfs/Exclusive Rights of Cinematography Owners in Film Industry - Lavanya Pandiyan.pdf';
 
 
 
@@ -1228,6 +1230,41 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={PreventingDefection}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+
+                                                                                                                        this.state.file === 'Exclusive'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Exclusive}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'An'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={An}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

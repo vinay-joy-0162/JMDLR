@@ -1035,6 +1035,78 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/An' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">34.An Analysis of The Constitutionality of Law of Sedition 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - A. Siva Sangari & R. Jeeva Dharshini
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5818337
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Exclusive' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">35. Exclusive Rights of Cinematography Owners in Film Industry 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author - Lavanya Pandiyan
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5818341
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                              
                             </Row>
                         </div>
