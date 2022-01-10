@@ -89,6 +89,12 @@ import Downfall from '../../pdfs/Downfall Of Investigative Journalism Need for I
 import take from '../../pdfs/Right To Take Cognizance by Institutions Legal Discourse - Vaibhav Kartikeya Agrawal.pdf';
 import An from '../../pdfs/An Analysis of The Constitutionality of Law of Sedition - A. Siva Sangari & R. Jeeva Dharshini.pdf';
 import Exclusive from '../../pdfs/Exclusive Rights of Cinematography Owners in Film Industry - Lavanya Pandiyan.pdf';
+import Detailed from '../../pdfs/Right Against Self-Incrimination An Analysis & Detailed Study of Laws Prevailing in India - Subhajit Samanta & Somasree Bakshi.pdf';
+import Adoption from '../../pdfs/Adoption Provisions and Maintenance Under Hindu Law - Ashish Srivastava.pdf';
+import Power from '../../pdfs/Governor’s Discretionary Powers in Case of Hung Assembly - Aishwarya Agarwal.pdf';
+import Global from '../../pdfs/Global Minimum Corporate Tax A Blow to Tax Competition & Its Implications on The Indian Sovereign - Latika Arora.pdf';
+
+
 
 
 
@@ -1276,6 +1282,80 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
+
+
+                                                                                                                        this.state.file === 'Detailed'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Detailed}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Adoption'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Adoption}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Power'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Power}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                        this.state.file === 'Global'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Global}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

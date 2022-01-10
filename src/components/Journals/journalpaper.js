@@ -68,6 +68,134 @@ export class journal extends React.Component {
 
 
 
+
+                    <center><h3 className="mt-5">Volume 2 - Issue 1 (Part B)</h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
+                        <Row>
+                            
+
+
+
+                        <Col>
+                                <Link to='/journal/Detailed' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">1.Right Against Self-Incrimination: An Analysis & Detailed Study of Laws Prevailing in India   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Subhajit Samanta & Somasree Bakshi</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.5828344
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+                            
+                        <Col>
+                                <Link to='/journal/Adoption' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">2.Adoption Provisions and Maintenance Under Hindu Law  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Ashish Srivastava  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5831022
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+           
+       
+
+
+                            
+                        <Col>
+                                <Link to='/journal/Power' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">3.Governor’s Discretionary Powers in Case of Hung Assembly </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Aishwarya Agarwal </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.5831018
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Global' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">4.Global Minimum Corporate Tax A Blow to Tax Competition & Its Implications on The Indian Sovereign  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Latika Arora </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.5834521
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            </Row>
+                            </div>
+
+
                     <center><h3 className="mt-5">Volume 2 - Issue 1 </h3></center>
                     <br></br>
                     <br></br>
@@ -1110,6 +1238,7 @@ export class journal extends React.Component {
                              
                             </Row>
                         </div>
+
 
 
                     <center><h3 className="mt-5">Volume 1 - Issue 3 (Nov 2021 to Dec 2021)</h3></center>
