@@ -93,7 +93,8 @@ import Detailed from '../../pdfs/Right Against Self-Incrimination An Analysis & 
 import Adoption from '../../pdfs/Adoption Provisions and Maintenance Under Hindu Law - Ashish Srivastava.pdf';
 import Power from '../../pdfs/Governor’s Discretionary Powers in Case of Hung Assembly - Aishwarya Agarwal.pdf';
 import Global from '../../pdfs/Global Minimum Corporate Tax A Blow to Tax Competition & Its Implications on The Indian Sovereign - Latika Arora.pdf';
-
+import Dead from '../../pdfs/Dead Women Tell No Tale - Rajesh Kumar.pdf';
+import Making from '../../pdfs/The Discretion Available To Law-Makers In Respects Of Making Classification For The Purposes Of Taxation - Garima Bothra.pdf';
 
 
 
@@ -1359,6 +1360,38 @@ class PDFViewer extends React.Component {
 
 
 
+
+                                                                                                                        this.state.file === 'Dead'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Dead}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Making'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Making}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
                                                                                                                         
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?

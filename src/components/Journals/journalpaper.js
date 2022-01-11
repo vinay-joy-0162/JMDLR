@@ -192,6 +192,55 @@ export class journal extends React.Component {
                             </Col>
 
 
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Dead' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5.Dead Women Tell No Tale  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Rajesh Kumar </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5838398
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Making' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6.The Discretion Available to Law-Makers in Respects of Making Classification for The Purposes of Taxation  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Garima Bothra  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:  www.doi.org/10.5281/zenodo.5838405
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
                             </Row>
                             </div>
 
