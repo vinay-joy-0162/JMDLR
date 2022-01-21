@@ -107,6 +107,10 @@ import Equity from '../../pdfs/Dismissing Binaries Unlocking Indias Potential fo
 import Homo from '../../pdfs/Legality of Homosexual marriages in India - Mumal Kunwar Bhati & Nikunj Pandey.pdf';
 import Trade from '../../pdfs/Preferential Trade Agreements Benefits or Determinants - Khuloos Aziz Chawla.pdf';
 import Amazon from '../../pdfs/The Amazon Inferno Combating Deforestation Under International Law - Apurva Ambasth.pdf';
+import Problems from '../../pdfs/Deprivation Of Right to Life by Medical Negligence – Problems and Solutions - Gururaj D. Devarhubli & Bushra Sarfaraj Patel.pdf';
+import Shadow from '../../pdfs/Domestic Violence Against Women in India A Shadow Pandemic – Ashwini.pdf';
+import Seeds from '../../pdfs/Patentability of Genetically Modified Seeds - Shristi Keshri.pdf';
+
 
 
 
@@ -1571,6 +1575,75 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+
+
+                                                                                                                        this.state.file === 'Problems'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Problems}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        
+
+
+                                                                                                                        this.state.file === 'Shadow'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Shadow}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        
+
+
+                                                                                                                        this.state.file === 'Seeds'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Seeds}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
 
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?

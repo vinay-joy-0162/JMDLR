@@ -501,14 +501,14 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">15.Dismissing Binaries Unlocking Indias Potential for Equity and Inclusivity via Legislative Reform focused on Linguistics </Card.Title>
+                                            <Card.Title className="journytitles">15.Dismissing Binaries: Unlocking India’s Potential for Equity and Inclusivity via Legislative Reform focused on Linguistics  </Card.Title>
                                             <Card.Title>
                                                 
-                                               <Card.Title className = "journytitles"> Author   - Reonia Mathew </Card.Title>
+                                               <Card.Title className = "journytitles"> Author - Reonia Mathew</Card.Title>
                                             </Card.Title>
 
                                             <Card.Text  className="doi">
-                                            DOI: www.doi.org/10.5281/zenodo.5856432
+                                            DOI: www.doi.org/10.5281/zenodo.5884951
                                                 </Card.Text>                                            
                                            
                                         </Card.Body>
@@ -517,6 +517,16 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+
+
+
+
+
 
                             <Col>
                                 <Link to='/journal/Amazon' >
@@ -531,6 +541,91 @@ export class journal extends React.Component {
 
                                             <Card.Text  className="doi">
                                             DOI:  www.doi.org/10.5281/zenodo.5856438
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Problems' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">17.Deprivation Of Right to Life by Medical Negligence – Problems and Solutions </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Gururaj D. Devarhubli & Bushra Sarfaraj Patel</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5884937
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Shadow' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">18.Domestic Violence Against Women in India: A Shadow Pandemic  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author– Ashwini</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.58869747
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Seeds' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">19.Patentability of Genetically Modified Seeds </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Shristi Keshri </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5884937
                                                 </Card.Text>                                            
                                            
                                         </Card.Body>
