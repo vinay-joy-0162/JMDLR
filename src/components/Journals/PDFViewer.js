@@ -110,6 +110,8 @@ import Amazon from '../../pdfs/The Amazon Inferno Combating Deforestation Under 
 import Problems from '../../pdfs/Deprivation Of Right to Life by Medical Negligence – Problems and Solutions - Gururaj D. Devarhubli & Bushra Sarfaraj Patel.pdf';
 import Shadow from '../../pdfs/Domestic Violence Against Women in India A Shadow Pandemic – Ashwini.pdf';
 import Seeds from '../../pdfs/Patentability of Genetically Modified Seeds - Shristi Keshri.pdf';
+import Muslim from '../../pdfs/Comparative Study of Marriage in Muslim and Jewish Law - Maanvi Trivedi & Pranav.pdf';
+import Delays from '../../pdfs/Delays In Corporate Insolvency Resolution Process Has the IBC Met Its Purpose - Shivansh Mani Sharma.pdf';
 
 
 
@@ -1643,6 +1645,39 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+
+
+
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Muslim'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Muslim}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Delays'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Delays}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
                                                                                                                         // this.state.file === 'under'

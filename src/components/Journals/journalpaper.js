@@ -636,6 +636,67 @@ export class journal extends React.Component {
                             </Col>
 
 
+
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Muslim' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">20.Comparative Study of Marriage in Muslim and Jewish Law </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Maanvi Trivedi & Pranav </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5893467
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Delays' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">21.Delays In Corporate Insolvency Resolution Process: Has the IBC Met Its Purpose?</Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Shivansh Mani Sharma </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5893471
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
                             </Row>
                             </div>
 
