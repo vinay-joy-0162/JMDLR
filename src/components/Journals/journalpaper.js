@@ -695,7 +695,86 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                               
+  
+  
                             </Col>
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Develop' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">22.Legal System and Economic Development of India </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author   - Iqra Mir</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5894887
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Bed' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">23.Death-Bed Gift: Neither A Gift nor A Legacy </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author   - Anu Nivetha. S </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5894889
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Connection' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">24.Understanding The Connection Between Family Courts and Gender Bias  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Aditi Mishra </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.5903371
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
 
                             </Row>
                             </div>

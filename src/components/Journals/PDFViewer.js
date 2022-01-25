@@ -112,6 +112,11 @@ import Shadow from '../../pdfs/Domestic Violence Against Women in India A Shadow
 import Seeds from '../../pdfs/Patentability of Genetically Modified Seeds - Shristi Keshri.pdf';
 import Muslim from '../../pdfs/Comparative Study of Marriage in Muslim and Jewish Law - Maanvi Trivedi & Pranav.pdf';
 import Delays from '../../pdfs/Delays In Corporate Insolvency Resolution Process Has the IBC Met Its Purpose - Shivansh Mani Sharma.pdf';
+import Bed from '../../pdfs/Death-Bed Gift Neither A Gift nor A Legacy - Anu Nivetha. S.pdf';
+import Develop from '../../pdfs/Legal System and Economic Development of India - Iqra Mir.pdf';
+import Connection from '../../pdfs/Understanding The Connection Between Family Courts and Gender Bias - Aditi Mishra (1).pdf';
+
+
 
 
 
@@ -1678,6 +1683,64 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+
+
+
+                                                                                                                        this.state.file === 'Develop'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Develop}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'Bed'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Bed}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Connection'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Connection}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
 
 
                                                                                                                         // this.state.file === 'under'
