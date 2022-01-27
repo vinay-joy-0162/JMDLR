@@ -117,6 +117,14 @@ import Develop from '../../pdfs/Legal System and Economic Development of India -
 import Connection from '../../pdfs/Understanding The Connection Between Family Courts and Gender Bias - Aditi Mishra (1).pdf';
 
 
+import  Section from '../../pdfs/Analysis of Section 185 & 186 of the Companies Act, 2013 - Suveer Dubey.pdf';
+import  Nbfc from '../../pdfs/Evolution of Regulatory Framework of NBFCs - Kritika Mundra.pdf';
+import Forms from '../../pdfs/Patenting of Life Forms - Nandan Malhotra.pdf';
+import Lion from '../../pdfs/Whether The Existing Laws and Policies Are Sufficient for The Protection of Lion Tailed Monkeys – An Analysis – Adv. Chithranjali R Nair.pdf';
+import Firms from '../../pdfs/Idea – Expression Dichotomy A Comparative Study of Legal Application In UK, USA And India - Anannya Shree Adhikari.pdf';
+
+
+
 
 
 
@@ -1742,6 +1750,91 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
+
+
+
+
+                                                                                                                            
+                                                                                                                        this.state.file === 'Section'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Section}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                            
+                                                                                                                        this.state.file === 'Nbfc'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Nbfc}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                            
+                                                                                                                        this.state.file === 'Lion'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Lion}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                            
+                                                                                                                        this.state.file === 'Forms'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Forms}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                        
+                                                                                                                            
+                                                                                                                        this.state.file === 'Firms'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Firms}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?
