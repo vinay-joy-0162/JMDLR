@@ -908,6 +908,33 @@ export class journal extends React.Component {
                             </Col>
 
 
+
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Factory' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">30.Appreciable Adverse Effect on Competition Factors and Applicability </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Akhil Madan & Samyukta Rawat  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.5914625
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
                             </Row>
                             </div>
 
