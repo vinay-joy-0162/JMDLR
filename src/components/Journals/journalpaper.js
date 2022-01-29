@@ -935,6 +935,35 @@ export class journal extends React.Component {
                             </Col>
 
 
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Cybersec' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">31.‘Cyberwar’ – Obscure Domain of International Law  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Priyanka Vaidyanath </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.5915560
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
                             </Row>
                             </div>
 

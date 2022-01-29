@@ -123,6 +123,7 @@ import Forms from '../../pdfs/Patenting of Life Forms - Nandan Malhotra.pdf';
 import Lion from '../../pdfs/Whether The Existing Laws and Policies Are Sufficient for The Protection of Lion Tailed Monkeys – An Analysis – Adv. Chithranjali R Nair.pdf';
 import Firms from '../../pdfs/Idea – Expression Dichotomy A Comparative Study of Legal Application In UK, USA And India - Anannya Shree Adhikari.pdf';
 import Factory from '../../pdfs/Appreciable Adverse Effect on Competition Factors and Applicability - Akhil Madan & Samyukta Rawat.pdf';
+import Cybersec from '../../pdfs/‘Cyberwar’ – Obscure Domain of International Law - Priyanka Vaidyanath.pdf';
 
 
 
@@ -1848,6 +1849,24 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Factory}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                                
+                                                                                                                        this.state.file === 'Cybersec'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Cybersec}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
