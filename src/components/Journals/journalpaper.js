@@ -71,6 +71,10 @@ export class journal extends React.Component {
 
                     <center><h3 className="mt-5">Volume 2 - Issue 1 (Part B)</h3></center>
                     <br></br>
+                    <h3 className="about-para">Thank you to all who were nominated in the Research Paper. The Editorial Board after scrutinizing and careful consideration has declared 
+                        Mr. Neelargho Ray from Vivekanand Education Society's School of Law, as the winner of the Research Paper Competition for his paper titled "RIGHT TO LIFE AND PERSONAL LIBERTY: NAVTEJ SINGH JOHAR VS UNION OF INDIA" 
+                         </h3>
+                    <br></br>
                     <br></br>
                     <div className="forms-options">
                         <Row>
@@ -2007,6 +2011,32 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Union' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">36.Right To Life and Personal Liberty: Navtej Singh Johar Vs Union of India 
+                                            </Card.Title>
+
+                                            <Card.Title className="journytitles">
+                                                Author- Neelargho Ray
+                                            </Card.Title>
+
+                                          
+                                             <Card.Text  className="doi">
+                                                DOI -  www.doi.org/10.5281/zenodo.5921840
+                                                </Card.Text>   
+                                            
+    
+
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
+                            </Col>
                              
                             </Row>
                         </div>
@@ -2412,7 +2442,7 @@ export class journal extends React.Component {
 
 
                             
-
+{/* 
                             <Col>
                                 <Link to='/journal/Imprison' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
@@ -2435,7 +2465,7 @@ export class journal extends React.Component {
                                         </Card.Body>
                                     </Card>
                                 </Link>
-                            </Col>
+                            </Col> */}
 
 
 
@@ -2905,7 +2935,7 @@ export class journal extends React.Component {
                     <br></br>
                     <div className="forms-options">
                         <Row>
-                            <Col>
+                            {/* <Col>
                                 <Link to='/journal/constitutional' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
@@ -2921,13 +2951,13 @@ export class journal extends React.Component {
                                         </Card.Body>
                                     </Card>
                                 </Link>
-                            </Col>
+                            </Col> */}
                             <Col>
                                 <Link to='/journal/covid_impact' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">2.   Impact of COVID-19 & Lockdown on Mental Health of Adolescent and Adults
+                                            <Card.Title className="journytitles">1.   Impact of COVID-19 & Lockdown on Mental Health of Adolescent and Adults
                                             </Card.Title>
 
                                             <Card.Title>
@@ -2941,7 +2971,7 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
-                            <Col>
+                            {/* <Col>
                                 <Link to='/journal/law_of_tort' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
@@ -2959,7 +2989,7 @@ export class journal extends React.Component {
                                         </Card.Body>
                                     </Card>
                                 </Link>
-                            </Col>
+                            </Col> */}
                         </Row>
 
                         <Row>
@@ -2967,7 +2997,7 @@ export class journal extends React.Component {
                                 <Link to='/journal/legal' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
-                                            <Card.Title className="journytitles">4. Legality and Legal Rights of Manual Sewage Workers 
+                                            <Card.Title className="journytitles">2. Legality and Legal Rights of Manual Sewage Workers 
                                             </Card.Title>
                                             
                                             <Card.Title>
@@ -2986,7 +3016,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">5. Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS </Card.Title>
+                                            <Card.Title className="journytitles">3. Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS </Card.Title>
 
                                             <Card.Title>
                                                 Author - Shivraj Singh
@@ -3003,7 +3033,7 @@ export class journal extends React.Component {
                                 <Link to='/journal/legal_policy_gap' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
-                                            <Card.Title className="journytitles">6. Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC)  </Card.Title>
+                                            <Card.Title className="journytitles">4. Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC)  </Card.Title>
 
                                             <Card.Title>
                                                 Author - Vinayak Garje
@@ -3025,7 +3055,7 @@ export class journal extends React.Component {
                                 <Link to='/journal/social_exclusion' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
                                         <Card.Body>
-                                            <Card.Title className="journytitles">7. Social Exclusion - Societal Attitudes Towards Differently Abled People  </Card.Title>
+                                            <Card.Title className="journytitles">5  . Social Exclusion - Societal Attitudes Towards Differently Abled People  </Card.Title>
                                             <Card.Title>
                                                 Author -  Arafat Khan
                                             </Card.Title>

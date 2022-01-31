@@ -3,9 +3,10 @@ import React from 'react';
 // import axios from 'axios';
 
 // import all required pdfs
-import constitutional from '../../pdfs/Constitutional Right to Life And Personal Liberty - Navtej Singh Johar vs Union of India.pdf';
+// 
+
 import covid_impact from '../../pdfs/Impact of Covid-19 & Lockdown on Mental Health of Adolescents and Adults.pdf';
-import law_of_tort from '../../pdfs/Law of Tort on Negligence - An Indian Legal Perspective.pdf';
+
 import legal from '../../pdfs/Legality and Legal Rights of Manual Sewage Workers.pdf';
 import legal_maxim from '../../pdfs/Legal Maxim - SIC UTERE TUO UT ALIENUM NON LAEDAS.pdf';
 import legal_policy_gap from '../../pdfs/Legal Policy Gaps in Export Credit Guarantee Corporation of India (ECGC).pdf';
@@ -43,7 +44,7 @@ import Tenebrosity from '../../pdfs/Tenebrosity of the Divide – Assessing the 
 import Cyber from '../../pdfs/Level Of Cyber Crimes During Covid-19 Pandemic - Lavanya Pandiyan.pdf';
 import Human from '../../pdfs/Human Rights Violations In China - Yashasvi Bhede.pdf';
 import Analysis from '../../pdfs/Analysis of Doctrine of Benefit of Doubt Apropos to Criminal Philosophy -Soumya Sakshi Mishra.pdf';
-import Imprison from '../../pdfs/Imprisonment and Recidivism-converted.pdf';
+// import Imprison from '../../pdfs/Imprisonment and Recidivism-converted.pdf';
 import Women from '../../pdfs/Global Crisis [COVID-19] and its Impact - Kavyasri. S.J.pdf';
 import Crime from '../../pdfs/The Horrendous Crime of Acid Violence With Special Reference To Laxmi V. UOI - Anubhuti Sharma & Arsheya Chaudhry.pdf';
 
@@ -124,6 +125,7 @@ import Lion from '../../pdfs/Whether The Existing Laws and Policies Are Sufficie
 import Firms from '../../pdfs/Idea – Expression Dichotomy A Comparative Study of Legal Application In UK, USA And India - Anannya Shree Adhikari.pdf';
 import Factory from '../../pdfs/Appreciable Adverse Effect on Competition Factors and Applicability - Akhil Madan & Samyukta Rawat.pdf';
 import Cybersec from '../../pdfs/‘Cyberwar’ – Obscure Domain of International Law - Priyanka Vaidyanath.pdf';
+import Union from '../../pdfs/Right To Life and Personal Liberty Navtej Singh Johar Vs Union of India - Neelargho Ray.pdf';
 
 
 
@@ -368,19 +370,19 @@ class PDFViewer extends React.Component {
 
 
 
-                                                                        this.state.file === 'constitutional'
-                                                                            ?
-                                                                            <iframe
-                                                                                src={constitutional}
-                                                                                style={{ height: '100vh' }}
-                                                                                height="100%"
-                                                                                width="100%"
-                                                                                title='x1'
-                                                                                frameBorder="0"
-                                                                                marginHeight="0"
-                                                                                marginWidth="0"
-                                                                            />
-                                                                            :
+                                                                        // this.state.file === 'constitutional'
+                                                                        //     ?
+                                                                        //     <iframe
+                                                                        //         src={constitutional}
+                                                                        //         style={{ height: '100vh' }}
+                                                                        //         height="100%"
+                                                                        //         width="100%"
+                                                                        //         title='x1'
+                                                                        //         frameBorder="0"
+                                                                        //         marginHeight="0"
+                                                                        //         marginWidth="0"
+                                                                        //     />
+                                                                        //     :
 
                                                                             this.state.file === 'covid_impact'
                                                                                 ?
@@ -395,19 +397,19 @@ class PDFViewer extends React.Component {
                                                                                     marginWidth="0"
                                                                                 />
                                                                                 :
-                                                                                this.state.file === 'law_of_tort'
-                                                                                    ?
-                                                                                    <iframe
-                                                                                        src={law_of_tort}
-                                                                                        style={{ height: '100vh' }}
-                                                                                        height="100%"
-                                                                                        width="100%"
-                                                                                        title='x1'
-                                                                                        frameBorder="0"
-                                                                                        marginHeight="0"
-                                                                                        marginWidth="0"
-                                                                                    />
-                                                                                    :
+                                                                                // this.state.file === 'law_of_tort'
+                                                                                //     ?
+                                                                                //     <iframe
+                                                                                //         src={law_of_tort}
+                                                                                //         style={{ height: '100vh' }}
+                                                                                //         height="100%"
+                                                                                //         width="100%"
+                                                                                //         title='x1'
+                                                                                //         frameBorder="0"
+                                                                                //         marginHeight="0"
+                                                                                //         marginWidth="0"
+                                                                                //     />
+                                                                                //     :
                                                                                     this.state.file === 'legal'
                                                                                         ?
                                                                                         <iframe
@@ -689,19 +691,19 @@ class PDFViewer extends React.Component {
 
 
                                                                                                                         
-                                                                                                                        this.state.file === 'Imprison'
-                                                                                                                        ?
-                                                                                                                        <iframe
-                                                                                                                            src={Imprison}
-                                                                                                                            style={{ height: '100vh' }}
-                                                                                                                            height="100%"
-                                                                                                                            width="100%"
-                                                                                                                            title='x1'
-                                                                                                                            frameBorder="0"
-                                                                                                                            marginHeight="0"
-                                                                                                                            marginWidth="0"
-                                                                                                                        />
-                                                                                                                        :
+                                                                                                                        // this.state.file === 'Imprison'
+                                                                                                                        // ?
+                                                                                                                        // <iframe
+                                                                                                                        //     src={Imprison}
+                                                                                                                        //     style={{ height: '100vh' }}
+                                                                                                                        //     height="100%"
+                                                                                                                        //     width="100%"
+                                                                                                                        //     title='x1'
+                                                                                                                        //     frameBorder="0"
+                                                                                                                        //     marginHeight="0"
+                                                                                                                        //     marginWidth="0"
+                                                                                                                        // />
+                                                                                                                        // :
 
 
 
@@ -1867,6 +1869,24 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Cybersec}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                                   
+                                                                                                                        this.state.file === 'Union'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Union}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

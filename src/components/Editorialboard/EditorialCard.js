@@ -75,7 +75,7 @@ const Editorialcarddetails = () => (
       </Card>
     </div>
 
-
+{/* 
     <div>
       <Card className="Ebcard">
 
@@ -85,7 +85,7 @@ const Editorialcarddetails = () => (
           <Card.Title className="cardtitless">
              EDITORIAL BOARD MEMBER
 
-          </Card.Title>
+          </Card.Title> */}
 
           {/* <Card.Title className="cardtitles">DR. SAURABH CHATURVEDI (PH.D. (LAW) LL.M, LL. B)
 
@@ -117,10 +117,10 @@ const Editorialcarddetails = () => (
             <br></br>
             <b>Address</b> – Plot No. 2, Pethapada, Next to Ramsheth Thakur College, Sector 33, Kharghar, Navi Mumbai, Maharashtra 410210
           </Card.Text> */}
-
+{/* 
         </Card.Body>
       </Card>
-    </div>
+    </div> */}
 
 
 
@@ -233,7 +233,7 @@ const Editorialcarddetails = () => (
 
 
 
-     <div>
+     {/* <div>
       <Card className="Ebcard">
 
         <Card.Body>
@@ -243,7 +243,7 @@ const Editorialcarddetails = () => (
           <Card.Title className="cardtitless">
              EDITOR IN CHIEF
 
-          </Card.Title>
+          </Card.Title> */}
 
           {/* <Card.Title className="cardtitles">ADVOCATE ANIRUDHA JOSHI (LL.M, LL. B, B.B.A)
             EDITORIAL BOARD MEMBER
@@ -277,10 +277,10 @@ const Editorialcarddetails = () => (
 
           </Card.Text> */}
 
-        </Card.Body>
+        {/* </Card.Body>
       </Card>
     </div> 
-
+ */}
 
 
 
