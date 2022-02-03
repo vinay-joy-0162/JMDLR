@@ -132,6 +132,7 @@ import Justices from '../../pdfs/Juvenile Courts and Juvenile Justice The Simila
 import Teacher from '../../pdfs/Reflection of teaching of Geeta in Indian Constitution..pdf';
 import Eccode from '../../pdfs/Ecocide - Anavi Nagpal.pdf';
 import Taxes from '../../pdfs/Reforms in Direct Taxes through Union Budgets- Vedika Gagrani.pdf';
+import Porn from '../../pdfs/The Big Picture of Child Pornography - Sanya Shah.pdf';
 
 
 
@@ -1997,6 +1998,31 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        this.state.file === 'Porn'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Porn}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
 
 
 
