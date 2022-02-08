@@ -69,6 +69,105 @@ export class journal extends React.Component {
 
 
 
+
+
+
+
+
+
+                    <center><h3 className="mt-5"> Volume 2 - Issue 2 </h3></center>
+                    <br></br>
+                    <br></br>
+                    <div className="forms-options">
+                        <Row>
+                        <Col>
+                                <Link to='/journal/Federation' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">38.Case Comment: Federation of Obstetrics and Gynaecological Societies of India (FOGSI) V. Union of India and Ors.   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Gayathri Jiji  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6011662
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Clemency' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">39.Clemency Power of Executives- A Critical Analysis  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Mannu Jaiswal </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6011645
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Inter' >
+                                    <Card className="C_D card card-1" style={{ width: '42rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">40.Inter-Relationship Between Business, Human Rights and Sustainable Development Goals in The Light of United Nations Guiding Principles- A Critical Analysis   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Amrita Malik & Dr. Rashmi K.S   </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI:www.doi.org/10.5281/zenodo.6011569
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Sword' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">41.JOHN DOE: Shield became Sword  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Kaishena Chauhan  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6011624
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            </Row>
+                            </div>
+
+
                     <center><h3 className="mt-5">Volume 2 - Issue 1 (Part B)</h3></center>
                     <br></br>
                     <h3 className="about-para">Thank you to all who were nominated in the Research Paper. The Editorial Board after scrutinizing and careful consideration has declared 
@@ -1140,6 +1239,12 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+                            
 
 
                             </Row>
