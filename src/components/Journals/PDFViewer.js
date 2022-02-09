@@ -139,7 +139,8 @@ import Clemency from '../../pdfs/Clemency Power of Executives- A Critical Analys
 import Inter from '../../pdfs/Inter-Relationship Between Business, Human Rights and Sustainable Development Goals in The Light of United Nations Guiding Principles - A Critical Analysis - Amrita Malik & Dr. Rashmi K.S.pdf'
 import Sword from '../../pdfs/JOHN DOE Shield became Sword - Kaishena Chauhan.pdf'
 
-
+import Retail from '../../pdfs/Augmented Reality and Its Impact on The Retail Industry - Disha Jain.pdf';
+import State from '../../pdfs/Right To Expropriate by A Sovereign State A Jurisprudential Analysis - Shruti Srivastava.pdf';
 
 
 
@@ -2094,6 +2095,36 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Retail'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Retail}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'State'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={State}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
                                                                                                                         // this.state.file === 'under'

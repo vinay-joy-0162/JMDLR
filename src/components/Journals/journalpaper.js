@@ -85,7 +85,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">38.Case Comment: Federation of Obstetrics and Gynaecological Societies of India (FOGSI) V. Union of India and Ors.   </Card.Title>
+                                            <Card.Title className="journytitles">1.Case Comment: Federation of Obstetrics and Gynaecological Societies of India (FOGSI) V. Union of India and Ors.   </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author - Gayathri Jiji  </Card.Title>
@@ -106,7 +106,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">39.Clemency Power of Executives- A Critical Analysis  </Card.Title>
+                                            <Card.Title className="journytitles">2.Clemency Power of Executives- A Critical Analysis  </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author - Mannu Jaiswal </Card.Title>
@@ -127,7 +127,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '42rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">40.Inter-Relationship Between Business, Human Rights and Sustainable Development Goals in The Light of United Nations Guiding Principles- A Critical Analysis   </Card.Title>
+                                            <Card.Title className="journytitles">3.Inter-Relationship Between Business, Human Rights and Sustainable Development Goals in The Light of United Nations Guiding Principles- A Critical Analysis   </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author - Amrita Malik & Dr. Rashmi K.S   </Card.Title>
@@ -148,7 +148,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">41.JOHN DOE: Shield became Sword  </Card.Title>
+                                            <Card.Title className="journytitles">4.JOHN DOE: Shield became Sword  </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author - Kaishena Chauhan  </Card.Title>
@@ -156,6 +156,53 @@ export class journal extends React.Component {
 
                                             <Card.Text  className="doi">
                                             DOI: www.doi.org/10.5281/zenodo.6011624
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Retail' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5.Augmented Reality and Its Impact on The Retail Industry  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Disha Jain   </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6026004
+                                                </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            <Col>
+                                <Link to='/journal/State' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6.Right To Expropriate by A Sovereign State: A Jurisprudential Analysis  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Shruti Srivastava  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6025993
                                                 </Card.Text>                                            
                                            
                                         </Card.Body>
