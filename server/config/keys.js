@@ -1,5 +1,5 @@
 module.exports = {
-    mongoURI : "mongodb+srv://intmain:intmain@11@cluster0.tff5j.mongodb.net/Cluster0?retryWrites=true&w=majority",
+    mongoURI : "mongodb+srv://root:root@123@cluster0.tid6b.mongodb.net/JournifyDatabase?retryWrites=true&w=majority",
     secretOrKey : "secret",
     JWT_ACC_ACTIVATE : "secret",
     CLIENT_URL: "http://localhost:3000",
