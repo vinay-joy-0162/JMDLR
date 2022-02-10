@@ -80,7 +80,7 @@ export class journal extends React.Component {
                     <br></br>
                     <div className="forms-options">
                         <Row>
-                        <Col>
+                            <Col>
                                 <Link to='/journal/Federation' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
@@ -98,8 +98,7 @@ export class journal extends React.Component {
                                         </Card.Body>
                                       
                                     </Card>
-                                </Link>
-                              
+                                </Link>  
                             </Col>
                             <Col>
                                 <Link to='/journal/Clemency' >
@@ -236,6 +235,51 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/Juvenile' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">8.Impact of Juvenile Delinquency in India </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Dr. Vijay Kumar Vimal  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI:www.doi.org/10.5281/zenodo.6037403
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Conversion' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">9.Conversion of Traditional Knowledge to Intellectual Property: An Analysis of The Use Of Biotechnological Resources of India   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Abhishek Sarma  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI:http://www.doi.org/10.5281/zenodo.6032532
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
                             </Row>
                             </div>
 
