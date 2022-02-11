@@ -80,7 +80,7 @@ export class journal extends React.Component {
                     <br></br>
                     <div className="forms-options">
                         <Row>
-                        <Col>
+                            <Col>
                                 <Link to='/journal/Federation' >
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
@@ -98,8 +98,7 @@ export class journal extends React.Component {
                                         </Card.Body>
                                       
                                     </Card>
-                                </Link>
-                              
+                                </Link>  
                             </Col>
                             <Col>
                                 <Link to='/journal/Clemency' >
@@ -236,6 +235,99 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/Juvenile' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">8.Impact of Juvenile Delinquency in India </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Dr. Vijay Kumar Vimal  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI:www.doi.org/10.5281/zenodo.6037403
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Conversion' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">9.Conversion of Traditional Knowledge to Intellectual Property: An Analysis of The Use Of Biotechnological Resources of India   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Abhishek Sarma  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI: www.doi.org/10.5281/zenodo.6047575
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Provision' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">10.Constitutional Provisions for The Protection of Environment in India   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Dr. Smita Satapathy  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI: www.doi.org/10.5281/zenodo.6047605
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Maternity' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">11.The Study of Globalization and Its Impact on The Evolution of Maternity Act  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Priya Das </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI:www.doi.org/10.5281/zenodo.6047591
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
                             </Row>
                             </div>
 
