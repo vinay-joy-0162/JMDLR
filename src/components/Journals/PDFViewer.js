@@ -143,6 +143,10 @@ import Retail from '../../pdfs/Augmented Reality and Its Impact on The Retail In
 import State from '../../pdfs/Right To Expropriate by A Sovereign State A Jurisprudential Analysis - Shruti Srivastava.pdf';
 import Visa from '../../pdfs/UCC vis-a-vis Indian Pluralism - Jyotsana Singh.pdf';
 
+import Provision from '../../pdfs/Constitutional Provisions for The Protection of Environment in India - Dr. Smita Satapathy.pdf';
+// import Tradition from '../../pdfs/Conversion of Traditional Knowledge to Intellectual Property An Analysis of The Use of Biotechnological Resources of India - Abhishek Sarma.pdf';
+import Impact from '../../pdfs/The Study of Globalization and Its Impact on The Evolution of Maternity Act - Priya Das.pdf';
+
 
 
 
