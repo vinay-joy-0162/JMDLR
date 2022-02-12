@@ -146,7 +146,7 @@ import Conversion from '../../pdfs/Conversion of Traditional Knowledge to Intell
 import Juvenile from '../../pdfs/Impact of Juvenile Delinquency in India - Dr. Vijay Kumar Vimal.pdf';
 import provision from '../../pdfs/Constitutional Provisions for The Protection of Environment in India - Dr. Smita Satapathy.pdf';
 import Maternity from '../../pdfs/The Study of Globalization and Its Impact on The Evolution of Maternity Act - Priya Das.pdf'; 
-
+import Derivative from '../../pdfs/Derivative Action, Class Action and Representative Suits - Priyanka Sonowal.pdf';
 
 
 
@@ -2185,6 +2185,23 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Maternity}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                        this.state.file === 'Derivative'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Derivative}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
