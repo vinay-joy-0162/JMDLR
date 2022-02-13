@@ -352,6 +352,31 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Due' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">13.Human Rights Due Diligence as A Tool to Prevent Business Human Rights Abuses - A Critical Analysis  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Amrita Malik & Dr. Rashmi K </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6063894
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 

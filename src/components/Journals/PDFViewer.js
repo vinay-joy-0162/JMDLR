@@ -147,6 +147,7 @@ import Juvenile from '../../pdfs/Impact of Juvenile Delinquency in India - Dr. V
 import provision from '../../pdfs/Constitutional Provisions for The Protection of Environment in India - Dr. Smita Satapathy.pdf';
 import Maternity from '../../pdfs/The Study of Globalization and Its Impact on The Evolution of Maternity Act - Priya Das.pdf'; 
 import Derivative from '../../pdfs/Derivative Action, Class Action and Representative Suits - Priyanka Sonowal.pdf';
+import Due from '../../pdfs/Human Rights Due Diligence as A Tool to Prevent Business Human Rights Abuses - A Critical Analysis - Amrita Malik & Dr. Rashmi K.pdf';
 
 
 
@@ -2202,6 +2203,23 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Derivative}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                        this.state.file === 'Due'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Due}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
