@@ -377,6 +377,69 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+                            <Col>
+                                <Link to='/journal/Beneficiary' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">14.The Transformative Characteristics of Beneficiary State Confutations in Investor-State Arbitration with Particular Innuendo to The Indian Scenario  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Yash Patil </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6079679
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Fake' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">15.The Need to Regulate Fake News on Digital Platforms </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Shilpa Sanjeevan </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6079645
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Female' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">16.Challenges to Female Criminality  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Pratyay Amrit </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6079590
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
