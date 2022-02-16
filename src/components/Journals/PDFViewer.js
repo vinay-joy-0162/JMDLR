@@ -149,6 +149,9 @@ import Maternity from '../../pdfs/The Study of Globalization and Its Impact on T
 import Derivative from '../../pdfs/Derivative Action, Class Action and Representative Suits - Priyanka Sonowal.pdf';
 import Due from '../../pdfs/Human Rights Due Diligence as A Tool to Prevent Business Human Rights Abuses - A Critical Analysis - Amrita Malik & Dr. Rashmi K.pdf';
 
+import Female from '../../pdfs/Challenges to Female Criminality - Pratyay Amrit.pdf';
+import Fake from '../../pdfs/The Need to Regulate Fake News on Digital Platforms - Shilpa Sanjeevan.pdf';
+import Beneficiary from '../../pdfs/The Transformative Characteristics of Beneficiary State Confutations in Investor-State Arbitration with Particular Innuendo to The Indian Scenario - Yash Patil.pdf';
 
 import Bill from '../../pdfs/The Assisted Reproductive Technology (Regulation) Bill, 2020- A Critical Analysis - Ananya Singh.pdf';
 
@@ -2232,7 +2235,47 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+                                                                                                                        this.state.file === 'Beneficiary'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Beneficiary}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
+                                                                                                                        this.state.file === 'Fake'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Fake}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Female'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Female}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
