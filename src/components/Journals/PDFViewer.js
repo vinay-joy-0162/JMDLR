@@ -150,6 +150,8 @@ import Derivative from '../../pdfs/Derivative Action, Class Action and Represent
 import Due from '../../pdfs/Human Rights Due Diligence as A Tool to Prevent Business Human Rights Abuses - A Critical Analysis - Amrita Malik & Dr. Rashmi K.pdf';
 
 
+import Bill from '../../pdfs/The Assisted Reproductive Technology (Regulation) Bill, 2020- A Critical Analysis - Ananya Singh.pdf';
+
 
 // template
 // import pdfname from 'path';
@@ -2220,6 +2222,24 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Due}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+                                                                                                                        this.state.file === 'Bill'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Bill}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

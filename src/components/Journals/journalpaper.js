@@ -295,7 +295,7 @@ export class journal extends React.Component {
                                             </Card.Title>
 
                                             <Card.Text  className="doi">
-                                                DOI: www.doi.org/10.5281/zenodo.6047605
+                                                DOI: www.doi.org/10.5281/zenodo.6109361
                                             </Card.Text>                                            
                                            
                                         </Card.Body>
@@ -369,6 +369,30 @@ export class journal extends React.Component {
 
                                             <Card.Text  className="doi">
                                                 DOI : www.doi.org/10.5281/zenodo.6063894
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Bill' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">14.The Assisted Reproductive Technology (Regulation) Bill, 2020- A Critical Analysis  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author- Ananya Singh </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI :  www.doi.org/10.5281/zenodo.6109265
                                             </Card.Text>                                            
                                            
                                         </Card.Body>
