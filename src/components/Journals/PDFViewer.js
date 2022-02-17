@@ -154,7 +154,7 @@ import Fake from '../../pdfs/The Need to Regulate Fake News on Digital Platforms
 import Beneficiary from '../../pdfs/The Transformative Characteristics of Beneficiary State Confutations in Investor-State Arbitration with Particular Innuendo to The Indian Scenario - Yash Patil.pdf';
 
 import Bill from '../../pdfs/The Assisted Reproductive Technology (Regulation) Bill, 2020- A Critical Analysis - Ananya Singh.pdf';
-
+import Clause from '../../pdfs/Constitutionality of The Exclusionary Clause of Marital Rape in India - Aditi Singh.pdf';
 
 // template
 // import pdfname from 'path';
@@ -2283,6 +2283,23 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Bill}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                        this.state.file === 'Clause'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Clause}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

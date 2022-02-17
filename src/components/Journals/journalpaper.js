@@ -464,6 +464,30 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Clause' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">18.Constitutionality of The Exclusionary Clause of Marital Rape in India   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Aditi Singh </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6126343
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
