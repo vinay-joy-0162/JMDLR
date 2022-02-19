@@ -1,114 +1,86 @@
 const express = require('express');
 const router = express.Router();
 
+const Volume = require('../../models/Volume');
+const User = require('../../models/User');
+
 //post request for adding new volume
-router.post("/volume",(req, res) => {
+router.post("/",(req, res) => {
 
     // volume name
+    console.log("volume");
+    const username = req.body.username;
+    const volume = req.body.volume;
 
     User.findOne( {username : username})
     .then(user => {
         if(!user){
-            return res.json({ userNotFound : "User not register..."} );
+            return res.json({ userNotFound : "User not found..."} );
         }
 
-        //check password
-        //encrypt password
-        const hash = crypto.createHash('sha256').update(password).digest('base64');
-        if(hash === user.password){
+        // create a volume with a give volume name
+        let vol = new Volume({
+            volumeName : volume
+        });
 
-            //create jwt payload
-            const payload = {
-                username: user.username
-            };
-
-            //signIn token
-            jwt.sign(
-                payload,
-                keys.secretOrKey,
-                {
-                    expiresIn: 31556926
-                },
-                (err, token) => {
-                    res.json({
-                        success: true,
-                        token: "Bearer " + token
-                    });
-                }
-            );
-
-        } else {
-            return res.json( {passwordincorrect: "Incorrect Password " });
-        }
+        vol.save()
+        .then(() => {
+            return res.json({ success : 'volume added successfully' });
+        })
+        .catch(err => {
+            console.log(err);
+        });
       
     });
 });
 
-router.get('/profile' ,(req, res) => {
-    const username = req.username;
-    User.findOne({ username : username })
-        .then(user => {
-            const userDetails = {
-                email : user.email,
-                username : username
-            }
-            return res.json({ userDetails : userDetails });
-        })
-        .catch(err => {
-            return res.json({ userNotFound : 'Something went wrong... ' })
-    })
-});
+// post request for editing volume name
+router.post("/edit/",(req, res) => {
 
-router.post('/forgot-password', (req, res) => {
+    // volume name
+    console.log("edit volume");
     const username = req.body.username;
+    const volume = req.body.volume;
+    const updatedVolume = req.body.updatedVolume;
 
-    // send password reset link to user via mail with valid jwt token
-    User.findOne( {username} )
+    User.findOne( {username : username})
     .then(user => {
         if(!user){
-            return res.json({ emailNotFound : "Username Not Found.. !!!"} );
+            return res.json({ userNotFound : "User not found..."} );
         }
-        
-        //creating token
-        const token = jwt.sign({ username : username }, keys.JWT_ACC_ACTIVATE,  {expiresIn : '3600m'});
 
-        //sending reset password link
-        sendResetPasswordLinkEmail(email, token, res);
-   
-    })
-    .catch(err => {
-        console.log(err.message);
-    })
+        Volume.findOneAndUpdate({volumeName : volume}, {volumeName : updatedVolume})
+        .then(() => {
+            return res.json({ success : 'volume edited successfully' });
+        })
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+
+    });
 });
 
-//================
-//reset-password [GET]
-router.post('/reset-password/:id', (req, res) => {
-    const tokenId = req.params.id;
-    const password = req.body.password;
+// retrive all volume
+router.get("/" ,(req, res) => {
 
-    if(tokenId){
-        jwt.verify(tokenId, keys.JWT_ACC_ACTIVATE, (err, decodedToken) => {
-            if(err){
-                res.json({ error : 'Incorrect token or token expired...'})
-            }
-            const { email } = decodedToken;
+    const username = req.body.username;
+    User.findOne( {username : username})
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found..."} );
+        }
 
-            const hash = crypto.createHash('sha256').update(password).digest('base64');
-            User.updateOne({ email : email }, { password: hash }, {new: true})
-            .then(user => {
-                if(user){
-                    res.json({ success : true }); 
-                }else{
-                    res.json({ success : false });
-                }
-            })
-            .catch(err => {
-                res.json({ success : false });
-                console.log(err);
-            });
+        Volume.find({})
+        .then((result) => {
+            return res.json({ success : true, volumes : result });
+        })
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
         });
-    }
+
+    });
 });
 
 
