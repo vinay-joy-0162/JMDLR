@@ -514,6 +514,30 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Does' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">19.Does The Indian Constitution Require Transformation? </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Sarthak Chugh  </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6308938
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 

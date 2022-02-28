@@ -157,6 +157,8 @@ import Bill from '../../pdfs/The Assisted Reproductive Technology (Regulation) B
 import Clause from '../../pdfs/Constitutionality of The Exclusionary Clause of Marital Rape in India - Aditi Singh.pdf';
 import Dream from '../../pdfs/Driverless Cars  A Distant Dream - G. Srividhya Iyer.pdf';
 
+import Does from '../../pdfs/Does The Indian Constitution Require Transformation - Sarthak Chugh.pdf';
+
 // template
 // import pdfname from 'path';
 
@@ -2318,6 +2320,24 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Dream}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+                                                                                                                                  
+                                                                                                                        this.state.file === 'Does'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Does}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
