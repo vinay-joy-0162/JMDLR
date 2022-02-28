@@ -522,7 +522,7 @@ export class journal extends React.Component {
                                     <Card className="C_D card card-1" style={{ width: '35rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title className="journytitles">19.Does The Indian Constitution Require Transformation? </Card.Title>
+                                            <Card.Title className="journytitles">20.Does The Indian Constitution Require Transformation? </Card.Title>
                                             <Card.Title>
                                                 
                                                <Card.Title className = "journytitles"> Author - Sarthak Chugh  </Card.Title>
