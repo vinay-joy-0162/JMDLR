@@ -162,6 +162,8 @@ import Need from '../../pdfs/Need For Witness Protection Measure in India A Crit
 import Company from  '../../pdfs/‘Government Company’ – Is It ‘State’ For the Purpose of Constitutional Law - Srishti Jain.pdf'
 import Payment from '../../pdfs/Digital Payments and Competition Concerns - Gauri Sharma & Molshree Totla.pdf'
 
+import Need from  '../../pdfs/Need For Witness Protection Measure in India A Critical Analysis - Saharshrarchi Uma Pandey.pdf';
+
 // template
 // import pdfname from 'path';
 
