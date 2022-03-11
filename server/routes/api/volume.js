@@ -20,7 +20,8 @@ router.post("/",(req, res) => {
 
         // create a volume with a give volume name
         let vol = new Volume({
-            volumeName : volume
+            volumeName : volume,
+            issues : []
         });
 
         vol.save()
@@ -81,6 +82,79 @@ router.get("/" ,(req, res) => {
         });
 
     });
+});
+
+// delete volume
+
+// add issues in a given volume
+router.post('/:volume/issue', (req, res) => {
+
+    const username = req.body.username;
+    const volume = req.params.volume;
+    const issueName = req.body.issueName;
+    const issueDate = req.body.issueDate;
+    console.log(issueName + " " + issueDate);
+    User.findOne({ username : username })
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found...!" });
+        }
+
+        Volume.find({volumeName : volume})
+        .then((result) => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            }
+            console.log('result : ');
+            console.log(result);
+
+            
+
+            if(result[0].issues){
+                if(result[0].issues && (result[0].issues.length > 0)){
+                    result[0].issues.foreach(issue => {
+                        if(issue['issueName'] && issue['issueName'] === issueName) return res.json({ issueAlreadyPresent : 'Issue already present...!' });
+                    });
+                }
+
+                if(result[0].issues.length == 0){
+                    const issue = {
+                        'issueName' : issueName,
+                        'issueDate' : issueDate 
+                    }
+                    console.log(result[0].issues + ' ' + result[0].issues.length);
+                    result[0].issues = issue;
+                }else{
+                    const issue = {
+                        'issueName' : issueName,
+                        'issueDate' : issueDate 
+                    }
+                    console.log(result[0].issues);
+    
+                    result.issues.push(issue);
+                }
+                
+                
+    
+                Volume.findOneAndUpdate({volumeName : volume}, {issues : result.issues})
+                .then(() => {
+                    return res.json({ success : true, meesage : 'issue added successfully' });
+                })
+                .catch(err => {
+                    console.log(err);
+                    return {"error" : err};
+                });
+            }else{
+                return res.json({l : null});
+            }
+            
+        })  
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+    })
+
 });
 
 

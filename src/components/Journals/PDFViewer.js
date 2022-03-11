@@ -159,6 +159,8 @@ import Dream from '../../pdfs/Driverless Cars  A Distant Dream - G. Srividhya Iy
 
 import Does from '../../pdfs/Does The Indian Constitution Require Transformation - Sarthak Chugh.pdf';
 
+import Need from  '../../pdfs/Need For Witness Protection Measure in India A Critical Analysis - Saharshrarchi Uma Pandey.pdf';
+
 // template
 // import pdfname from 'path';
 
@@ -2338,6 +2340,20 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Does}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Need'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Need}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
