@@ -165,6 +165,7 @@ import BookReview from '../../pdfs/Book Review The Cases That India Forgot by Ch
 import Mirzapur from '../../pdfs/Mirzapur Moti Kureshi Case- A Landmark Judgement on The Question of Banning Cow Slaughter - Advocate Sohail Vij.pdf';
 import Process from '../../pdfs/Substantial Due Process and Procedural Due Process in Indian Legal System- Dimension of Judicial Review in India - Sakyasuddha Sarkar.pdf';
 
+import Womenlaw from '../../pdfs/Indigenous Women and the Law - Snehanshu Bhushan & Samiksha.pdf';
 
 // template
 // import pdfname from 'path';
@@ -2443,6 +2444,22 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+
+                                                                                                                        this.state.file === 'Womenlaw'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Womenlaw}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?
                                                                                                                         // <iframe
