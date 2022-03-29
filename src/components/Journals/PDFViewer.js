@@ -166,6 +166,8 @@ import Mirzapur from '../../pdfs/Mirzapur Moti Kureshi Case- A Landmark Judgemen
 import Process from '../../pdfs/Substantial Due Process and Procedural Due Process in Indian Legal System- Dimension of Judicial Review in India - Sakyasuddha Sarkar.pdf';
 
 import Womenlaw from '../../pdfs/Indigenous Women and the Law - Snehanshu Bhushan & Samiksha.pdf';
+import Abhishek from '../../pdfs/Constitutionalism And Constitutional Morality as a Check on Criminalisation - Abhishek Rao.pdf';
+
 
 // template
 // import pdfname from 'path';
@@ -2450,6 +2452,23 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Womenlaw}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Abhishek'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Abhishek}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

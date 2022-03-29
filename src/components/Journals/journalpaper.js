@@ -711,6 +711,29 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Abhishek' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">28.Constitutionalism And Constitutional Morality as a Check on Criminalisation   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Abhishek Rao</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI : www.doi.org/10.5281/zenodo.6394774
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
