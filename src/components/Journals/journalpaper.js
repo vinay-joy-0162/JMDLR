@@ -734,6 +734,31 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/UK' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">29.Study Of Origin and Development of Banking System in Canada and UK   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Komal Pandey </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi">
+                                                DOI :www.doi.org/10.5281/zenodo.6399139
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
