@@ -168,6 +168,7 @@ import Process from '../../pdfs/Substantial Due Process and Procedural Due Proce
 import Womenlaw from '../../pdfs/Indigenous Women and the Law - Snehanshu Bhushan & Samiksha.pdf';
 import Abhishek from '../../pdfs/Constitutionalism And Constitutional Morality as a Check on Criminalisation - Abhishek Rao.pdf';
 import UK from '../../pdfs/Study Of Origin and Development of Banking System In Canada And UK - Komal Pandey.pdf';
+import Freedom from '../../pdfs/Analysing The Status of Freedom of Speech Vis, A Vis New Ott Rules in India - Saundraya Giri.pdf';
 
 
 // template
@@ -2486,6 +2487,21 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={UK}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'Freedom'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Freedom}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
