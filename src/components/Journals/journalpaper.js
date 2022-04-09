@@ -782,6 +782,57 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Suits' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">31.Prohibiting Suits Under the Contract Act: Analyzing through Ratnesh Dev Sharma v. Cipla Limited through Managing Director [ AIR 2013 CHH 71] </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Kaustubh Shakkarwar</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6412384
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Society' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">32.Pluralistic Society </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Kajal Kumari</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6428163
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
