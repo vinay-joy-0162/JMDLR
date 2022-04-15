@@ -5,14 +5,16 @@ const VolumeSchema = new mongoose.Schema({
         type : String,
         required: true
     },
-    issues : {
-        type : Array,
-        required: false
-    },
+	issues : [
+		{
+			type : mongoose.Schema.Types.ObjectId,
+			ref : "Issue"
+		}
+	],
     date : {
         type: Date,
         default: Date.now                   
     }
 });
 
-module.exports = PDF = mongoose.model("volume", VolumeSchema);
+module.exports = mongoose.model("volume", VolumeSchema);
