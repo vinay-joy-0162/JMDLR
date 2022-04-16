@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const VolumeSchema = new mongoose.Schema({
     volumeName : {
         type : String,
+        unique: true,
         required: true
     },
 	issues : [
