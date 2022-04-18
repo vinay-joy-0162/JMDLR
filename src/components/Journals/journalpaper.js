@@ -899,6 +899,102 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+
+
+
+
+
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Devadasi' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">36.Devadasi System in India: Sacred Prostitution</Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Yazhini S</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6468195
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Freedomspeech' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">37.Freedom Of Speech and Expression Vis-À-Vis Defamation   </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Bushra Sarfaraj Patel </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6464229
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Reading' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">38.Reading Law: The Interpretation of Legal Texts </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Hari Haran P</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6467889
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+                            <Col>
+                                <Link to='/journal/Mob' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">39.Mob lynching & the Right to Life and Liberty – A Socio-Legal Analysis </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Gururaj D. Devarhubli & Bushra Sarfaraj Patel </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6464213
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
