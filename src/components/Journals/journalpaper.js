@@ -833,6 +833,72 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/Disaster' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">33.Disaster Management in India- Praxis or Merely a Speculation? </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Khushboo Abrol</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6466376
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Abolition' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">34.Abolition Of Polygamy in Hindu Law </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Saarthak Mongia & Palak Chhabra & Raneeta Pal</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6466374
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Autonomous' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">35.Autonomous Vehicles- From Science Fiction to Reality </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Aryan Yashraj </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6466372
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 

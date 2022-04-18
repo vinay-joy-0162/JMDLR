@@ -172,6 +172,9 @@ import Freedom from '../../pdfs/Analysing The Status of Freedom of Speech Vis, A
 import Suits from '../../pdfs/Prohibiting Suits Under the Contract Act Analyzing through Ratnesh Dev Sharma v. Cipla Limited through Managing Director - Kaustubh Shakkarwar.pdf';
 import Society from '../../pdfs/Pluralistic Society - Kajal Kumari.pdf';
 
+import Abolition from '../../pdfs/Abolition Of Polygamy in Hindu Law - Saarthak Mongia & Palak Chhabra & Raneeta Pal.pdf';
+import Autonomous from '../../pdfs/Autonomous Vehicles- From Science Fiction to Reality - Aryan Yashraj.pdf';
+import Disaster from '../../pdfs/Disaster Management in India- Praxis or Merely a Speculation - Khushboo Abrol.pdf';
 
 // template
 // import pdfname from 'path';
@@ -2538,6 +2541,48 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={Society}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Abolition'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Abolition}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Autonomous'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Autonomous}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Disaster'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Disaster}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"

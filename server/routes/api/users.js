@@ -6,7 +6,6 @@ const keys = require('../../config/keys');
 
 //User model
 const User = require('../../models/User');
-const Pdf = require('../../models/Pdf');
 
 //input validations
 const validateRegsiterInput = require('../../validation/reigster');
@@ -171,24 +170,5 @@ router.post('/reset-password/:id', (req, res) => {
     }
 });
 
-router.post('/pdf', (req, res) => {
-    const pdf = req.body.pdf;
 
-    if(pdf){
-        let pdfObj = new Pdf({
-            pdf : pdf, title : "testing"
-        });
-
-        pdfObj.save()
-        .then(() => {
-            res.json({ success : true, message : 'successfully saved' });
-        })
-        .catch(err => {
-            console.log(err);
-        });
-    } else {
-        res.json({ success : false, message : 'empty file' });
-    }
-
-});
 module.exports = router;
