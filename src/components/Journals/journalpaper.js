@@ -995,6 +995,27 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+                            <Col>
+                                <Link to='/journal/Construction' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">40. Rule of Reasonable Construction </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Sundar Kishore</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6480284
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
