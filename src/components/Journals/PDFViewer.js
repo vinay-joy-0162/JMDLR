@@ -179,6 +179,7 @@ import Devadasi from '../../pdfs/Devadasi System in India Sacred Prostitution - 
 import Freedomspeech from '../../pdfs/Freedom Of Speech and Expression Vis-À-Vis Defamation - Bushra Sarfaraj Patel.pdf';
 import Mob from '../../pdfs/Mob lynching & the Right to Life and Liberty – A Socio-Legal Analysis - Gururaj D. Devarhubli & Bushra Sarfaraj Patel.pdf';
 import Reading from '../../pdfs/Reading Law The Interpretation of Legal Texts - Hari Haran P.pdf';
+import Construction from '../../pdfs/Rule of Reasonable Construction - Sundar Kishore.pdf';
 
 
 // template
@@ -2659,6 +2660,19 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+                                                                                                                        this.state.file === 'Construction'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Construction}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
                                                                                                                      
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?
