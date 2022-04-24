@@ -12,9 +12,11 @@ import { BrowserRouter, Route, Switch }  from "react-router-dom";
 import PublicRoute from '../components/Admin/routes/PublicRoute';
 import PrivateRoute from '../components/Admin/routes/PrivateRoute';
 
+
 // admin
 import Login from '../components/Admin/auth/Login';
 import Archives from '../components/Admin/Archives';
+import Issue from '../components/Admin/Issue';
 
 const AppRouter = () => (
       <BrowserRouter>
@@ -32,6 +34,7 @@ const AppRouter = () => (
 
           <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
           
+          <PrivateRoute path="/admin/issue" component={Issue} exact={true} />
         </Switch> 
       </BrowserRouter>
 );
