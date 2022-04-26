@@ -180,6 +180,8 @@ import Freedomspeech from '../../pdfs/Freedom Of Speech and Expression Vis-À-Vi
 import Mob from '../../pdfs/Mob lynching & the Right to Life and Liberty – A Socio-Legal Analysis - Gururaj D. Devarhubli & Bushra Sarfaraj Patel.pdf';
 import Reading from '../../pdfs/Reading Law The Interpretation of Legal Texts - Hari Haran P.pdf';
 import Construction from '../../pdfs/Rule of Reasonable Construction - Sundar Kishore.pdf';
+import Socialtool from '../../pdfs/Corporate Social Responsibility A Tool for Sustainable Development - Adapa V SubbaRayudu.pdf';
+import Assets from '../../pdfs/Non-Performing Assets in India A Critical Analysis of Public and Private Sector Banks - Aakriti Singh & Amber Arora.pdf';
 
 
 // template
@@ -2673,6 +2675,36 @@ class PDFViewer extends React.Component {
                                                                                                                             marginWidth="0"
                                                                                                                         />
                                                                                                                         :
+
+                                                                                                                        this.state.file === 'Socialtool'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Socialtool}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'Assets'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Assets}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+                                                                                                                     
                                                                                                                      
                                                                                                                         // this.state.file === 'under'
                                                                                                                         // ?

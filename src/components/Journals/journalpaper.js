@@ -1016,6 +1016,52 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Socialtool' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">41.Corporate Social Responsibility: A Tool for Sustainable Development </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Adapa V SubbaRayudu</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6481323
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Assets' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">42.Non-Performing Assets in India: A Critical Analysis of Public and Private Sector Banks</Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Aakriti Singh & Amber Arora</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6493526
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
