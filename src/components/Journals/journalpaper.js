@@ -1062,6 +1062,52 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Datacollection' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">43.Data Collection Through Cookies: Competition at The Cost of an Individual’s Privacy </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Nandini Tripathy</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6502485
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Justice' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">44.Juvenile Justice and Media Perspective in India: -Analysis </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author  - Tuhina Sinha</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI : www.doi.org/10.5281/zenodo.6502479
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
