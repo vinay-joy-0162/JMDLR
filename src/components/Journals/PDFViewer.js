@@ -184,6 +184,10 @@ import Socialtool from '../../pdfs/Corporate Social Responsibility A Tool for Su
 import Assets from '../../pdfs/Non-Performing Assets in India A Critical Analysis of Public and Private Sector Banks - Aakriti Singh & Amber Arora.pdf';
 import Datacollection from '../../pdfs/Data Collection Through Cookies- Competition at The Cost of an Individual’s Privacy - Nandini Tripathy.pdf';
 import Justice from '../../pdfs/Juvenile Justice and Media Perspective in India- Analysis - Tuhina Sinha.pdf';
+import Parody from '../../pdfs/The Legality of Parody and Satire in India - Hithesh RS.pdf';
+
+import Accomadation from '../../pdfs/Right To Reasonable Accommodation to A Tenant Legal Discourse with Reference to Chhattisgarh Rent Control Act 2011 - Adv. Vaibahv Kartikeya Agrawal.pdf';
+
 
 
 // template
@@ -2734,6 +2738,21 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
                                                                                                                      
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Parody'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Parody}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
                                                                                                                      
                                                                                                                      
                                                                                                                         // this.state.file === 'under'
@@ -2749,6 +2768,21 @@ class PDFViewer extends React.Component {
                                                                                                                         //     marginWidth="0"
                                                                                                                         // />
                                                                                                                         // :
+
+
+                                                                                                                        this.state.file === 'Accomadation'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Accomadation}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

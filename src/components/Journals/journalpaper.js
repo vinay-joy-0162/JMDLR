@@ -1108,6 +1108,54 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Parody' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">45.The Legality of Parody and Satire in India  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Hithesh RS</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                                DOI :www.doi.org/10.5281/zenodo.6510046
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
+
+
+                            <Col>
+                                <Link to='/journal/Accomadation' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">46.Right To Reasonable Accommodation to A Tenant: Legal Discourse with Reference to Chhattisgarh Rent Control Act 2011 
+  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Adv. Vaibahv Kartikeya Agrawal</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                            DOI: www.doi.org/10.5281/zenodo.6596600
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
