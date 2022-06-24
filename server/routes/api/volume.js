@@ -291,4 +291,126 @@ router.get('/issue/pdf', (req, res) => {
     });
 });
 
+
+// fetch issues in a given volume
+router.get('/:volumeName', async (req, res) => {
+
+    // const username = req.body.username;
+    const volume = req.params.volumeName;
+    const username = "admin";
+
+    console.log(volume);
+    await User.findOne({ username : username })
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found...!" });
+        }
+        var resultArray = [];
+        Volume.findOne({volumeName : volume})
+        .then((result) => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            }
+            Volume.findById(result._id).populate("issues").exec(function(err, foundPdf){
+                if(err){
+                    console.log(err);
+                }else{
+                    console.log(foundPdf);
+                    resultArray.push(foundPdf);
+                    return res.json({foundPdf});
+                }
+            });
+        })
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+
+        // return res.json({ resultArray });
+    })
+
+});
+
+
+// fetch pdfs in a given issue and given volume
+router.post('/:volume/:issue', async (req, res) => {
+
+    const username = req.body.username;
+    const volume = req.params.volume;
+    const issueName = req.body.issueName;
+    const issueDate = req.body.issueDate;
+    
+    console.log(issueName + " " + issueDate);
+    await User.findOne({ username : username })
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found...!" });
+        }
+
+        Volume.findOne({volumeName : volume})
+        .then((result) => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            }
+            console.log('result : ');
+            console.log(result);
+            
+            // check whether issue name already exists
+            // if(result.issues && result.issues.length > 0){
+            //     result.issues.forEach(issue => {
+            //         Issue.findById(issue)
+            //         .then(response => {
+            //             if(response && response.issueName === issueName) {
+            //                 // console.log("present");
+            //                 // res.send("present");
+            //                 // return;
+            //                 // res.setHeader("test", 12);
+            //                 console.log('issue already present');
+            //                 return ;
+            //                 // return res.status(200).json( { issueAlreadyExists : "Issue Already exists...!" } );
+            //             }
+            //         })
+            //         .catch(err => {
+            //             console.log(err);
+            //         })
+            //     })
+            // }
+            
+
+            const issue = {
+                issueName : issueName,
+                issueDate : issueDate
+            }
+            Issue.create(issue, function(err, issueReturned){
+                if(err){
+					console.log(err);
+                    return res.json({"error" : "Something went Wrong!!!"});
+				}
+				else{
+					issueReturned.issueName = issueName;
+                    issueReturned.issueDate = issueDate;
+					issueReturned.save();
+                    console.log(result);
+					result.issues.push(issueReturned);
+                    
+					result.save()
+                    .then(() => {
+                        console.log("issue added ");
+                        return res.json({"success":"Successfully added issue..."});
+                    })
+                    .catch(err => {
+                        console.log(err);
+                    })
+					
+				}
+            });
+        })  
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+    })
+
+});
+
 module.exports = router;
