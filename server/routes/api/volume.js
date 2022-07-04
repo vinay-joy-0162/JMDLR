@@ -76,7 +76,7 @@ router.get("/" ,(req, res) => {
             return res.json({ userNotFound : "User not found..."} );
         }
 
-        Volume.find({})
+        Volume.find({}).populate("issues")
         .then((result) => {
             return res.json({ success : true, volumes : result });
         })
