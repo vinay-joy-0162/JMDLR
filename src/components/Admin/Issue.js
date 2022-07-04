@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import Card from 'react-bootstrap/Card';
 import { Row, Col, Button, Container } from 'react-bootstrap';
+import '../Styles/admin.css';
 
 class Issue extends React.Component{
     constructor() {
@@ -64,13 +65,15 @@ class Issue extends React.Component{
                                             <Card className="card-horizontal">
 
                                                 <Card.Body className="Cardbody">
-                                                    <Card.Title >{pdf.pdfName} </Card.Title>
+                                                    <Card.Title className='cardtitle_issue'>{pdf.pdfName} </Card.Title>
                                                     <Card.Title>
                                                         
                                                     <Card.Title > Author - {pdf.authorName}  </Card.Title>
                                                     </Card.Title>
-
+                                                 
                                                     <Card.Text  className="doi">
+                                                    <Button variant="primary" onClick={pdf.doi}>DOI</Button>{''}
+
                                                     DOI: {pdf.doi}
                                                         </Card.Text>                                            
                                                 
