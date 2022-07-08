@@ -8,7 +8,7 @@ import { Guideline } from "../components/Guidelines/GuideLines";
 import { Index } from "../components/Indexing/index";
 import { submission } from "../components/Submission/Submission";
 import { Authorization } from "../components/SignUp/Accountauthorization";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Switch } from "react-router-dom";
 import PublicRoute from "../components/Admin/routes/PublicRoute";
 import PrivateRoute from "../components/Admin/routes/PrivateRoute";
 
@@ -43,6 +43,10 @@ const AppRouter = () => (
       <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
 
       <PrivateRoute path="/admin/issue" component={Issue} exact={true} />
+
+      <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
+
+      <PublicRoute path="/admin/volume/issue" component={Issue} exact={true} />
     </Switch>
   </BrowserRouter>
 );

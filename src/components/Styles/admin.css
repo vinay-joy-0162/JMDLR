@@ -1,0 +1,26 @@
+.card-horizontal{
+
+    /* width:auto;
+    height: 70%; */
+ 
+    padding: 10%;
+ margin-top: 10%;
+
+
+}
+
+/* .Cardbody{
+    margin-top: 10%;
+    color: blue;
+    
+    padding: 20%;
+} */
+.doi{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cardtitle_issue{
+
+margin-top: -12%;
+}

@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+var mongoose = require('mongoose');
 
 const Volume = require('../../models/Volume');
 const Issue = require('../../models/Issue');
@@ -76,7 +77,7 @@ router.get("/" ,(req, res) => {
             return res.json({ userNotFound : "User not found..."} );
         }
 
-        Volume.find({})
+        Volume.find({}).populate("issues")
         .then((result) => {
             return res.json({ success : true, volumes : result });
         })
@@ -260,17 +261,61 @@ router.post("/:volume/:issue/delete/",(req, res) => {
     // });
 });
 
-// insert a pdf in a issue
+// insert a pdf in a specific issue
 router.post('/issue/pdf', (req, res) => {
-    const pdf = req.body.pdf;
-    if(pdf) {
-        let pdfObj = new Pdf({
-            pdf : pdf, title : "testing"
-        });
 
-        pdfObj.save()
-        .then(() => {
-            res.json({ success : true, message : 'successfully saved' });
+    const volumeName = req.body.volumeName;
+    const issueId = req.body.issueId;
+    let title = req.body.title;
+    let author = req.body.author;
+    let doi = req.body.doi;
+    let pdf = req.body.pdf;
+
+    if(pdf) {
+
+        Volume.findOne({ volumeName : volumeName })
+        .then(result => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            } 
+            Issue.findById(mongoose.Types.ObjectId(issueId))
+            .then(issueResult => {
+                if(!issueResult) {
+                    return res.json({ IssueNotFound : "No Issue found...!" });
+                }
+                console.log(issueResult);
+                
+                const pdfData = {
+                    pdf : pdf,
+                    title : title,
+                    author : author,
+                    doi : doi
+                }
+
+                PDF.create(pdfData, function(err, pdfReturned){
+                    if(err){
+                        console.log(err);
+                        return res.json({"error" : "Something went Wrong!!!"});
+                    }
+                    else{
+                        pdfReturned.pdf = pdfData.pdf;
+                        pdfReturned.title = pdfData.title;
+                        pdfReturned.save();
+                        console.log(pdfReturned + "test pdf returned ");
+                        console.log(issueResult);
+                        issueResult.pdfs.push(pdfReturned._id);
+                        
+                        issueResult.save()
+                        .then(() => {
+                            console.log("pdf added ");
+                            return res.json({"success":"Successfully added pdf..."});
+                        })
+                        .catch(err => {
+                            console.log(err);
+                        })
+                    }
+                });
+            }) 
         })
         .catch(err => {
             console.log(err);
@@ -280,11 +325,83 @@ router.post('/issue/pdf', (req, res) => {
     }
 });
 
+// fetch issues in a given volume
+router.get('/:volumeName', async (req, res) => {
+
+    // const username = req.body.username;
+    const volume = req.params.volumeName;
+    const username = "admin";
+
+    console.log(volume);
+    await User.findOne({ username : username })
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found...!" });
+        }
+        var resultArray = [];
+        Volume.findOne({volumeName : volume})
+        .then((result) => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            }
+            Volume.findById(result._id).populate("issues").exec(function(err, foundPdf){
+                if(err){
+                    console.log(err);
+                }else{
+                    console.log(foundPdf);
+                    resultArray.push(foundPdf);
+                    return res.json({foundPdf});
+                }
+            });
+        })
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+    })
+
+});
+
+
+// fetch pdfs in a given issue and given volume
+router.get('/:volume/:issueId', async (req, res) => {
+
+    const username = "admin";
+    const volume = req.params.volume;
+    const issueId = req.params.issueId;
+    
+    // console.log(issueName + " " + issueDate);
+    await User.findOne({ username : username })
+    .then(user => {
+        if(!user){
+            return res.json({ userNotFound : "User not found...!" });
+        }
+
+        Volume.findOne({volumeName : volume})
+        .then((result) => {
+            if(!result) {
+                return res.json({ volumeNotFound : "No Volume found...!" });
+            }
+            Issue.findById(mongoose.Types.ObjectId(issueId)).populate("pdfs")
+            .then(pdfResult => {
+                return res.json({ pdfResult : pdfResult });
+            })
+            .catch(err => {
+                console.log(err);
+            }); 
+        })  
+        .catch(err => {
+            console.log(err);
+            return {"error" : err};
+        });
+    })
+});
+
 // retrieve pdf
-router.get('/issue/pdf', (req, res) => {
-    Pdf.find()
-    .then(pdfs => {
-        return res.json({ success : true, pdf : pdfs[0] });
+router.get('/issue/pdf/:pdfId', (req, res) => {
+    Pdf.findById(mongoose.Types.ObjectId(req.params.pdfId))
+    .then(pdf => {
+        return res.json({ success : true, pdf : pdf });
     })
     .catch(err => {
         console.log(err);

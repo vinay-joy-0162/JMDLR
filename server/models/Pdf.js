@@ -5,6 +5,14 @@ const PDFSchema = new mongoose.Schema({
         type : String,
         required: true
     },
+    author : {
+        type: String,
+        required: true
+    },
+    doi : {
+        type: String,
+        required: true,
+    }, 
     pdf : {
         type: String,
         required: true
