@@ -13,8 +13,8 @@
 .home-issn{
     margin-top: 5rem;
     margin-left: 78%;
-
 }
+/* }
 .card-header{
     background-color: dimgray;
     color: floralwhite;
@@ -27,7 +27,7 @@
     font-family:'Times New Roman';
     font-size: large;
     margin-top: 2rem;
-}
+} */
 
 .licence-img{
     width: 15%;
@@ -45,12 +45,12 @@
     margin-top: 1rem;
 }
 @media all and (max-width: 600px){
-    .card-body{
+    /* .card-body{
         margin-bottom: 15%;
     }
     .card-text{
         margin-top: 2rem;
-    }
+    } */
 
 }
 @media all and (max-width : 470px){

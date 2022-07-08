@@ -21,7 +21,7 @@
     margin-top: 6%;
     
 }
-.card{
+/* .card{
     margin-top: 15%;
 }
 .card-header{
@@ -29,13 +29,13 @@
     color: floralwhite;
     text-align: center;
     font-size:x-large;
-}
+} */
 
 @media all and (max-width:470px){
 .about-para{
     margin-top: 9%;
 }
-.card{
+/* .card{
     margin-bottom: 18%;
-}
+} */
 }
