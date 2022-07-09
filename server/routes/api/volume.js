@@ -16,6 +16,7 @@ router.post("/",(req, res) => {
     console.log("volume");
     const username = req.body.username;
     const volume = req.body.volume;
+    const date = req.body.date;
 
     User.findOne( {username : username})
     .then(user => {
@@ -26,6 +27,7 @@ router.post("/",(req, res) => {
         // create a volume with a give volume name
         let vol = new Volume({
             volumeName : volume,
+            date : date,
             issues : []
         });
 
@@ -48,6 +50,7 @@ router.post("/edit/",(req, res) => {
     const username = req.body.username;
     const volume = req.body.volume;
     const updatedVolume = req.body.updatedVolume;
+    const updatedDate = req.body.updatedDate;
 
     User.findOne( {username : username})
     .then(user => {
@@ -55,7 +58,7 @@ router.post("/edit/",(req, res) => {
             return res.json({ userNotFound : "User not found..."} );
         }
 
-        Volume.findOneAndUpdate({volumeName : volume}, {volumeName : updatedVolume})
+        Volume.findOneAndUpdate({volumeName : volume}, { volumeName : updatedVolume, updatedDate : updatedDate })
         .then(() => {
             return res.json({ success : 'volume edited successfully' });
         })
