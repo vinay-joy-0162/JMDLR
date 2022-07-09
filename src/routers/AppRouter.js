@@ -15,7 +15,7 @@ import PrivateRoute from "../components/Admin/routes/PrivateRoute";
 // admin
 import Login from "../components/Admin/auth/Login";
 import Archives from "../components/Admin/Archives";
-import Issue from "../components/Admin/Issue";
+import Mainissue from "../components/Admin/Mainissue";
 import Volume from "../components/Admin/Volume";
 
 const AppRouter = () => (
@@ -42,11 +42,11 @@ const AppRouter = () => (
       <PrivateRoute path="/admin/volume" component={Volume} exact={true} />
       <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
 
-      <PrivateRoute path="/admin/issue" component={Issue} exact={true} />
+      <PrivateRoute path="/admin/Mainissue" component={Mainissue} exact={true} />
 
       <PrivateRoute path="/admin/archives" component={Archives} exact={true} />
 
-      <PublicRoute path="/admin/volume/issue" component={Issue} exact={true} />
+      <PublicRoute path="/admin/volume/Mainissue" component={Mainissue} exact={true} />
     </Switch>
   </BrowserRouter>
 );
