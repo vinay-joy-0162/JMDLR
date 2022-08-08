@@ -155,6 +155,34 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+                            
+                            <Col>
+                                <Link to='/journal/Sustain' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">4.Sustainable Development and Indian Judiciary 
+
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Shweta Singh Rawat & Abhishek Nagle </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6974876 
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
                     </div>
 

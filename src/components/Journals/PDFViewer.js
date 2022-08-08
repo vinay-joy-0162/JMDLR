@@ -193,7 +193,7 @@ import Accomadation from '../../pdfs/Right To Reasonable Accommodation to A Tena
 import Res from '../../pdfs/A Thorough Explainer of Res Judicata - Sarthak Chugh.pdf';
 import Legaleducation from '../../pdfs/Legal Education and The New Technologies – Future Legal Professionals - Dr. Y. V. Kiran Kumar & Dr. Deepthi Rodda.pdf';
 import Approch from '../../pdfs/An Analysis of The Approach of The Court in Granting Maintenance With Special Reference To Live In Relationship Cases – Sudhangee Handoo.pdf';
-
+import Sustain from '../../pdfs/Sustainable Development and Indian Judiciary - Shweta Singh Rawat & Abhishek Nagle.pdf';
 
 
 
@@ -2843,6 +2843,26 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
+
+
+
+
+
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Sustain'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Sustain}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
