@@ -183,6 +183,35 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+                            <Col>
+                                <Link to='/journal/Pyschologicial' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">5.A Psychological Perspective of Judicial Tenets in India on Environment 
+
+
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - R Krishnan Bhatt & Anitha Mary Mathew </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6983164 
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
                     </div>
 
