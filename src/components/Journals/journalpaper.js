@@ -212,6 +212,38 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+
+
+
+                            <Col>
+                                <Link to='/journal/Gandhi' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">6.Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005: Overview and Performance 
+
+
+
+
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Nikita Sharma</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.6992347 
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
                         </Row>
                     </div>
 
