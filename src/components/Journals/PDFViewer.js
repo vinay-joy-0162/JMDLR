@@ -196,6 +196,7 @@ import Approch from '../../pdfs/An Analysis of The Approach of The Court in Gran
 import Sustain from '../../pdfs/Sustainable Development and Indian Judiciary - Shweta Singh Rawat & Abhishek Nagle.pdf';
 import Pyschologicial from '../../pdfs/A Psychological Perspective of Judicial Tenets in India on Environment - R Krishnan Bhatt & Anitha Mary Mathew.pdf';
 import Gandhi from '../../pdfs/Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005 Overview and Performance - Nikita Sharma.pdf';
+import Critical from '../../pdfs/Critical Analysis of Marital Rape in India - Soumya Goel.pdf';
 
 
 // template
@@ -2900,6 +2901,20 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+
+                                                                                                                        this.state.file === 'Critical'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Critical}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
