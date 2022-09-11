@@ -189,6 +189,15 @@ import Parody from '../../pdfs/The Legality of Parody and Satire in India - Hith
 import Accomadation from '../../pdfs/Right To Reasonable Accommodation to A Tenant Legal Discourse with Reference to Chhattisgarh Rent Control Act 2011 - Adv. Vaibahv Kartikeya Agrawal.pdf';
 import WildLife from '../../pdfs/An Analysis of The Wild Life Protection Amendment Bill, 2021 - Shivangi Pandey.pdf';
 
+//Issue 3
+
+import Res from '../../pdfs/A Thorough Explainer of Res Judicata - Sarthak Chugh.pdf';
+import Legaleducation from '../../pdfs/Legal Education and The New Technologies – Future Legal Professionals - Dr. Y. V. Kiran Kumar & Dr. Deepthi Rodda.pdf';
+import Approch from '../../pdfs/An Analysis of The Approach of The Court in Granting Maintenance With Special Reference To Live In Relationship Cases – Sudhangee Handoo.pdf';
+import Sustain from '../../pdfs/Sustainable Development and Indian Judiciary - Shweta Singh Rawat & Abhishek Nagle.pdf';
+import Pyschologicial from '../../pdfs/A Psychological Perspective of Judicial Tenets in India on Environment - R Krishnan Bhatt & Anitha Mary Mathew.pdf';
+import Gandhi from '../../pdfs/Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005 Overview and Performance - Nikita Sharma.pdf';
+import Critical from '../../pdfs/Critical Analysis of Marital Rape in India - Soumya Goel.pdf';
 
 
 // template
@@ -2800,9 +2809,126 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+                                                                                                                        this.state.file === 'Res'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Res}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Legaleducation'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Legaleducation}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
+                                                                                                                        
+
+                                                                                                                        this.state.file === 'Approch'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Approch}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+
+
+
+
+
+                                                                                                                        
+                                                                                                                        this.state.file === 'Sustain'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Sustain}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        this.state.file === 'Pyschologicial'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Pyschologicial}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+
+                                                                                                                                                         
+                                                                                                                        this.state.file === 'Gandhi'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Gandhi}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+
+                                                                                                                        this.state.file === 'Critical'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Critical}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 
