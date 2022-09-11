@@ -187,6 +187,7 @@ import Justice from '../../pdfs/Juvenile Justice and Media Perspective in India-
 import Parody from '../../pdfs/The Legality of Parody and Satire in India - Hithesh RS.pdf';
 
 import Accomadation from '../../pdfs/Right To Reasonable Accommodation to A Tenant Legal Discourse with Reference to Chhattisgarh Rent Control Act 2011 - Adv. Vaibahv Kartikeya Agrawal.pdf';
+import WildLife from '../../pdfs/An Analysis of The Wild Life Protection Amendment Bill, 2021 - Shivangi Pandey.pdf';
 
 
 
@@ -2785,6 +2786,19 @@ class PDFViewer extends React.Component {
                                                                                                                         :
 
 
+                                                                                                                        this.state.file === 'WildLife'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={WildLife}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

@@ -1156,6 +1156,29 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/WildLife' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">47.An Analysis of The Wild Life Protection Amendment Bill, 2021 
+  </Card.Title>
+                                            <Card.Title>
+                                                
+                                               <Card.Title className = "journytitles"> Author - Shivangi Pandey</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text  className="doi1">
+                                            DOI: www.doi.org/10.5281/zenodo.7068594
+                                            </Card.Text>                                            
+                                           
+                                        </Card.Body>
+                                      
+                                    </Card>
+                                </Link>
+                              
+                            </Col>
                             </Row>
                             </div>
 
