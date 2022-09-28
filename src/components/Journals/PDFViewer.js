@@ -198,6 +198,13 @@ import Sustain from '../../pdfs/Sustainable Development and Indian Judiciary - S
 import Pyschologicial from '../../pdfs/A Psychological Perspective of Judicial Tenets in India on Environment - R Krishnan Bhatt & Anitha Mary Mathew.pdf';
 import Gandhi from '../../pdfs/Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005 Overview and Performance - Nikita Sharma.pdf';
 import Critical from '../../pdfs/Critical Analysis of Marital Rape in India - Soumya Goel.pdf';
+import SilverExchange from '../../pdfs/Analysing Regulatory Framework for Silver Exchange Traded Funds, Prepaid Payment Instruments, Digital Banks, Etc. - Sankalp Mirani.pdf';
+
+import Pharmaceutical from '../../pdfs/Pharmaceutical Patenting in India Access to Health Problem - Mohammad Danish Khan.pdf';
+import Basmati from '../../pdfs/Patent Issues and Traditional Knowledge Special Refrence to Neem, Basmati Rice and Turmeric Case - Bhanu Lamba.pdf';
+import PleaBargaining from '../../pdfs/Comparative Analysis of Plea-Bargaining Procedure in Indian & American Jurisdictions - Mohammad Danish Khan.pdf';
+import ECommerce from '../../pdfs/Competition Law in India The Progress of E-Commerce - Bhanu Lamba.pdf';
+import Predatory from '../../pdfs/A Study of Predatory Pricing In Light of Abuse on Dominant Position - Bhanu Lamba.pdf';
 
 
 // template
@@ -2930,6 +2937,103 @@ class PDFViewer extends React.Component {
                                                                                                                         />
                                                                                                                         :
 
+                                                                                                                        this.state.file === 'SilverExchange'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={SilverExchange}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Pharmaceutical'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Pharmaceutical}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Basmati'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Basmati}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'PleaBargaining'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={PleaBargaining}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'ECommerce'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={ECommerce}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Predatory'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Predatory}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'SilverExchange'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={SilverExchange}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
 
 
 

@@ -269,6 +269,150 @@ export class journal extends React.Component {
                                     </Card>
                                 </Link>
                             </Col>
+
+                            <Col>
+                                <Link to='/journal/SilverExchange' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">8. Analysing Regulatory Framework for Silver Exchange Traded Funds, Prepaid Payment Instruments, Digital Banks, Etc. 
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Sankalp Mirani </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7090481
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Pharmaceutical' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">9. Pharmaceutical Patenting in India: Access to Health Problem 
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Mohammad Danish Khan</Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7120821
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/PleaBargaining' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">10. Comparative Analysis of Plea-Bargaining Procedure in Indian & American Jurisdictions 
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Mohammad Danish Khan </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7120830
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Basmati' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">11. Patent Issues and Traditional Knowledge: Special Refrence to Neem, Basmati Rice and Turmeric Case  
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Bhanu Lamba </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7120855
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/ECommerce' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">12. Competition Law in India: The Progress of E-Commerce - Bhanu Lamba 
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Bhanu Lamba </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7120855
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
+                            <Col>
+                                <Link to='/journal/Predatory' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">13. A Study of Predatory Pricing: In Light of Abuse on Dominant Position
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Bhanu Lamba </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7120864
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
                         </Row>
                     </div>
 
@@ -1379,7 +1523,6 @@ export class journal extends React.Component {
                                 </Link>
 
                             </Col>
-<<<<<<< HEAD
 
                             <Col>
                                 <Link to='/journal/WildLife' >
@@ -1403,12 +1546,9 @@ export class journal extends React.Component {
                                 </Link>
                               
                             </Col>
+                            
                             </Row>
                             </div>
-=======
-                        </Row>
-                    </div>
->>>>>>> 9cb5c15e6b44451f9c0d5573034d6fff70aac0dc
 
 
                     <center><h3 className="mt-5">Volume 2 - Issue 1 (Part B)</h3></center>
