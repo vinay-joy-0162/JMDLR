@@ -413,6 +413,31 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
 
+                            <Col>
+                                <Link to='/journal/Maintenance' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">14. Right To Maintenance Under Section 125 Of Criminal Procedure Code, 1973 
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Nayanika Dutta </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7314025
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
                         </Row>
                     </div>
 

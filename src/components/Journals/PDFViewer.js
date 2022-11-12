@@ -205,7 +205,7 @@ import Basmati from '../../pdfs/Patent Issues and Traditional Knowledge Special 
 import PleaBargaining from '../../pdfs/Comparative Analysis of Plea-Bargaining Procedure in Indian & American Jurisdictions - Mohammad Danish Khan.pdf';
 import ECommerce from '../../pdfs/Competition Law in India The Progress of E-Commerce - Bhanu Lamba.pdf';
 import Predatory from '../../pdfs/A Study of Predatory Pricing In Light of Abuse on Dominant Position - Bhanu Lamba.pdf';
-
+import Maintenance from '../../pdfs/Right To Maintenance Under Section 125 Of Criminal Procedure Code, 1973 - Nayanika Dutta.pdf';
 
 // template
 // import pdfname from 'path';
@@ -3025,6 +3025,20 @@ class PDFViewer extends React.Component {
                                                                                                                         ?
                                                                                                                         <iframe
                                                                                                                             src={SilverExchange}
+                                                                                                                            style={{ height: '100vh' }}
+                                                                                                                            height="100%"
+                                                                                                                            width="100%"
+                                                                                                                            title='x1'
+                                                                                                                            frameBorder="0"
+                                                                                                                            marginHeight="0"
+                                                                                                                            marginWidth="0"
+                                                                                                                        />
+                                                                                                                        :
+
+                                                                                                                        this.state.file === 'Maintenance'
+                                                                                                                        ?
+                                                                                                                        <iframe
+                                                                                                                            src={Maintenance}
                                                                                                                             style={{ height: '100vh' }}
                                                                                                                             height="100%"
                                                                                                                             width="100%"
