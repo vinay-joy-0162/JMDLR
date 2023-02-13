@@ -438,6 +438,32 @@ export class journal extends React.Component {
                                 </Link>
                             </Col>
 
+
+                            <Col>
+                                <Link to='/journal/Maintenance' >
+                                    <Card className="C_D card card-1" style={{ width: '35rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title className="journytitles">15. An Inquiry on Legalizing Euthanasia: “The Mercy Killing” 
+
+
+
+                                            </Card.Title>
+                                            <Card.Title>
+
+                                                <Card.Title className="journytitles"> Author - Dr. Mahmood Khan Yousufi </Card.Title>
+                                            </Card.Title>
+
+                                            <Card.Text className="doi">
+                                            DOI: www.doi.org/10.5281/zenodo.7633668 
+                                            </Card.Text>
+
+                                        </Card.Body>
+
+                                    </Card>
+                                </Link>
+                            </Col>
+
                         </Row>
                     </div>
 
